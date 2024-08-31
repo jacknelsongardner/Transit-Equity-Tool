@@ -10,6 +10,8 @@ function App() {
   
   
   const [inputValue, setInputValue] = useState('');
+  const [outputValue, setOutputValue] = useState('Your scores will appear here');
+
 
   const handleChange = (event) => {
     setInputValue(event.target.value);
@@ -18,8 +20,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'busLogo.png'} className="App-logo" alt="logo" />
-        
+        <div>
+          <p>{outputValue}</p>
+        </div>
         
         
         <p>
@@ -35,8 +38,14 @@ function App() {
 
 
       />
-        <p>You typed: {inputValue}</p>
+      <div style={{paddingTop:'20px'}}>
+        <button >
+            Find your Score
+        </button>
+      </div>
 
+      
+        
 
 
       </header>
