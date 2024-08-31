@@ -20,13 +20,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
-          <p>{outputValue}</p>
-        </div>
+        
         
         
         <p>
-          Enter your address below to get your QEA score
+          Quality
+        </p>
+
+        <p>
+          Equitable
+        </p>
+
+        <p>
+          Access
         </p>
 
 
@@ -34,7 +40,7 @@ function App() {
         type="text" 
         value={inputValue} 
         onChange={handleChange} 
-        placeholder="Enter text here" 
+        placeholder="Enter your address here " 
 
 
       />
@@ -43,6 +49,10 @@ function App() {
             Find your Score
         </button>
       </div>
+
+      <div>
+          <p>{outputValue}</p>
+        </div>
 
       
         

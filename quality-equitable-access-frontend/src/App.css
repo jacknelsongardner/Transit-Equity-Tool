@@ -24,7 +24,7 @@ input {
   margin-left: 10vw;
   margin-right: 10vw;
   
-  font-size: large;
+  font-size: x-large;
   text-align: center;
 
 }
@@ -35,9 +35,9 @@ button {
   background-color: rgba(0, 0, 0, 0);
   
   color: white; 
-  padding: 20px 40px; 
+  padding: 10px 20px; 
   border-radius: 50px; 
-  font-size: 50px; 
+  font-size: larger; 
   cursor: pointer; 
   transition: border-width 0.3s ease; /* Smooth transition for border thickness */
 }
