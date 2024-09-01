@@ -15,6 +15,8 @@ function App() {
   const [equityValue, setEquity] = useState(54);
   const [accessValue, setAccess] = useState(92);
 
+  const [cumulativeValue, setCumulative] = useState(57);
+
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
   const [error, setError] = useState('no Errors yet');
 
@@ -35,7 +37,16 @@ function App() {
       body: JSON.stringify({ data: {address: inputValue} }), // Send the input data
     })
       .then(response => {return response.json(); })
-      .then(data => { setOutputValue(data); })
+      .then(data => { 
+        
+        setOutputValue(data); 
+        
+        setQuality(data['quality']['result']);
+        setEquity(data['equity']['result']);
+        setAccess(data['access']['result']);
+
+
+      })
 
     
       
@@ -53,6 +64,13 @@ function App() {
       
       <header className="App-header">
         
+
+
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <ScoreDisplay percentage={cumulativeValue} text={`cumulative: ${cumulativeValue}`}/>
+          
+        </div>
+
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <ScoreDisplay percentage={qualityValue} text={`quality: ${qualityValue}`} />
           <ScoreDisplay percentage={equityValue} text={`equity: ${equityValue}`} />
