@@ -1,8 +1,8 @@
 import './App.css';
 
 import React, { useState } from 'react';
-
-
+import Nav from './Nav.js';
+import ScoreDisplay from './ScoreDisplay.js';
 
 
 function App() {
@@ -10,6 +10,11 @@ function App() {
   
   
   const [inputValue, setInputValue] = useState('');
+
+  const [qualityValue, setQuality] = useState('');
+  const [equityValue, setEquity] = useState('');
+
+
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
   const [error, setError] = useState('no Errors yet');
 
@@ -34,7 +39,9 @@ function App() {
   };
   
   return (
+    
     <div className="App">
+      <Nav />
       <header className="App-header">
         
         
@@ -81,5 +88,13 @@ function App() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
 
 export default App;
