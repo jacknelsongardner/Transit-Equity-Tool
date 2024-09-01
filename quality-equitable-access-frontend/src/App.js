@@ -11,9 +11,9 @@ function App() {
   
   const [inputValue, setInputValue] = useState('');
 
-  const [qualityValue, setQuality] = useState('');
-  const [equityValue, setEquity] = useState('');
-  const [accessValue, setAccess] = useState('');
+  const [qualityValue, setQuality] = useState(23);
+  const [equityValue, setEquity] = useState(54);
+  const [accessValue, setAccess] = useState(92);
 
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
   const [error, setError] = useState('no Errors yet');
@@ -25,6 +25,8 @@ function App() {
   const handleClick = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
 
+    var output;
+
     fetch('http://127.0.0.1:5000/transitscore', { // Replace with your server URL
       method: 'POST',
       headers: {
@@ -32,12 +34,15 @@ function App() {
       },
       body: JSON.stringify({ data: {address: inputValue} }), // Send the input data
     })
-      .then(response => {return response.json();; })
-      .then(data => {console.log(data); setOutputValue(data); })
+      .then(response => {return response.json(); })
+      .then(data => { setOutputValue(data); })
 
+    
       
   };
   
+
+
   return (
     
     <div className="App">
@@ -48,26 +53,14 @@ function App() {
       
       <header className="App-header">
         
-        <div>
-          <ScoreDisplay percentage={qualityValue} text={`quality: ${qualityValue}`}/>
-          <ScoreDisplay percentage={equityValue} text={`equity: ${qualityValue}`}/>
-          <ScoreDisplay percentage={accessValue} text={`access: ${qualityValue}`}/>
-
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <ScoreDisplay percentage={qualityValue} text={`quality: ${qualityValue}`} />
+          <ScoreDisplay percentage={equityValue} text={`equity: ${equityValue}`} />
+          <ScoreDisplay percentage={accessValue} text={`access: ${accessValue}`} />
         </div>
+                
         
         
-        
-        <p>
-          Quality
-        </p>
-
-        <p>
-          Equitable
-        </p>
-
-        <p>
-          Access
-        </p>
 
 
         <input 

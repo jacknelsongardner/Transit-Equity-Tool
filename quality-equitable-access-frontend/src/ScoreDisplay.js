@@ -8,10 +8,12 @@ const ScoreDisplay = ({ percentage, text }) => {
         className="circle"
         style={{ '--percentage': percentage }}
       />
+      <div className="middle-circle"></div>
       <div className="circle-text">
         {text}
       </div>
     </div>
+    
   );
 };
 
