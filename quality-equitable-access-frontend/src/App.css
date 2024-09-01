@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  
+  background: radial-gradient(circle, #51acda, #1d76a5);
+
 }
 
 .App-logo {
@@ -27,6 +28,7 @@ input {
   font-size: x-large;
   text-align: center;
 
+
 }
 
 
@@ -47,7 +49,7 @@ button:hover {
 }
 
 .App-header {
-  background-color: #282c34;
+  margin-top: 60px;
 
   outline: black;
 
@@ -59,7 +61,6 @@ button:hover {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background: radial-gradient(circle, #51acda, #1d76a5);
 
 }
 

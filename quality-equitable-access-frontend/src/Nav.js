@@ -11,7 +11,9 @@ const HeaderNav = () => {
     width: '100%',
     top: '0',
     left: '0',
-    zIndex: '1000'
+    zIndex: '1000',
+    marginBottom: '200px',
+
   };
 
   const navStyle = {

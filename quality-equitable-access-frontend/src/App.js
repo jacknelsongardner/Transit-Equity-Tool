@@ -13,7 +13,7 @@ function App() {
 
   const [qualityValue, setQuality] = useState('');
   const [equityValue, setEquity] = useState('');
-
+  const [accessValue, setAccess] = useState('');
 
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
   const [error, setError] = useState('no Errors yet');
@@ -42,7 +42,18 @@ function App() {
     
     <div className="App">
       <Nav />
+
+
+
+      
       <header className="App-header">
+        
+        <div>
+          <ScoreDisplay percentage={qualityValue} text={`quality: ${qualityValue}`}/>
+          <ScoreDisplay percentage={equityValue} text={`equity: ${qualityValue}`}/>
+          <ScoreDisplay percentage={accessValue} text={`access: ${qualityValue}`}/>
+
+        </div>
         
         
         

@@ -17,9 +17,9 @@ def about():
     data = {
         'address': address,
         'quality': {'result':39, 'details':{}},
-        'equity': {'result':39,'details':{}},
-        'access': {'result':39,'details':{}},
-        'cumulative': 39,
+        'equity': {'result':65,'details':{}},
+        'access': {'result':94,'details':{}},
+        'cumulative': 64,
         
     }
 
