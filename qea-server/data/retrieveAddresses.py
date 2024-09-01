@@ -38,6 +38,9 @@ def get_coordinates(address):
 # Make the request to the Overpass API
 response = requests.get(OVERPASS_URL, params={'data': query})
 
+countStop = 100
+count = 0
+
 # Check for successful request
 if response.status_code == 200:
     data = response.json()
@@ -46,6 +49,9 @@ if response.status_code == 200:
     # Prepare data for CSV
     address_list = []
     for element in addresses:
+        
+        count = count + 1
+
         if 'tags' in element and 'addr:housenumber' in element['tags']:
             addr_id = element.get('id', '')
             addr_type = element.get('type', '')
@@ -87,6 +93,8 @@ if response.status_code == 200:
                     pass
             else: 
                 pass
+        if count > countStop:
+            break
 
     # Create a DataFrame and save to CSV
     df = pd.DataFrame(address_list)
