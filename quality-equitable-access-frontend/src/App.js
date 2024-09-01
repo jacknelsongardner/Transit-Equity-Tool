@@ -40,7 +40,7 @@ function App() {
       .then(data => { 
         
         setOutputValue(data); 
-        
+
         setQuality(data['quality']['result']);
         setEquity(data['equity']['result']);
         setAccess(data['access']['result']);
@@ -67,14 +67,14 @@ function App() {
 
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <ScoreDisplay percentage={cumulativeValue} text={`cumulative: ${cumulativeValue}`}/>
+          <ScoreDisplay targetPercentage={cumulativeValue} text={`cumulative: ${cumulativeValue}`}/>
           
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <ScoreDisplay percentage={qualityValue} text={`quality: ${qualityValue}`} />
-          <ScoreDisplay percentage={equityValue} text={`equity: ${equityValue}`} />
-          <ScoreDisplay percentage={accessValue} text={`access: ${accessValue}`} />
+          <ScoreDisplay targetPercentage={qualityValue} text={`quality: ${qualityValue}`} />
+          <ScoreDisplay targetPercentage={equityValue} text={`equity: ${equityValue}`} />
+          <ScoreDisplay targetPercentage={accessValue} text={`access: ${accessValue}`} />
         </div>
                 
         
@@ -98,9 +98,6 @@ function App() {
         </button>
       </div>
 
-      <div>
-        <p>{JSON.stringify(outputValue)}</p>
-      </div>
 
       
         
