@@ -11,7 +11,16 @@ def log_normalize(values):
     Returns:
     - A function that normalizes input values based on the original list.
     """
+
+    # checking for zeros
+    for value in range(len(values)):
+        if values[value] == 0:
+            values[value] = .00000000000000001
+
     values = np.array(values)
+            
+
+
     min_value = np.min(values)
     
     # Log transform the values
@@ -39,7 +48,8 @@ def log_normalize(values):
 
 if __name__ == "__main__":
         
-    transit_scores = [10, 100, 1000, 10000]
+
+    transit_scores = [0, 100, 1000, 10000]
     normalizeFunc = log_normalize(transit_scores)
 
     input = 11000
