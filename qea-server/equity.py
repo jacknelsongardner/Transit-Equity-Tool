@@ -1,32 +1,5 @@
 import numpy as np
-from stats import log_normalize
-
-def calculate_score(vals, weights, trainSets, names):
-
-    output = {}
-
-    adjustedVals = []
-    adjustedTotal = 0
-
-    for index in range(len(vals)):
-        val = vals[index]
-        weight = weights[index]
-        train = trainSets[index]
-        name = names[index]
-
-        logFunc = log_normalize(train)
-        logVal = logFunc(val)
-
-        output[name] = {'val':logVal,'weight':weight}
-
-    for val in adjustedVals:
-        adjustedTotal += val
-
-    output['total'] = adjustedTotal 
-
-    return output
-
-
+from score import calculate_score
 
 def calculate_equity(salary, cost_of_living, people, cars):
 
