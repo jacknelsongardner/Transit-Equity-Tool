@@ -37,7 +37,20 @@ salaryScore = salaryFunc(salary)
 peopleScore = peopleFunc(people)
 carScore = carsFunc(cars)
 
+print("raw scores")
 print(salaryScore)
 print(peopleScore)
 print(carScore)
+
+adjustedSalaryScore = salary_weight * salaryScore
+adjustedPeopleScore = people_weight * peopleScore
+adjustedCarsScore = car_weight * carScore
+
+adjustedTotal = adjustedCarsScore + adjustedPeopleScore + adjustedCarsScore
+
+print("adjusted scores")
+print(adjustedSalaryScore)
+print(adjustedPeopleScore)
+print(adjustedCarsScore)
+print(adjustedTotal)
 

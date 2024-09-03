@@ -1,6 +1,6 @@
 import numpy as np
 
-def log_normalize(values, min_value=1):
+def log_normalize(values):
     """
     Normalize a list of values to a logarithmic scale between 0 and 1.
 
@@ -12,10 +12,11 @@ def log_normalize(values, min_value=1):
     - A function that normalizes input values based on the original list.
     """
     values = np.array(values)
-    values = np.clip(values, min_value, None)
+    min_value = np.min(values)
     
     # Log transform the values
     log_values = np.log(values)
+    
     
     # Get the min and max log values
     log_min = np.min(log_values)
@@ -27,6 +28,8 @@ def log_normalize(values, min_value=1):
         transformed_value = (log_value - log_min) / (log_max - log_min)
         if transformed_value > 1:
             return 1
+        elif transformed_value < 0:
+            return 0
         else: return transformed_value
 
     
