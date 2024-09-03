@@ -1,11 +1,37 @@
 import numpy as np
 from stats import log_normalize
 
+def calculate_score(vals, weights, trainSets, names):
+
+    output = {}
+
+    adjustedVals = []
+    adjustedTotal = 0
+
+    for index in range(len(vals)):
+        val = vals[index]
+        weight = weights[index]
+        train = trainSets[index]
+        name = names[index]
+
+        logFunc = log_normalize(train)
+        logVal = logFunc(val)
+
+        output[name] = {'val':logVal,'weight':weight}
+
+    for val in adjustedVals:
+        adjustedTotal += val
+
+    output['total'] = adjustedTotal 
+
+    return output
+
 
 
 def calculate_equity(salary, cost_of_living, people, cars):
 
     salary_col_ratio = salary / cost_of_living
+    people_car_ratio = cars / people
 
     salary_weight = 5
     people_weight = 4
@@ -20,28 +46,10 @@ def calculate_equity(salary, cost_of_living, people, cars):
     salaryList = [2, 1, .5, 0]
     peoplelist = [1,.5,.25,0]
 
-    salaryFunc = log_normalize(salaryList)
-    peopleFunc = log_normalize(peoplelist)
-
-    salaryScore = salaryFunc(salary_col_ratio)
-    peopleScore = peopleFunc(people)
-
-    adjustedSalaryScore = salary_weight * salaryScore
-    adjustedPeopleScore = people_weight * peopleScore
-
-    adjustedTotal = adjustedPeopleScore + adjustedSalaryScore
-
-    output = {
-        'salary' : {
-            'score' : salaryScore,
-            'weight' : salary_weight
-        },
-        'people2cars' : {
-            'score' : peopleScore,
-            'weight' : people_weight
-        },
-        'total' : adjustedTotal,
-    }
+    output = calculate_score(vals=[salary_col_ratio, people_car_ratio], 
+                    weights=[salary_weight, people_weight], 
+                    trainSets=[salaryList, peoplelist],
+                    names=['salaryCostRatio', 'carPeopleRatio'])
 
     return output
 

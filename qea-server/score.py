@@ -44,6 +44,32 @@ def log_normalize(values):
     
     return transform
 
+def calculate_score(vals, weights, trainSets, names):
+
+    output = {}
+
+    adjustedVals = []
+    adjustedTotal = 0
+
+    for index in range(len(vals)):
+        val = vals[index]
+        weight = weights[index]
+        train = trainSets[index]
+        name = names[index]
+
+        logFunc = log_normalize(train)
+        logVal = logFunc(val)
+
+        output[name] = {'val':logVal,'weight':weight}
+
+    for val in adjustedVals:
+        adjustedTotal += val
+
+    output['total'] = adjustedTotal 
+
+    return output
+
+
 # Example usage:
 
 if __name__ == "__main__":
