@@ -30,6 +30,33 @@ def get_coordinates(address):
         return None
     
 
+def get_address(latitude, longitude):
+    # Initialize the geolocator
+    geolocator = Nominatim(user_agent="geoapiExercises")
+    
+    # Define a function to handle potential timeout
+    def geocode_with_timeout(lat, lon):
+        try:
+            return geolocator.reverse((lat, lon), language='en')
+        except GeocoderTimedOut:
+            return geocode_with_timeout(lat, lon)
+
+    # Get the location information
+    location = geocode_with_timeout(latitude, longitude)
+    
+    if location:
+        # Extract address components
+        address = location.raw.get('address', {})
+        address_line = address.get('road', '') + ' ' + address.get('house_number', '')
+        city = address.get('city', '')
+        state = address.get('state', '')
+        country = address.get('country', '')
+        postcode = address.get('postcode', '')
+
+        # Return address as a tuple
+        return (address_line.strip(), city, state, country, postcode)
+    else:
+        return ('Address not found', '', '', '', '')
 
 
 
