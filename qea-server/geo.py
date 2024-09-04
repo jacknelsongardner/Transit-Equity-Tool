@@ -1,13 +1,49 @@
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
-
+import requests
 
 
 # Coordinates provided
 LAT, LON = 0, 1  # Adjust based on your coordinate system
 
+countryCode = '14000US'
+
+def get_geoCode(coordinates):
+
+    address_line, city, state, country, postcode = get_address(coordinates)
+
+    print(coordinates)
+
+    # Define the base URL
+    base_url = "https://geocoding.geo.census.gov/geocoder/geographies/address"
+
+    # Define the parameters
+    params = {
+        'street': address_line,
+        'city': city,
+        'state': state,
+        'benchmark': 'Public_AR_Current',
+        'vintage': 'Current_Current',
+        'layers': '8',
+        'format': 'json'
+    }
+
+    # Make the GET request
+    response = requests.get(base_url, params=params)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        # Print the JSON response
+        pass
+        #print(response.json())
+    else:
+        print(f"Error: {response.status_code}")
 
 
+    geoid = response.json()['result']['addressMatches'][0]['geographies']['Census Tracts'][0]['GEOID']
+    output = countryCode + str(geoid)
+    
+    return output
 
 def get_coordinates(address):
     geolocator = Nominatim(user_agent="quality-equity-access-transit-geo")
@@ -64,3 +100,11 @@ def get_address(coordinates):
         return ('Address not found', '', '', '', '')
 
 
+
+
+coordinates = get_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
+geoCode = get_geoCode(coordinates=coordinates)
+
+print(coordinates)
+print(get_address(coordinates))
+print(geoCode)
