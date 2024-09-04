@@ -80,9 +80,9 @@ function App() {
           <div>
             
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px' }}>
-              <ScoreDisplay targetPercentage={qualityValue} text={`quality: ${qualityValue}`} />
-              <ScoreDisplay targetPercentage={cumulativeValue} text={`cumulative: ${cumulativeValue}`}/>
-              <ScoreDisplay targetPercentage={equityValue} text={`equity: ${equityValue}`} />
+              <ScoreDisplay targetPercentage={qualityValue} diameter={200} text={`quality`} number={qualityValue} />
+              <ScoreDisplay targetPercentage={cumulativeValue} diameter={250} text={`cumulative`} number={cumulativeValue}/>
+              <ScoreDisplay targetPercentage={equityValue} diameter={200} text={`equity`} number={equityValue} />
             </div>
             <div style={{paddingTop:'20px'}}>
               <button onClick={handleAddressClick}>Try again</button>

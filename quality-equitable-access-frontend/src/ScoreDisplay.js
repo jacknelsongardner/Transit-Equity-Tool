@@ -1,22 +1,67 @@
 import React, { useState, useEffect } from 'react';
-import './ScoreDisplay.css'; // Assuming your CSS is in Circle.css
 
-const outerWidth = .1;
+const outerWidth = 0.1;
 
-const ScoreDisplay = ({ targetPercentage, text, diameter }) => {
+const ScoreDisplay = ({ targetPercentage, text, number, diameter }) => {
   const [percentage, setPercentage] = useState(0);
-  
+
+  const outerDiameter = diameter + (outerWidth * diameter);
 
   const outerStyle = {
-    width: diameter,
-    height: diameter,
-    '--percentage': percentage
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    width: `${diameter}px`,
+    height: `${diameter}px`,
+    borderRadius: '50%',
+    backgroundColor: 'rgb(50, 79, 183)',
+    transform: 'translate(-50%, -50%)', // Centers the outer circle within the container
   };
 
   const innerStyle = {
-    width: diameter + (outerWidth*diameter),
-    height: diameter + (outerWidth*diameter)
-  }
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    width: `${outerDiameter}px`,
+    height: `${outerDiameter}px`,
+    borderRadius: '50%',
+    background: 'conic-gradient(red 0%, yellow 50%, green 100%)',
+    mask: `conic-gradient(#000 ${percentage}%, transparent 0 100%)`,
+    WebkitMask: `conic-gradient(#000 ${percentage}%, transparent 0 100%)`,
+    transform: 'translate(-50%, -50%) rotate(-90deg)', // Centers the inner circle and rotates
+    transformOrigin: 'center',
+    transition: 'mask 0.5s ease, -webkit-mask 0.5s ease',
+  };
+
+  const containerStyle = {
+    position: 'relative',
+    width: `${outerDiameter}px`,
+    height: `${outerDiameter}px`,
+    marginLeft: '30px',
+    marginRight: '30px',
+    marginBottom: '30px',
+  };
+
+  const textStyle = {
+    position: 'absolute',
+    top: '30%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    
+    color: '#ffffff',
+    fontSize: '40px',
+  };
+
+  const numberStyle = {
+    position: 'absolute',
+    top: '60%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    
+    color: '#ffffff',
+    fontWeight: 'bold',
+    fontSize: '100px',
+  };
 
   useEffect(() => {
     const animation = requestAnimationFrame(() => {
@@ -27,13 +72,12 @@ const ScoreDisplay = ({ targetPercentage, text, diameter }) => {
   }, [targetPercentage]);
 
   return (
-    <div className="circle-container">
-      <div
-        className="circle"
-        style={ innerStyle }
-      ></div>
-      <div className="middle-circle" style={outerStyle}></div>
-      <div className="circle-text">{`${text}`}</div>
+    <div style={containerStyle}>
+
+      <div style={innerStyle}></div>
+      <div style={outerStyle}></div>
+      <div style={textStyle}>{`${text}`}</div>
+      <div style={numberStyle}>{`${number}`}</div>
     </div>
   );
 };
