@@ -7,7 +7,7 @@ import ScoreDisplay from './ScoreDisplay.js';
 
 function App() {
   
-  
+  const [showScores, setShowScores] = useState(false);
   
   const [inputValue, setInputValue] = useState('');
 
@@ -24,7 +24,7 @@ function App() {
     setInputValue(event.target.value);
   };
 
-  const handleClick = (event) => {
+  const handleScoreClick = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
 
     var output;
@@ -48,9 +48,17 @@ function App() {
 
       })
 
+      setShowScores(true);
+
     
       
   };
+
+  const handleAddressClick = (event) => {
+    event.preventDefault(); // Prevent default form submission behavior
+    setShowScores(false);
+
+  }
   
 
 
@@ -65,39 +73,54 @@ function App() {
       <header className="App-header">
         
 
+        <div>
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <ScoreDisplay targetPercentage={cumulativeValue} text={`cumulative: ${cumulativeValue}`}/>
+
+        {showScores && (
+          <div>
+            
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px' }}>
+              <ScoreDisplay targetPercentage={qualityValue} text={`quality: ${qualityValue}`} />
+              <ScoreDisplay targetPercentage={cumulativeValue} text={`cumulative: ${cumulativeValue}`}/>
+              <ScoreDisplay targetPercentage={equityValue} text={`equity: ${equityValue}`} />
+            </div>
+            <div style={{paddingTop:'20px'}}>
+              <button onClick={handleAddressClick}>Try again</button>
+
+            </div>
           
-        </div>
-
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <ScoreDisplay targetPercentage={qualityValue} text={`quality: ${qualityValue}`} />
-          <ScoreDisplay targetPercentage={equityValue} text={`equity: ${equityValue}`} />
-          <ScoreDisplay targetPercentage={accessValue} text={`access: ${accessValue}`} />
-        </div>
+          </div>
+      
+        )}
                 
+        {!showScores && (
+          <div>
+            <input 
+            type="text" 
+            value={inputValue} 
+            onChange={handleChange} 
+            
+            placeholder="Enter your address here " 
+
+
+            />
+
+            <div style={{paddingTop:'20px'}}>
+              <button onClick={handleScoreClick}>
+                
+                  Find your Score
+              </button>
+            </div>
+          </div>
+
+        )}
         
-        
 
 
-        <input 
-        type="text" 
-        value={inputValue} 
-        onChange={handleChange} 
-        
-        placeholder="Enter your address here " 
-
-
-      />
-
-      <div style={{paddingTop:'20px'}}>
-        <button onClick={handleClick}>
           
-            Find your Score
-        </button>
-      </div>
 
+        </div>
+        
 
       
         

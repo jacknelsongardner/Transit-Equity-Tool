@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background: radial-gradient(circle, #51acda, #1d76a5);
 
 }
 
@@ -49,7 +48,7 @@ button:hover {
 }
 
 .App-header {
-  margin-top: 60px;
+  margin-top: 10px;
 
   outline: black;
 

@@ -35,9 +35,10 @@ const HeaderNav = () => {
     <header style={headerStyle}>
       <nav>
         <ul style={navStyle}>
-          <li><a href="#home" style={navItemStyle}>Home</a></li>
           <li><a href="#about" style={navItemStyle}>About</a></li>
-          <li><a href="#services" style={navItemStyle}>Services</a></li>
+          <li><a href="#myscore" style={navItemStyle}>MyScore</a></li>
+          <li><a href="#calculator" style={navItemStyle}>Calculator</a></li>
+          <li><a href="#map" style={navItemStyle}>Map</a></li>
           <li><a href="#contact" style={navItemStyle}>Contact</a></li>
         </ul>
       </nav>

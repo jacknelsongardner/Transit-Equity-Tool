@@ -1,5 +1,20 @@
 import numpy as np
 from score import calculate_score
+from geo import get_coordinates
+
+
+def get_avg_salary(lat,lon):
+    pass
+
+def get_cost_living(lat,lon):
+    pass
+
+def get_cars(lat,lon):
+    pass
+
+def get_members(lat,lon):
+    pass
+
 
 def calculate_equity(salary, cost_of_living, people, cars):
 
