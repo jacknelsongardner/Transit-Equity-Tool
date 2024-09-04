@@ -1,8 +1,13 @@
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
-LAT = 0
-LON = 1
+
+import censusgeocode as cg 
+
+# Coordinates provided
+LAT, LON = 0, 1  # Adjust based on your coordinate system
+
+
 
 
 def get_coordinates(address):
@@ -10,6 +15,7 @@ def get_coordinates(address):
     try:
         location = geolocator.geocode(address)
         if location:
+            
             return location.latitude, location.longitude
         else:
             print(f"Address not found: {address}")
@@ -22,11 +28,20 @@ def get_coordinates(address):
         # Catch all other exceptions to prevent crashing
         print(f"An unexpected error occurred: {e}")
         return None
+    
 
 
 
-address = "513 State Route 9 Northeast Lake Stevens,  WA 98258"
+
+address = "8905 19th pl SE Lake Stevens WA 98258"
 coordinates = get_coordinates(address)
+print(coordinates)
+geoID = cg.coordinates(coordinates[LAT], coordinates[LON])
+print(geoID)
+
+
+
+
 if coordinates:
     print(f"The coordinates of the address are: Latitude: {coordinates[LAT]}, Longitude: {coordinates[LON]}")
 else:

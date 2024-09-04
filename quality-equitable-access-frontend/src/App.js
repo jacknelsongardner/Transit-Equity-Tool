@@ -17,6 +17,8 @@ function App() {
 
   const [cumulativeValue, setCumulative] = useState(57);
 
+  
+
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
   const [error, setError] = useState('no Errors yet');
 

@@ -1,25 +1,30 @@
 import requests
 
-# Replace 'YOUR_API_KEY' with your actual API key
-api_key = '65c51cf9f2bb0ada0f12630911da0e9dbcbb959b'
+# Define the base URL
+base_url = "https://geocoding.geo.census.gov/geocoder/geographies/address"
 
-# Define the endpoint and parameters
-endpoint = 'https://api.census.gov/data/2019/acs/acs5'
+# Define the parameters
 params = {
-    'get': 'B11002_001E,B25044_001E',  # Average household size and average vehicles per household
-    'for': 'county:53061',  # Snohomish County FIPS code
-    'key': api_key
+    'street': '8905 19th place',
+    'city': 'Lake Stevens',
+    'state': 'WA',
+    'benchmark': 'Public_AR_Current',
+    'vintage': 'Current_Current',
+    'layers': '8',
+    'format': 'json'
 }
 
-# Make the API request
-response = requests.get(endpoint, params=params)
+# Make the GET request
+response = requests.get(base_url, params=params)
 
-print(f"Status Code: {response.status_code}")
-print(f"Response Text: {response.text}")
+# Check if the request was successful
+if response.status_code == 200:
+    # Print the JSON response
+    pass
+    #print(response.json())
+else:
+    print(f"Error: {response.status_code}")
 
 
-print('sent response')
-data = response.json()
-
-# Print the data
-print(data)
+geoid = response.json()['result']['addressMatches'][0]['geographies']['Census Tracts'][0]['GEOID']
+print(geoid)
