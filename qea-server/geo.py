@@ -136,6 +136,86 @@ def get_geo_info(geo_id, year):
     
     return result
 
+from math import radians, cos, sin, asin, sqrt
+
+# Haversine formula to calculate distance between two lat/lon pairs
+def haversine(lat1, lon1, lat2, lon2):
+    # Convert latitude and longitude from degrees to radians
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
+    
+    # Haversine formula
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a))
+    
+    # Radius of Earth in miles (3956 miles)
+    miles = 3956 * c
+    return miles
+
+# Calculate the bounding box (lat/lon range) for a given distance
+def calculate_bounding_box(lat, lon, distance_miles=.5):
+    # Convert miles to degrees of latitude and longitude
+    miles_per_degree_lat = 69.0  # Approximate miles per degree of latitude
+    miles_per_degree_lon = 69.0 * cos(radians(lat))  # Longitude depends on latitude
+
+    lat_diff = distance_miles / miles_per_degree_lat
+    lon_diff = distance_miles / miles_per_degree_lon
+
+    # Return the bounding box as (min_lat, max_lat, min_lon, max_lon)
+    return lat - lat_diff, lat + lat_diff, lon - lon_diff, lon + lon_diff
+
+
+# Method to get stops within 0.5 miles of input coordinates
+def get_nearby_stops(coordinates):
+    cursor = transit_conn.cursor()
+    try:
+        input_lat, input_lon = coordinates
+        # Calculate the bounding box for 0.5 miles
+        min_lat, max_lat, min_lon, max_lon = calculate_bounding_box(input_lat, input_lon)
+        
+        # Query to get stops within the bounding box
+        
+        cursor.execute("""
+            SELECT stop_id, stop_name, stop_lat, stop_lon 
+            FROM transit_stops
+            WHERE stop_lat BETWEEN %s AND %s
+            AND stop_lon BETWEEN %s AND %s;
+            """, (min_lat, max_lat, min_lon, max_lon))
+        
+        stops = cursor.fetchall()
+        
+        nearby_stops = []
+        nearby_distances = []
+
+        for stop in stops:
+            stop_id, stop_name, stop_lat, stop_lon = stop
+            distance = haversine(input_lat, input_lon, stop_lat, stop_lon)
+            
+            # If the distance is less than 0.5 miles, add the stop to the result
+            if distance <= 0.5:
+                nearby_stops.append(stop_id)
+                nearby_distances.append(distance)
+                
+                '''
+                 nearby_stops.append({
+                    'stop_id': stop_id,
+                    'stop_name': stop_name,
+                    'stop_lat': stop_lat,
+                    'stop_lon': stop_lon,
+                    'distance_miles': distance
+                })
+                '''
+               
+        
+        return nearby_stops, nearby_distances
+    
+    except Exception as e:
+        print(f"Error fetching stops: {e}")
+        return []
+    finally:
+        cursor.close()
+
 
 
 
@@ -147,4 +227,9 @@ print(get_address(coordinates))
 print(geoCode)
 
 geoCode = '14000US53061040200'
-print(get_geo_info(geoCode, '2022'))
+geoCode = '14000US53061052506'
+
+stops, distances = get_nearby_stops(coordinates)
+print(stops)
+print(distances)
+
