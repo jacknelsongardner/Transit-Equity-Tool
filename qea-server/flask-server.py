@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS  # Import CORS
-
+from access import access_by_address
+from equity import equity_by_address
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -14,12 +15,25 @@ def about():
     address = input['address']
     print(address)
 
+    access_result = access_by_address(address)
+    equity_result = equity_by_address(address)
+
+    print(access_result)
+    print(equity_result)
+
+    total_access = access_result['total']
+    total_equity = equity_result['total']
+
+    equity_weight = .5
+    access_weight = .5
+
+    total = access_weight * total_access + equity_weight * total_equity
+
     data = {
         'address': address,
-        'quality': {'result':39, 'details':{}},
-        'equity': {'result':65,'details':{}},
-        'access': {'result':94,'details':{}},
-        'cumulative': 64,
+        'equity': {'result':total_access,'details':access_result},
+        'access': {'result':total_access,'details':equity_result},
+        'cumulative': total,
         
     }
 
@@ -31,15 +45,6 @@ def about():
 
 
 
-
-def calculate_quality():
-    pass
-
-def calculate_access():
-    pass
-
-def calculate_equity():
-    pass
 
 
 

@@ -4,7 +4,7 @@ from geo import *
 walkable_dist = 10
 
 
-def access_coordinates(address):
+def access_by_address(address):
     
     coordinates = get_coordinates(address)
     
@@ -21,7 +21,8 @@ def access_coordinates(address):
     print(counts)
     print(routes)
 
-    return stops, distances, counts, routes
+    result = calculate_access(stops, distances, counts, routes)
+    return result
 
 
 def calculate_access(stopCount, stops, dists, routes):
@@ -54,6 +55,7 @@ def calculate_access(stopCount, stops, dists, routes):
     routes_weight = routes_weight/total_weight
 
 
+
     # PEOPLES SCORES 
     stopsList = [16, 8, 4, 0]
     stopCountList = [100, 50, 25, 0]
@@ -70,7 +72,7 @@ def calculate_access(stopCount, stops, dists, routes):
 if __name__ == "__main__":
 
 
-    stops, distances, counts, routes = access_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
+    stops, distances, counts, routes = access_by_address('8905 19th pl SE, Lake Stevens, WA 98258')
 
     result = calculate_access(stops, distances, counts, routes)
     avg_stops = result['stops']['val']

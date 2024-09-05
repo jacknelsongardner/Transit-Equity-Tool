@@ -40,6 +40,7 @@ def get_geoCode(coordinates):
     else:
         print(f"Error: {response.status_code}")
 
+    print(response.json())
 
     geoid = response.json()['result']['addressMatches'][0]['geographies']['Census Tracts'][0]['GEOID']
     output = countryCode + str(geoid)
@@ -123,18 +124,28 @@ demo_conn = psycopg2.connect(
 cur = demo_conn.cursor()
 
 # Function to get values from geo_info table for a specific geo_id
-def get_geo_info(geo_id, year):
+def get_demographic_info(geo_id, year):
+    year = str(year)
+
     query = """
-        SELECT Geography, ID_Geography, Year, Race, avg_cars_per_person, avg_persons_per_household
+        SELECT Household_Income_by_Race, avg_cars_per_person, avg_persons_per_household
         FROM geo_info
-        WHERE ID_Geography = %s AND Year = %s;
+        WHERE ID_Geography = %s AND Year = %s
+        LIMIT 1;
     """
     cur.execute(query, (geo_id, year))
-    result = cur.fetchall()
-    
-    
-    
-    return result
+    result = cur.fetchone()
+
+    income = 50000
+    cars = 2
+    persons = 4
+
+    if result:
+        income = result[0]
+        cars = result[1]
+        persons = result[2]
+
+    return income, cars, persons
 
 from math import radians, cos, sin, asin, sqrt
 
@@ -280,20 +291,23 @@ def get_unique_routes_for_stops(stop_ids):
         # Close the cursor and connection
         cur.close()
 
-coordinates = get_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
-geoCode = get_geoCode(coordinates=coordinates)
+if __name__ == "__main__":
+    coordinates = get_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
+    geoCode = get_geoCode(coordinates=coordinates)
 
-print(coordinates)
-print(get_address(coordinates))
-print(geoCode)
+    print(coordinates)
+    print(get_address(coordinates))
+    print(geoCode)
+    print(get_demographic_info(geoCode, 2022))
 
 
-stops, distances = get_nearby_stops(coordinates)
-counts = get_bus_counts(stops)
 
-routes = get_unique_routes_for_stops(stops)
+    stops, distances = get_nearby_stops(coordinates)
+    counts = get_bus_counts(stops)
 
-print(stops)
-print(distances)
-print(counts)
-print(routes)
+    routes = get_unique_routes_for_stops(stops)
+
+    print(stops)
+    print(distances)
+    print(counts)
+    print(routes)

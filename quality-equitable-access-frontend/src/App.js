@@ -31,7 +31,7 @@ function App() {
 
     var output;
 
-    fetch('http://127.0.0.1:5000/transitscore', { // Replace with your server URL
+    fetch('http://127.0.0.1:4000/transitscore', { // Replace with your server URL
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -43,7 +43,6 @@ function App() {
         
         setOutputValue(data); 
 
-        setQuality(data['quality']['result']);
         setEquity(data['equity']['result']);
         setAccess(data['access']['result']);
 

@@ -1,19 +1,7 @@
 import numpy as np
 from score import calculate_score
-from geo import get_coordinates
+from geo import *
 
-
-def get_avg_salary(lat,lon):
-    pass
-
-def get_cost_living(lat,lon):
-    pass
-
-def get_cars(lat,lon):
-    pass
-
-def get_members(lat,lon):
-    pass
 
 
 def calculate_equity(salary, cost_of_living, people, cars):
@@ -41,7 +29,13 @@ def calculate_equity(salary, cost_of_living, people, cars):
 
     return output
 
-
+def equity_by_address(address):
+    coordinates = get_coordinates(address=address)
+    geo = get_geoCode(coordinates=coordinates)
+    print(geo)
+    salary, num_cars, num_people = get_demographic_info(geo, 2022)
+    cost_of_living = 50000
+    return calculate_equity(salary, cost_of_living, num_people, num_cars)
 
 if __name__ == "__main__":
 
