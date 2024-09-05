@@ -2,26 +2,6 @@ import numpy as np
 import geopandas as gpd
 from shapely.geometry import Point
 
-def check_geoID(lat, lon, geoID):
-    # Load the shapefile containing the census tract boundaries.
-    # You can download the appropriate shapefile from the US Census website.
-    # Example: 'cb_2018_53_tract_500k.shp' for Washington state census tracts.
-    shapefile_path = 'path_to_shapefile/cb_2018_53_tract_500k.shp'
-    
-    # Load the shapefile into a GeoDataFrame
-    gdf = gpd.read_file(shapefile_path)
-    
-    # Create a point geometry from the latitude and longitude
-    point = Point(lon, lat)
-    
-    # Filter the GeoDataFrame by the specified geoID (e.g., Census Tract ID)
-    target_tract = gdf[gdf['GEOID'] == geoID]
-    
-    # Check if the point is within the target tract
-    is_within = target_tract.contains(point).any()
-    
-    return is_within
-
 
 
 def log_normalize(values):
