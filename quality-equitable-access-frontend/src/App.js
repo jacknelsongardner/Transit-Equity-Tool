@@ -41,11 +41,13 @@ function App() {
       .then(response => {return response.json(); })
       .then(data => { 
         
+        console.log(data);
+
         setOutputValue(data); 
 
         setEquity(data['equity']['result']);
         setAccess(data['access']['result']);
-
+        setCumulative(data['cumulative'])
 
       })
 
@@ -81,7 +83,7 @@ function App() {
           <div>
             
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px' }}>
-              <ScoreDisplay targetPercentage={qualityValue} diameter={200} text={`quality`} number={qualityValue} />
+              <ScoreDisplay targetPercentage={accessValue} diameter={200} text={`access`} number={accessValue} />
               <ScoreDisplay targetPercentage={cumulativeValue} diameter={250} text={`cumulative`} number={cumulativeValue}/>
               <ScoreDisplay targetPercentage={equityValue} diameter={200} text={`equity`} number={equityValue} />
             </div>

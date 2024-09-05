@@ -31,8 +31,8 @@ def about():
 
     data = {
         'address': address,
-        'equity': {'result':total_access,'details':access_result},
-        'access': {'result':total_access,'details':equity_result},
+        'equity': {'result':total_equity,'details':equity_result},
+        'access': {'result':total_access,'details':access_result},
         'cumulative': total,
         
     }

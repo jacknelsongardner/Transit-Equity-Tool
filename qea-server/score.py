@@ -69,12 +69,12 @@ def calculate_score(vals, weights, trainSets, names):
         logVal = logFunc(val)
 
         adjustedVals.append(logVal)
-        output[name] = {'val':logVal,'weight':weight}
+        output[name] = {'val':round(logVal*100, 0),'weight':round(weight*10, 1),}
 
     for index in range(len(adjustedVals)):
         adjustedTotal += adjustedVals[index] * weights[index]
 
-    output['total'] = adjustedTotal 
+    output['total'] = round(adjustedTotal * 100, 0)
 
     return output
 
