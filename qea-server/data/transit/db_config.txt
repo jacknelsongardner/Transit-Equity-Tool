@@ -1,0 +1,5 @@
+dbname=transit_db
+user=jack
+password=xfiles
+host=localhost
+port=5432
