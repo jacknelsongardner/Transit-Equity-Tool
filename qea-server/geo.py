@@ -1,6 +1,7 @@
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 import requests
+import psycopg2
 
 
 # Coordinates provided
@@ -101,6 +102,42 @@ def get_address(coordinates):
 
 
 
+transit_conn = psycopg2.connect(
+    dbname='transit_db',
+    user='jack',
+    password='xfiles',
+    host='localhost',
+    port='5432'
+)
+
+demo_conn = psycopg2.connect(
+    dbname='demographic_info',
+    user='jack',
+    password='xfiles',
+    host='localhost',
+    port='5432'
+)
+
+
+# Create a cursor object
+cur = demo_conn.cursor()
+
+# Function to get values from geo_info table for a specific geo_id
+def get_geo_info(geo_id, year):
+    query = """
+        SELECT Geography, ID_Geography, Year, Race, avg_cars_per_person, avg_persons_per_household
+        FROM geo_info
+        WHERE ID_Geography = %s AND Year = %s;
+    """
+    cur.execute(query, (geo_id, year))
+    result = cur.fetchall()
+    
+    
+    
+    return result
+
+
+
 
 coordinates = get_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
 geoCode = get_geoCode(coordinates=coordinates)
@@ -108,3 +145,6 @@ geoCode = get_geoCode(coordinates=coordinates)
 print(coordinates)
 print(get_address(coordinates))
 print(geoCode)
+
+geoCode = '14000US53061040200'
+print(get_geo_info(geoCode, '2022'))
