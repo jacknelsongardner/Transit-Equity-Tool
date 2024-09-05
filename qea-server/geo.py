@@ -237,11 +237,48 @@ def get_bus_counts(stop_ids):
 
     # Close the cursor and connection
     cursor.close()
-    transit_conn.close()
 
     return bus_counts
 
 
+def get_unique_routes_for_stops(stop_ids):
+    """
+    Get the number of unique routes for multiple stop_ids.
+
+    :param stop_ids: A list of stop_ids to query.
+    :return: A dictionary where the keys are stop_ids and the values are the count of unique routes.
+    """
+    
+    
+    cur = transit_conn.cursor()
+    try:
+        # Define the query
+        query = """
+            SELECT stop_id, COUNT(DISTINCT route_id) AS unique_routes_count
+            FROM transit_stop_times
+            JOIN transit_trips ON transit_stop_times.trip_id = transit_trips.trip_id
+            WHERE stop_id = ANY(%s)
+            GROUP BY stop_id
+        """
+        
+        # Execute the query
+        cur.execute(query, (stop_ids,))
+        
+        # Fetch all results
+        results = cur.fetchall()
+        
+        # Organize the results into a dictionary
+        routes_count_dict = {stop_id: count for stop_id, count in results}
+        
+        return routes_count_dict
+        
+    except psycopg2.Error as e:
+        print(f"An error occurred: {e}")
+        return None
+        
+    finally:
+        # Close the cursor and connection
+        cur.close()
 
 coordinates = get_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
 geoCode = get_geoCode(coordinates=coordinates)
@@ -256,7 +293,9 @@ geoCode = '14000US53061052506'
 stops, distances = get_nearby_stops(coordinates)
 counts = get_bus_counts(stops)
 
+routes = get_unique_routes_for_stops(stops)
+
 print(stops)
 print(distances)
 print(counts)
-
+print(routes)

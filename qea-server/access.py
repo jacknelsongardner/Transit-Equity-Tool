@@ -2,10 +2,15 @@ from score import calculate_score
 
 walkable_dist = 10
 
-def calculate_access(stopCount, stops, dists):
+def calculate_access(stopsCount, stops, dists):
+    
+    stopCount = sum(stopsCount)
+    
     # Check if any of the lists are empty to avoid division by zero
     if not stopCount or not stops or not dists:
         raise ValueError("One or more input lists are empty.")
+
+    
 
     # Calculate the average for each list
     average_stopCount = sum(stopCount) / len(stopCount)
@@ -38,8 +43,15 @@ def calculate_access(stopCount, stops, dists):
     return output
 
 if __name__ == "__main__":
-    print(calculate_access([50,25],[4,2],[.3,.4]))
+    result = calculate_access([50,25],[4,2],[.3,.4])
+    avg_stops = result['stops']['val']
+    stop_weight = result['stops']['weight']
 
+    avg_stops = result['distance']['val']
+    stop_weight = result['distance']['weight']
+
+    avg_stops = result['stopCount']['val']
+    stop_weight = result['stopCount']['weight']
 
 
 
