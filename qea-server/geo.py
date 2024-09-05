@@ -222,7 +222,7 @@ def get_bus_counts(stop_ids):
     cursor = transit_conn.cursor()
 
     # Prepare a dictionary to store stop_id and their bus counts
-    bus_counts = {}
+    bus_counts = []
 
     for stop_id in stop_ids:
         # Query to count the number of buses at a given stop_id
@@ -233,7 +233,7 @@ def get_bus_counts(stop_ids):
         """
         cursor.execute(query, (stop_id,))
         count = cursor.fetchone()[0]
-        bus_counts[stop_id] = count
+        bus_counts.append(count)
 
     # Close the cursor and connection
     cursor.close()
@@ -254,6 +254,9 @@ geoCode = '14000US53061040200'
 geoCode = '14000US53061052506'
 
 stops, distances = get_nearby_stops(coordinates)
+counts = get_bus_counts(stops)
+
 print(stops)
 print(distances)
+print(counts)
 
