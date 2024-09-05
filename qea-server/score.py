@@ -1,43 +1,7 @@
 import numpy as np
 import geopandas as gpd
 from shapely.geometry import Point
-import psycopg2
 
-
-transit_conn = psycopg2.connect(
-    dbname='transit_db',
-    user='jack',
-    password='xfiles',
-    host='localhost',
-    port='5432'
-)
-
-demo_conn = psycopg2.connect(
-    dbname='demographic_info',
-    user='jack',
-    password='xfiles',
-    host='localhost',
-    port='5432'
-)
-
-
-# Create a cursor object
-cur = demo_conn.cursor()
-
-# Function to get values from geo_info table for a specific geo_id
-def get_geo_info(geo_id):
-    query = """
-        SELECT Geography, ID_Geography, Year, Race, avg_cars_per_person, avg_persons_per_household
-        FROM geo_info
-        WHERE ID_Geography = %s;
-    """
-    cur.execute(query, (geo_id,))
-    result = cur.fetchall()
-    
-    # Create a tuple set from the results
-    tuple_set = {(row[0], row[1], row[2], row[3], row[4], row[5]) for row in result}
-    
-    return tuple_set
 
 
 
@@ -92,6 +56,7 @@ def calculate_score(vals, weights, trainSets, names):
     output = {}
 
     adjustedVals = []
+    
     adjustedTotal = 0
 
     for index in range(len(vals)):
@@ -103,10 +68,11 @@ def calculate_score(vals, weights, trainSets, names):
         logFunc = log_normalize(train)
         logVal = logFunc(val)
 
+        adjustedVals.append(logVal)
         output[name] = {'val':logVal,'weight':weight}
 
-    for val in adjustedVals:
-        adjustedTotal += val
+    for index in range(len(adjustedVals)):
+        adjustedTotal += adjustedVals[index] * weights[index]
 
     output['total'] = adjustedTotal 
 
