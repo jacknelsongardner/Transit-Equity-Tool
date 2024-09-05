@@ -216,6 +216,30 @@ def get_nearby_stops(coordinates):
     finally:
         cursor.close()
 
+def get_bus_counts(stop_ids):
+    # Connect to your PostgreSQL database
+    
+    cursor = transit_conn.cursor()
+
+    # Prepare a dictionary to store stop_id and their bus counts
+    bus_counts = {}
+
+    for stop_id in stop_ids:
+        # Query to count the number of buses at a given stop_id
+        query = """
+        SELECT COUNT(DISTINCT trip_id) 
+        FROM transit_stop_times 
+        WHERE stop_id = %s;
+        """
+        cursor.execute(query, (stop_id,))
+        count = cursor.fetchone()[0]
+        bus_counts[stop_id] = count
+
+    # Close the cursor and connection
+    cursor.close()
+    transit_conn.close()
+
+    return bus_counts
 
 
 
