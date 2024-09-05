@@ -1,57 +1,97 @@
 from score import calculate_score
+from geo import *
 
 walkable_dist = 10
 
-def calculate_access(stopsCount, stops, dists):
-    
-    stopCount = sum(stopsCount)
-    
-    # Check if any of the lists are empty to avoid division by zero
-    if not stopCount or not stops or not dists:
-        raise ValueError("One or more input lists are empty.")
 
+def access_coordinates(address):
     
+    coordinates = get_coordinates(address)
+    
+    print(coordinates)
+    print(get_address(coordinates))
+
+    stops, distances = get_nearby_stops(coordinates)
+    counts = get_bus_counts(stops)
+
+    routes = get_unique_routes_for_stops(stops)
+
+    print(stops)
+    print(distances)
+    print(counts)
+    print(routes)
+
+    return stops, distances, counts, routes
+
+
+def calculate_access(stopCount, stops, dists, routes):
+    # Check if any of the lists are empty to avoid division by zero
+    
+
 
     # Calculate the average for each list
-    average_stopCount = sum(stopCount) / len(stopCount)
-    average_stops = sum(stops) / len(stops)
-    average_dists = sum(dists) / len(dists)
+    
+
+    average_dists = 0
+
+    if dists != [] and dists != {}:
+        average_dists = sum(dists) / len(dists)
+   
+
 
     
 
     stop_weight = 5
     stopCount_weight = 4
     dist_weight = 2
+    routes_weight = 3
 
-    total_weight = stop_weight + stopCount_weight + dist_weight
+    total_weight = stop_weight + stopCount_weight + dist_weight + routes_weight
 
     stop_weight = stop_weight/total_weight
     stopCount_weight = stopCount_weight/total_weight
     dist_weight = dist_weight/total_weight
+    routes_weight = routes_weight/total_weight
 
 
     # PEOPLES SCORES 
-    stopsList = [0, 3, 6, 10]
-    stopCountList = [0, 25, 50, 100]
+    stopsList = [16, 8, 4, 0]
+    stopCountList = [100, 50, 25, 0]
     distList = [0, .1, .25, .5]
+    routesList = [10, 5, 2, 0]
 
-    output = calculate_score(vals=[average_stops, average_dists, average_stopCount], 
-                    weights=[stop_weight, dist_weight, stopCount_weight], 
-                    trainSets=[stopsList, distList, stopCountList],
-                    names=['stops', 'distance', 'stopCount'])
+    output = calculate_score(vals=[sum(int(value) for value in stopCount), average_dists, len(stops), len(routes)], 
+                    weights=[stop_weight, dist_weight, stopCount_weight, routes_weight], 
+                    trainSets=[stopsList, distList, stopCountList, routesList ],
+                    names=['stops', 'distance', 'stopCount', 'routes'])
 
     return output
 
 if __name__ == "__main__":
-    result = calculate_access([50,25],[4,2],[.3,.4])
+
+
+    stops, distances, counts, routes = access_coordinates('8905 19th pl SE, Lake Stevens, WA 98258')
+
+    result = calculate_access(stops, distances, counts, routes)
     avg_stops = result['stops']['val']
     stop_weight = result['stops']['weight']
 
-    avg_stops = result['distance']['val']
-    stop_weight = result['distance']['weight']
+    distance = result['distance']['val']
+    distance_weight = result['distance']['weight']
 
-    avg_stops = result['stopCount']['val']
+    routes = result['routes']['val']
+    routes_weight = result['routes']['weight']
+
+    numbusses = result['stopCount']['val']
     stop_weight = result['stopCount']['weight']
+
+    print(result)
+
+
+
+
+
+
 
 
 

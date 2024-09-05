@@ -287,8 +287,6 @@ print(coordinates)
 print(get_address(coordinates))
 print(geoCode)
 
-geoCode = '14000US53061040200'
-geoCode = '14000US53061052506'
 
 stops, distances = get_nearby_stops(coordinates)
 counts = get_bus_counts(stops)
