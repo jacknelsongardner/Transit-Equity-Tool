@@ -14,8 +14,15 @@
   }
 }
 
+p {
+  max-width: 60vw; /* Restricts the paragraph to 60% of the viewport width */
+  margin: 0 auto;  /* Centers the paragraph horizontally */
+}
 
-
+h1 {
+  font-size: 3rem; /* Adjust the size of the heading */
+  margin-bottom: 30px;
+}
 
 input {
 

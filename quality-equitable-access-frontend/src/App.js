@@ -13,14 +13,15 @@ const orange = '#FFA500';  // Hex code for orange
 const green = '#00FF00'; // Hex code for green
 const white = '#FFFFFF'; // Hex code for white
 
-
+const defaultAddress = '21426 E Lost Lake Road, Snohomish, WA 98296';
 
 
 function App() {
   
   const [showScores, setShowScores] = useState(false);
   
-  const [inputValue, setInputValue] = useState('');
+  const [inputtedAddress, setInputValue] = useState('');
+  
 
   const [qualityValue, setQuality] = useState(23);
   const [needValue, setEquity] = useState(54);
@@ -62,7 +63,9 @@ function App() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ data: {address: inputValue} }), // Send the input data
+      body: JSON.stringify({ data: {
+        address: inputtedAddress === '' ? defaultAddress : inputtedAddress
+      } }), // Send the input data
      
     })
       .then(response => {return response.json(); })
@@ -112,14 +115,14 @@ function App() {
             
             <p>Transit Equity Scores for </p>
 
-            <p>{address}</p>
+            <p>{inputtedAddress}</p>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px'}}>
-              <ScoreDisplay targetPercentage={needValue} diameter={200} text={`need`} color={rateColor(-1 * needValue)} number={needValue} />
+              <ScoreDisplay targetPercentage={needValue+1} diameter={200} text={`need`} color={rateColor(-1 * needValue)} number={needValue} />
 
-              <ScoreDisplay targetPercentage={cumulativeValue} diameter={250} text={`cumulative`} color={rateColor(cumulativeValue)} number={cumulativeValue} />
+              <ScoreDisplay targetPercentage={cumulativeValue+1} diameter={250} text={`cumulative`} color={rateColor(cumulativeValue)} number={cumulativeValue} />
 
-              <ScoreDisplay targetPercentage={accessValue} diameter={200} text={`access`} color={rateColor(accessValue)} number={accessValue} />
+              <ScoreDisplay targetPercentage={accessValue+1} diameter={200} text={`access`} color={rateColor(accessValue)} number={accessValue} />
 
             </div>
             <div style={{paddingTop:'20px'}}>
@@ -142,13 +145,16 @@ function App() {
         )}
 
         {!showScores && !loading && (
+          
           <div>
+            <h1>Enter your address below</h1>
+            
             <input 
             type="text" 
-            value={inputValue} 
+            value={inputtedAddress} 
             onChange={handleChange} 
             
-            placeholder="Enter your address here " 
+            placeholder='21426 E Lost Lake Road, Snohomish, WA 98296'
 
 
             />
