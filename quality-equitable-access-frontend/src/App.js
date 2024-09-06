@@ -4,7 +4,17 @@ import React, { useState } from 'react';
 import Nav from './Nav.js';
 import ScoreDisplay from './ScoreDisplay.js';
 
-const logo = '/bus-logo.png'
+const logo = '/bus-logo.png';
+
+const red = '#FF0000';   // Hex code for red
+const yellow = '#FFFF00';  // Hex code for yellow
+const orange = '#FFA500';  // Hex code for orange
+
+const green = '#00FF00'; // Hex code for green
+const white = '#FFFFFF'; // Hex code for white
+
+
+
 
 function App() {
   
@@ -13,7 +23,7 @@ function App() {
   const [inputValue, setInputValue] = useState('');
 
   const [qualityValue, setQuality] = useState(23);
-  const [equityValue, setEquity] = useState(54);
+  const [needValue, setEquity] = useState(54);
   const [accessValue, setAccess] = useState(92);
 
   const [cumulativeValue, setCumulative] = useState(57);
@@ -28,13 +38,26 @@ function App() {
     setInputValue(event.target.value);
   };
 
+
+  const rateColor = (rating) => {
+    if (rating <= 25) {
+      return red; // Bad (0-25)
+    } else if (rating <= 50) {
+      return orange; // Medium-bad (26-50)
+    } else if (rating <= 75) {
+      return yellow; // Medium-good (51-75)
+    } else {
+      return green; // Good (76-100)
+    }
+  }
+
   const handleScoreClick = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
 
     var output;
 
 
-    fetch('http://127.0.0.1:4000/transitscore', { // Replace with your server URL
+    fetch('http://50.46.51.158:4000/transitscore', { // Replace with your server URL
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -87,10 +110,17 @@ function App() {
         {showScores &&(
           <div>
             
+            <p>Transit Equity Scores for </p>
+
+            <p>{address}</p>
+
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px'}}>
-              <ScoreDisplay targetPercentage={accessValue} diameter={200} text={`access`} number={accessValue} />
-              <ScoreDisplay targetPercentage={cumulativeValue} diameter={250} text={`cumulative`} number={cumulativeValue}/>
-              <ScoreDisplay targetPercentage={equityValue} diameter={200} text={`need`} number={equityValue} />
+              <ScoreDisplay targetPercentage={needValue} diameter={200} text={`need`} color={rateColor(-1 * needValue)} number={needValue} />
+
+              <ScoreDisplay targetPercentage={cumulativeValue} diameter={250} text={`cumulative`} color={rateColor(cumulativeValue)} number={cumulativeValue} />
+
+              <ScoreDisplay targetPercentage={accessValue} diameter={200} text={`access`} color={rateColor(accessValue)} number={accessValue} />
+
             </div>
             <div style={{paddingTop:'20px'}}>
               <button onClick={handleAddressClick}>Try again</button>
