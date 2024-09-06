@@ -17,11 +17,20 @@
 p {
   max-width: 60vw; /* Restricts the paragraph to 60% of the viewport width */
   margin: 0 auto;  /* Centers the paragraph horizontally */
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 h1 {
   font-size: 3rem; /* Adjust the size of the heading */
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 1.5rem; /* Adjust the size of the heading */
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 input {
@@ -34,6 +43,7 @@ input {
   font-size: x-large;
   text-align: center;
 
+  margin-bottom: 30px;
 
 }
 

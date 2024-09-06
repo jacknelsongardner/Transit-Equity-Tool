@@ -16,6 +16,26 @@ const white = '#FFFFFF'; // Hex code for white
 const defaultAddress = '21426 E Lost Lake Road, Snohomish, WA 98296';
 
 
+const transitNeedMessages = {
+  high: 'your address has high need of public transit access',
+  mid: 'your address has moderate need of public transit access',
+  low: 'your address has low need of public transit access'
+};
+
+const transitAccessMessages = {
+  high: 'your address has high acccess to public transit',
+  mid: 'your address has moderate access to public transit',
+  low: 'your address has low access to public transit'
+};
+
+const transitEquityMessages = {
+  high: 'public transit exceeds the requirements for your address',
+  mid: 'public transit meets the requirements for your address',
+  low: 'public transit does not meet the requirements for your address'
+
+}
+
+
 function App() {
   
   const [showScores, setShowScores] = useState(false);
@@ -52,11 +72,26 @@ function App() {
     }
   }
 
+  const rateText = (dictionary, rating) => {
+    if (rating <= 33) {
+      return dictionary.low; // Bad (0-25)
+    } else if (rating <= 66) {
+      return dictionary.mid; // Medium-good (51-75)
+    } else {
+      return dictionary.high; // Good (76-100)
+    }
+  }
+
   const handleScoreClick = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
 
     var output;
 
+    // in case an address was not inputted
+    if (inputtedAddress == '')
+    {
+      setInputValue(defaultAddress); 
+    }
 
     fetch('http://50.46.51.158:4000/transitscore', { // Replace with your server URL
       method: 'POST',
@@ -83,7 +118,7 @@ function App() {
       })
 
       setLoading(true);
-
+      
     
       
   };
@@ -113,9 +148,9 @@ function App() {
         {showScores &&(
           <div>
             
-            <p>Transit Equity Scores for </p>
-
-            <p>{inputtedAddress}</p>
+            <h2>Transit Equity Scores for </h2>
+            <h1>{inputtedAddress}</h1>
+            
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px'}}>
               <ScoreDisplay targetPercentage={needValue+1} diameter={200} text={`need`} color={rateColor(-1 * needValue)} number={needValue} />
@@ -126,6 +161,10 @@ function App() {
 
             </div>
             <div style={{paddingTop:'20px'}}>
+              <p>An access score of {accessValue} indicates that {rateText(transitAccessMessages, accessValue)} </p>
+              <p>An need score of {needValue} indicates that {rateText(transitNeedMessages, needValue)} </p>
+              <p>An equity score of {cumulativeValue} indicates that {rateText(transitEquityMessages, cumulativeValue)} </p>
+
               <button onClick={handleAddressClick}>Try again</button>
 
             </div>
