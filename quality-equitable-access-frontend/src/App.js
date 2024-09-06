@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Nav from './Nav.js';
 import ScoreDisplay from './ScoreDisplay.js';
 
+const logo = '/bus-logo.png'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
 
   const [cumulativeValue, setCumulative] = useState(57);
 
+  const [loading, setLoading] = useState(false);
   
 
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
@@ -31,12 +33,14 @@ function App() {
 
     var output;
 
+
     fetch('http://127.0.0.1:4000/transitscore', { // Replace with your server URL
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ data: {address: inputValue} }), // Send the input data
+     
     })
       .then(response => {return response.json(); })
       .then(data => { 
@@ -48,10 +52,11 @@ function App() {
         setEquity(data['equity']['result']);
         setAccess(data['access']['result']);
         setCumulative(data['cumulative'])
-
+        setShowScores(true);
+        setLoading(false);
       })
 
-      setShowScores(true);
+      setLoading(true);
 
     
       
@@ -79,7 +84,7 @@ function App() {
         <div>
 
 
-        {showScores && (
+        {showScores &&(
           <div>
             
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px'}}>
@@ -96,7 +101,17 @@ function App() {
       
         )}
                 
-        {!showScores && (
+        {loading && (
+          <div>
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>
+              Loading...
+            </p>
+          </div>
+
+        )}
+
+        {!showScores && !loading && (
           <div>
             <input 
             type="text" 
