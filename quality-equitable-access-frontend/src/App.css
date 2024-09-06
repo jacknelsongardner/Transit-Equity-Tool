@@ -13,25 +13,62 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* For Paragraphs */
 p {
   max-width: 60vw; /* Restricts the paragraph to 60% of the viewport width */
-  margin: 0 auto;  /* Centers the paragraph horizontally */
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin: 10px auto 10px; /* Centers the paragraph horizontally and adjusts vertical margins */
+  font-size: 1rem; /* Font size */
+  line-height: 1.5; /* Improved readability */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
+/* For Main Headings */
 h1 {
-  font-size: 3rem; /* Adjust the size of the heading */
-  margin-bottom: 20px;
-  margin-top: 10px;
+  font-size: 4vw; /* Responsive font size based on viewport width */
+  margin: 10px auto 10px; /* Adjusts top and bottom margins */
+  text-align: center; /* Center aligns the heading */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
+/* For Subheadings */
 h2 {
-  font-size: 1.5rem; /* Adjust the size of the heading */
-  margin-bottom: 20px;
-  margin-top: 10px;
+  font-size: 2.5vw; /* Responsive font size based on viewport width */
+  margin: 10px auto 20px; /* Adjusts top and bottom margins */
+  text-align: center; /* Center aligns the heading */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
+
+/* For Smaller Subheadings */
+h3 {
+  font-size: 2vw; /* Responsive font size based on viewport width */
+  margin: 10px auto 20px; /* Adjusts top and bottom margins */
+  text-align: center; /* Center aligns the heading */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Media Queries for Smaller Viewports */
+@media (max-width: 600px) {
+  p {
+    font-size: 0.9rem; /* Slightly smaller font size for smaller screens */
+    max-width: 90vw; /* Allows more width on smaller screens */
+  }
+
+  h1 {
+    font-size: 4vw; /* Adjusts font size for smaller screens */
+    margin-bottom: 30px; /* Reduces bottom margin */
+  }
+
+  h2 {
+    font-size: 3vw; /* Adjusts font size for smaller screens */
+    margin-bottom: 15px; /* Reduces bottom margin */
+  }
+
+  h3 {
+    font-size: 2.5vw; /* Adjusts font size for smaller screens */
+    margin-bottom: 15px; /* Reduces bottom margin */
+  }
+}
+
 
 input {
 
@@ -43,7 +80,6 @@ input {
   font-size: x-large;
   text-align: center;
 
-  margin-bottom: 30px;
 
 }
 
@@ -58,6 +94,9 @@ button {
   font-size: larger; 
   cursor: pointer; 
   transition: border-width 0.3s ease; /* Smooth transition for border thickness */
+
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 button:hover {

@@ -60,6 +60,9 @@ def create_tables_and_insert_data(stops_csv, db_name, user, password, host, port
     except Exception as e:
         print(f"Error: {e}")
 
+
+
+
 # Usage
 stops_csv = 'stop_times.csv'  # Your stops CSV file path
 routes_csv = 'routes_data.csv'  # Your routes CSV file path

@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 import Nav from './Nav.js';
 import ScoreDisplay from './ScoreDisplay.js';
 
-const logo = '/bus-logo.png';
+const loadingLogo = '/bus-logo.png';
+const logo = '/equity.png';
 
 const red = '#FF0000';   // Hex code for red
 const yellow = '#FFFF00';  // Hex code for yellow
@@ -134,7 +135,7 @@ function App() {
   return (
     
     <div className="App">
-      <Nav />
+      
 
 
 
@@ -148,22 +149,23 @@ function App() {
         {showScores &&(
           <div>
             
-            <h2>Transit Equity Scores for </h2>
+            <h2>Transit Equity Evaluation for </h2>
             <h1>{inputtedAddress}</h1>
             
 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px'}}>
-              <ScoreDisplay targetPercentage={needValue+1} diameter={200} text={`need`} color={rateColor(-1 * needValue)} number={needValue} />
+              <ScoreDisplay targetPercentage={needValue+1} diameter={20} text={`need`} color={rateColor(-1 * needValue)} number={needValue} />
 
-              <ScoreDisplay targetPercentage={cumulativeValue+1} diameter={250} text={`cumulative`} color={rateColor(cumulativeValue)} number={cumulativeValue} />
+              <ScoreDisplay targetPercentage={cumulativeValue+1} diameter={30} text={`equity`} color={rateColor(cumulativeValue)} number={cumulativeValue} />
 
-              <ScoreDisplay targetPercentage={accessValue+1} diameter={200} text={`access`} color={rateColor(accessValue)} number={accessValue} />
+              <ScoreDisplay targetPercentage={accessValue+1} diameter={20} text={`access`} color={rateColor(accessValue)} number={accessValue} />
 
             </div>
+
             <div style={{paddingTop:'20px'}}>
-              <p>An access score of {accessValue} indicates that {rateText(transitAccessMessages, accessValue)} </p>
-              <p>An need score of {needValue} indicates that {rateText(transitNeedMessages, needValue)} </p>
-              <p>An equity score of {cumulativeValue} indicates that {rateText(transitEquityMessages, cumulativeValue)} </p>
+              <p>An <b>access</b> score of {accessValue} indicates that {rateText(transitAccessMessages, accessValue)} </p>
+              <p>An <b>need</b> score of {needValue} indicates that {rateText(transitNeedMessages, needValue)} </p>
+              <p>An <b>equity</b> score of {cumulativeValue} indicates that {rateText(transitEquityMessages, cumulativeValue)} </p>
 
               <button onClick={handleAddressClick}>Try again</button>
 
@@ -175,10 +177,10 @@ function App() {
                 
         {loading && (
           <div>
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
+            <img src={loadingLogo} className="App-logo" alt="logo" />
+            <h2>
               Loading...
-            </p>
+            </h2>
           </div>
 
         )}
@@ -186,7 +188,14 @@ function App() {
         {!showScores && !loading && (
           
           <div>
-            <h1>Enter your address below</h1>
+
+            <h1>Transit Equity</h1>
+            <h2>Snohomish County</h2>
+            <p>Evaluating Transit Service in Snohomish County by comparing Transit Access to Community Needs</p>
+
+            <img src={loadingLogo} className="App-logo" alt="logo" />
+
+            <h2>Enter your address below</h2>
             
             <input 
             type="text" 
