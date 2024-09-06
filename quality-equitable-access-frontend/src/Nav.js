@@ -35,8 +35,7 @@ const HeaderNav = () => {
     <header style={headerStyle}>
       <nav>
         <ul style={navStyle}>
-          <li><a href="#about" style={navItemStyle}>About</a></li>
-          <li><a href="#myscore" style={navItemStyle}>MyScore</a></li>
+          <li><a href="#myscore" style={navItemStyle}>My Transit Equity Score</a></li>
           
         </ul>
       </nav>

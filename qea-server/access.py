@@ -57,10 +57,10 @@ def calculate_access(stopCount, stops, dists, routes):
 
 
     # PEOPLES SCORES 
-    stopsList = [16, 8, 4, 0]
-    stopCountList = [100, 50, 25, 0]
+    stopsList = [0, 30, 60, 120]
+    stopCountList = [0, 100, 400, 800]
     distList = [0, .1, .25, .5]
-    routesList = [10, 5, 2, 0]
+    routesList = [0, 100, 200, 400]
 
     output = calculate_score(vals=[sum(int(value) for value in stopCount), average_dists, len(stops), len(routes)], 
                     weights=[stop_weight, dist_weight, stopCount_weight, routes_weight], 

@@ -6,50 +6,32 @@ from shapely.geometry import Point
 
 
 
-
 def log_normalize(values):
-    """
-    Normalize a list of values to a logarithmic scale between 0 and 1.
-
-    Parameters:
-    - values: List or array of numerical values to normalize.
-    - min_value: Minimum value for logarithmic scaling. (values <= min_value are set to min_value)
-
-    Returns:
-    - A function that normalizes input values based on the original list.
-    """
-
-    # checking for zeros
-    for value in range(len(values)):
-        if values[value] == 0:
-            values[value] = .00000000000000001
-
-    values = np.array(values)
-            
-
-
+    # Replace zero values with a small number
+    values = np.array([max(value, 1e-10) for value in values])  # Using a safer small value
+    
     min_value = np.min(values)
     
     # Log transform the values
     log_values = np.log(values)
     
-    
     # Get the min and max log values
     log_min = np.min(log_values)
     log_max = np.max(log_values)
     
+    # Avoid division by very small numbers
+    log_range = log_max - log_min
+    if log_range == 0:
+        log_range = 1  # Fallback to prevent division by zero
+    
     # Return a function that normalizes any given value
     def transform(value):
         log_value = np.log(max(value, min_value))
-        transformed_value = (log_value - log_min) / (log_max - log_min)
-        if transformed_value > 1:
-            return 1
-        elif transformed_value < 0:
-            return 0
-        else: return transformed_value
+        transformed_value = (log_value - log_min) / log_range
+        return max(0, min(transformed_value, 1))  # Ensure the value stays within [0, 1]
 
-    
     return transform
+
 
 def calculate_score(vals, weights, trainSets, names):
 

@@ -27,7 +27,7 @@ def about():
     equity_weight = .5
     access_weight = .5
 
-    total = access_weight * total_access + equity_weight * total_equity
+    total = access_weight * total_access + (equity_weight * (100 - total_equity))
 
     data = {
         'address': address,

@@ -141,9 +141,9 @@ def get_demographic_info(geo_id, year):
     persons = 4
 
     if result:
-        income = result[0]
-        cars = result[1]
-        persons = result[2]
+        income = float(result[0])
+        cars = float(result[1])
+        persons = float(result[2])
 
     return income, cars, persons
 

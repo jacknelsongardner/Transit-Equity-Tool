@@ -19,8 +19,8 @@ def calculate_equity(salary, cost_of_living, people, cars):
 
 
     # PEOPLES SCORES 
-    salaryList = [2, 1, .5, 0]
-    peoplelist = [1,.5,.25,0]
+    salaryList = [0, .5, 1, 2]
+    peoplelist = [0, .25, .5, 1]
 
     output = calculate_score(vals=[salary_col_ratio, people_car_ratio], 
                     weights=[salary_weight, people_weight], 
