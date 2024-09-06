@@ -59,8 +59,8 @@ function App() {
 
   const handleAddressClick = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
-    setShowScores(false);
-
+    // Reboot the whole page
+    window.location.reload();
   }
   
 
@@ -82,7 +82,7 @@ function App() {
         {showScores && (
           <div>
             
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingTop: '20px'}}>
               <ScoreDisplay targetPercentage={accessValue} diameter={200} text={`access`} number={accessValue} />
               <ScoreDisplay targetPercentage={cumulativeValue} diameter={250} text={`cumulative`} number={cumulativeValue}/>
               <ScoreDisplay targetPercentage={equityValue} diameter={200} text={`need`} number={equityValue} />
