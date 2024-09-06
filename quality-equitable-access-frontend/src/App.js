@@ -23,6 +23,8 @@ const transitNeedMessages = {
   low: 'your address has low need of public transit access'
 };
 
+
+
 const transitAccessMessages = {
   high: 'your address has high acccess to public transit',
   mid: 'your address has moderate access to public transit',
@@ -51,10 +53,9 @@ function App() {
   const [cumulativeValue, setCumulative] = useState(57);
 
   const [loading, setLoading] = useState(false);
-  
 
   const [outputValue, setOutputValue] = useState('Your scores will appear here');
-  const [error, setError] = useState('no Errors yet');
+  const [error, setError] = useState('');
 
   const handleChange = (event) => {
     setInputValue(event.target.value);
@@ -93,36 +94,60 @@ function App() {
     {
       setInputValue(defaultAddress); 
     }
+    
 
-    fetch('http://50.46.51.158:4000/transitscore', { // Replace with your server URL
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ data: {
-        address: inputtedAddress === '' ? defaultAddress : inputtedAddress
-      } }), // Send the input data
-     
-    })
-      .then(response => {return response.json(); })
-      .then(data => { 
-        
-        console.log(data);
-
-        setOutputValue(data); 
-
-        setEquity(data['equity']['result']);
-        setAccess(data['access']['result']);
-        setCumulative(data['cumulative'])
-        setShowScores(true);
-        setLoading(false);
+    try {
+      fetch('http://50.46.51.158:4000/transitscore', { // Replace with your server URL
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          data: {
+            address: inputtedAddress === '' ? defaultAddress : inputtedAddress
+          }
+        }), // Send the input data
       })
-
-      setLoading(true);
-      
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log(data);
+    
+          setOutputValue(data);
+    
+          setEquity(data['equity']['result']);
+          setAccess(data['access']['result']);
+          setCumulative(data['cumulative']);
+          setShowScores(true);
+          setLoading(false);
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+          // Handle errors from fetch or response processing
+          setLoading(false); // Ensure loading is stopped in case of error
+          setShowScores(false);
+          setError('Make sure you enter a valid address in Snohomish County')
+        });
+    } catch (error) {
+      console.error('Unexpected error:', error);
+      // Handle any errors that are not promise-related
+      setLoading(false);// Ensure loading is stopped in case of error
+      setShowScores(false);
+      setError('Sorry, an unexpected error occured. Please try again later')
+    } finally {
+      setLoading(true); // Stop loading after the request completes
+      setError('');
+    }
     
       
+        
+      
   };
+  
 
   const handleAddressClick = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
@@ -206,6 +231,7 @@ function App() {
 
 
             />
+            <p style={{color: red}}>{error}</p>
 
             <div style={{paddingTop:'20px'}}>
               <button onClick={handleScoreClick}>
