@@ -94,7 +94,6 @@ button {
   font-size: larger; 
   cursor: pointer; 
   transition: border-width 0.3s ease; /* Smooth transition for border thickness */
-
   margin-top: 10px;
   margin-bottom: 40px;
 }

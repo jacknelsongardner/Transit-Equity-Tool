@@ -14,7 +14,7 @@ const orange = '#FFA500';  // Hex code for orange
 const green = '#00FF00'; // Hex code for green
 const white = '#FFFFFF'; // Hex code for white
 
-const defaultAddress = '21426 E Lost Lake Road, Snohomish, WA 98296';
+const defaultAddress = '8905 19th pl SE, Lake Stevens, WA 98258';
 
 
 const transitNeedMessages = {
@@ -227,7 +227,7 @@ function App() {
             value={inputtedAddress} 
             onChange={handleChange} 
             
-            placeholder='21426 E Lost Lake Road, Snohomish, WA 98296'
+            placeholder={defaultAddress}
 
 
             />

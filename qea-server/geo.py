@@ -136,12 +136,12 @@ def get_demographic_info(geo_id, year):
     cur.execute(query, (geo_id, year))
     result = cur.fetchone()
 
-    income = 50000
-    cars = 2
-    persons = 4
+    income = 54632 # average income for WA
+    cars = 2.3 # average cars per household for WA
+    persons = 3.4 # average people per household for WA
 
     if result:
-        income = float(result[0])
+        income = int(result[0])
         cars = float(result[1])
         persons = float(result[2])
 
