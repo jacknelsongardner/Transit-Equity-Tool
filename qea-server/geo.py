@@ -279,9 +279,9 @@ def get_unique_routes_for_stops(stop_ids):
         results = cur.fetchall()
         
         # Organize the results into a dictionary
-        routes_count_dict = {stop_id: count for stop_id, count in results}
+        routes_count = [count for stop_id, count in results]
         
-        return routes_count_dict
+        return routes_count
         
     except psycopg2.Error as e:
         print(f"An error occurred: {e}")
