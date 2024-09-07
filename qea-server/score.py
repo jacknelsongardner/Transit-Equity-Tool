@@ -1,7 +1,7 @@
 import numpy as np
 import geopandas as gpd
 from shapely.geometry import Point
-
+import math
 
 
 
@@ -11,6 +11,7 @@ def log_normalize(values):
     values = np.array([max(value, 1e-10) for value in values])  # Using a safer small value
     
     min_value = np.min(values)
+    max_value = np.max(values)
     
     # Log transform the values
     log_values = np.log(values)
@@ -26,8 +27,11 @@ def log_normalize(values):
     
     # Return a function that normalizes any given value
     def transform(value):
-        log_value = np.log(max(value, min_value))
-        transformed_value = (log_value - log_min) / log_range
+        log_value = math.log(max(value, min_value))
+        log_min_value = math.log(min_value)
+        log_max_value = math.log(max_value)
+
+        transformed_value = (log_value - log_min) / (log_max_value - log_min_value)
         return max(0, min(transformed_value, 1))  # Ensure the value stays within [0, 1]
 
     return transform
@@ -51,7 +55,7 @@ def calculate_score(vals, weights, trainSets, names):
         logVal = logFunc(val)
 
         adjustedVals.append(logVal)
-        output[name] = {'val':round(logVal*100, 0),'weight':round(weight*10, 1),}
+        output[name] = {'score':round(logVal*100, 0),'weight':round(weight*10, 1), 'value':val, 'logscale':train}
 
     for index in range(len(adjustedVals)):
         adjustedTotal += adjustedVals[index] * weights[index]
@@ -66,9 +70,23 @@ def calculate_score(vals, weights, trainSets, names):
 if __name__ == "__main__":
         
 
-    transit_scores = [0, 100, 1000, 10000]
+    transit_scores = [1, 100, 1000, 10000]
     normalizeFunc = log_normalize(transit_scores)
 
-    input = 11000
+    
+
+    input = 10
+    output = normalizeFunc(input)
+    print(output)
+
+    input = 110
+    output = normalizeFunc(input)
+    print(output)
+
+    input = 1100
+    output = normalizeFunc(input)
+    print(output)
+
+    input = 1100000
     output = normalizeFunc(input)
     print(output)
