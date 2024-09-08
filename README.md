@@ -1,6 +1,5 @@
 ![Transit Equity Tool](docs/enter.png) 
-To try it out yourself, click here:
-![Transit Equity Score Tool](http://50.46.51.158:4000/)
+To try it out yourself, click [here](http://50.46.51.158:4000/).
 
 # Overview
 
@@ -71,6 +70,37 @@ Household size (people per household) and housing density (number of households 
 For public transit information, we are currently working with **Community Transit**, which serves Snohomish County. They provide publicly available data on bus stop locations, route diversity, stop frequency, and other transit-related factors. This data forms the backbone of our Transit Access score. As we expand to cover more of the Northwest region, we plan to gather similar data from additional transit agencies.
 
 By combining these various datasets, we can build a comprehensive picture of how well public transit services meet the needs of different communities, ensuring that our Transit Equity Score Tool delivers meaningful, actionable insights.
+
+
+
+
+--
+
+## Technologies Used
+
+### Frontend: React
+The frontend is built with [React](https://reactjs.org/), providing a dynamic and interactive interface for users to view transit equity scores. Key features include:
+- **Responsive UI**: Ensures accessibility across devices.
+- **Data Visualization**: Real-time display of transit scores on a map.
+- **State Management**: Efficient use of React hooks like `useState` and `useEffect` to manage the flow of data and updates.
+
+### Backend: Flask
+The backend server is powered by [Flask](https://flask.palletsprojects.com/), a lightweight Python web framework. Flask handles:
+- **Routing**: Serves the frontend React app and manages API routes for data processing.
+- **CORS Configuration**: Ensures smooth communication between the frontend and backend.
+- **Data Handling**: Receives requests from the frontend, processes them, and returns calculated scores.
+
+### Data Processing: NumPy and Python
+Data processing is performed in Python using [NumPy](https://numpy.org/), with a focus on transforming raw data into meaningful scores:
+- **Logarithmic Data Transformation**: Applies a logarithmic scale to normalize the distribution of various inputs (e.g., car ownership, income) to ensure that extreme values do not skew the results.
+- **Efficient Calculations**: NumPy is used to perform vectorized operations, which are much faster for large datasets than traditional Python loops.
+
+### Database: PostgreSQL
+The SQL server is hosted on [PostgreSQL](https://www.postgresql.org/), which stores the processed data retrieved from CSV files:
+- **Data Ingestion**: Data is read from CSV files and inserted into the database for persistent storage.
+- **Normalized Schema**: The database schema is designed to store data on transit stops, routes, demographics, and socioeconomic factors.
+- **Querying**: Efficient queries are made to retrieve relevant data for transit need/access score calculations.
+
 
 
 --
