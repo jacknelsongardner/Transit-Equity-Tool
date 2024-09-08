@@ -1,4 +1,4 @@
-![Transit Equity Tool](docs/enter.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/enter.png) 
 To try it out yourself, click here:
 ![Transit Equity Score Tool](http://50.46.51.158:4000/)
 
@@ -6,7 +6,7 @@ To try it out yourself, click here:
 
 The **Transit Equity Score Tool** calculates and assesses public transit accessibility in relation to community needs for a specified address entered by the user. It is designed to demonstrate a methodology we believe can be used to inform decisions on resource allocation by determining where public transit services are adequately provided, overprovided, or underprovided. The tool generates three key metrics:
 
-![Transit Equity Tool](docs/overview.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/overview.png) 
 
 - **Transit Access**: Measures how easily people in a given area can access public transit.
 - **Transit Need**: Assesses the demand for public transit based on socio-economic factors.
@@ -14,7 +14,7 @@ The **Transit Equity Score Tool** calculates and assesses public transit accessi
 
 ## Transit Access
 
-![Transit Equity Tool](docs/access.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/access.png) 
 
 Transit Access is based on the availability and convenience of public transit in an area. This score is influenced by:
 
@@ -27,7 +27,7 @@ These factors are weighted to create a single access score. However, the raw num
 
 ## Transit Need
 
-![Transit Equity Tool](docs/need.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/need.png) 
 
 Transit Need measures how necessary public transit is for an area's residents, based on:
 
@@ -39,7 +39,7 @@ The need score reflects how reliant the community is on public transit services.
 
 ## Transit Equity
 
-![Transit Equity Tool](docs/equity.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/equity.png) 
 
 Transit Equity is the comparison between the Transit Access and Transit Need scores. It helps determine whether the available public transit services match the community's needs. This score is evaluated as follows:
 
