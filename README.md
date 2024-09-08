@@ -10,6 +10,9 @@ The **Transit Equity Score Tool** calculates and assesses public transit accessi
 - **Transit Need**: Assesses the demand for public transit based on socio-economic factors.
 - **Transit Equity**: Evaluates how well public transit services meet the community's needs, highlighting areas of potential improvement.
 
+To try it out yourself, click here:
+![Transit Equity Score Tool](http://50.46.51.158:4000/)
+
 ## Transit Access
 
 ![Transit Equity Tool](docs/access.png) <!-- Add your image URL here -->
@@ -47,7 +50,6 @@ Transit Equity is the comparison between the Transit Access and Transit Need sco
 
 ---
 
-![Transit Equity Score Tool](link_to_image)
 
 # Data Sources
 
