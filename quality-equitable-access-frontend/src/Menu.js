@@ -5,7 +5,7 @@ const Menu = ({ data }) => {
   return (
     
     
-    <ul>
+    <ul style={{listStyleType: 'none', paddingLeft: 0}}>
         <MenuItem key='View a breakdown' name={'View a breakdown'} 
         content={data} 
         />
@@ -19,7 +19,7 @@ const MenuItem = ({ name, content }) => {
     const [isOpen, setIsOpen] = useState(false);
   
     // Check if content is an object (nested structure) or a simple value
-    const isNested = typeof content === 'object' && content !== null;
+    const isNested = typeof content === 'object' && !Array.isArray(content) && content !== null;
   
     return (
       <li>
@@ -27,7 +27,7 @@ const MenuItem = ({ name, content }) => {
           {name}: {isNested ? <span>{isOpen ? '▼' : '►'}</span> : <span>{content}</span>}
         </div>
         {isNested && isOpen && (
-          <ul style={{ marginLeft: '20px' }}>
+          <ul style={{listStyleType: 'none', paddingLeft: 0}}>
             {Object.keys(content).map((subKey) => (
               <MenuItem key={subKey} name={subKey} content={content[subKey]} />
             ))}
