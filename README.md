@@ -1,12 +1,11 @@
-![Transit Equity Tool](docs/enter.png) <!-- Add your image URL here -->
-To try it out yourself, click here:
-![Transit Equity Score Tool](http://50.46.51.158:4000/)
+![Transit Equity Tool](docs/enter.png) 
+To try it out yourself, click [here](http://50.46.51.158:4000/).
 
 # Overview
 
 The **Transit Equity Score Tool** calculates and assesses public transit accessibility in relation to community needs for a specified address entered by the user. It is designed to demonstrate a methodology we believe can be used to inform decisions on resource allocation by determining where public transit services are adequately provided, overprovided, or underprovided. The tool generates three key metrics:
 
-![Transit Equity Tool](docs/overview.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/overview.png) 
 
 - **Transit Access**: Measures how easily people in a given area can access public transit.
 - **Transit Need**: Assesses the demand for public transit based on socio-economic factors.
@@ -14,7 +13,7 @@ The **Transit Equity Score Tool** calculates and assesses public transit accessi
 
 ## Transit Access
 
-![Transit Equity Tool](docs/access.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/access.png) 
 
 Transit Access is based on the availability and convenience of public transit in an area. This score is influenced by:
 
@@ -27,7 +26,7 @@ These factors are weighted to create a single access score. However, the raw num
 
 ## Transit Need
 
-![Transit Equity Tool](docs/need.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/need.png) 
 
 Transit Need measures how necessary public transit is for an area's residents, based on:
 
@@ -39,7 +38,7 @@ The need score reflects how reliant the community is on public transit services.
 
 ## Transit Equity
 
-![Transit Equity Tool](docs/equity.png) <!-- Add your image URL here -->
+![Transit Equity Tool](docs/equity.png) 
 
 Transit Equity is the comparison between the Transit Access and Transit Need scores. It helps determine whether the available public transit services match the community's needs. This score is evaluated as follows:
 
@@ -71,6 +70,37 @@ Household size (people per household) and housing density (number of households 
 For public transit information, we are currently working with **Community Transit**, which serves Snohomish County. They provide publicly available data on bus stop locations, route diversity, stop frequency, and other transit-related factors. This data forms the backbone of our Transit Access score. As we expand to cover more of the Northwest region, we plan to gather similar data from additional transit agencies.
 
 By combining these various datasets, we can build a comprehensive picture of how well public transit services meet the needs of different communities, ensuring that our Transit Equity Score Tool delivers meaningful, actionable insights.
+
+
+
+
+--
+
+## Technologies Used
+
+### Frontend: React
+The frontend is built with [React](https://reactjs.org/), providing a dynamic and interactive interface for users to view transit equity scores. Key features include:
+- **Responsive UI**: Ensures accessibility across devices.
+- **Data Visualization**: Real-time display of transit scores on a map.
+- **State Management**: Efficient use of React hooks like `useState` and `useEffect` to manage the flow of data and updates.
+
+### Backend: Flask
+The backend server is powered by [Flask](https://flask.palletsprojects.com/), a lightweight Python web framework. Flask handles:
+- **Routing**: Serves the frontend React app and manages API routes for data processing.
+- **CORS Configuration**: Ensures smooth communication between the frontend and backend.
+- **Data Handling**: Receives requests from the frontend, processes them, and returns calculated scores.
+
+### Data Processing: NumPy and Python
+Data processing is performed in Python using [NumPy](https://numpy.org/), with a focus on transforming raw data into meaningful scores:
+- **Logarithmic Data Transformation**: Applies a logarithmic scale to normalize the distribution of various inputs (e.g., car ownership, income) to ensure that extreme values do not skew the results.
+- **Efficient Calculations**: NumPy is used to perform vectorized operations, which are much faster for large datasets than traditional Python loops.
+
+### Database: PostgreSQL
+The SQL server is hosted on [PostgreSQL](https://www.postgresql.org/), which stores the processed data retrieved from CSV files:
+- **Data Ingestion**: Data is read from CSV files and inserted into the database for persistent storage.
+- **Normalized Schema**: The database schema is designed to store data on transit stops, routes, demographics, and socioeconomic factors.
+- **Querying**: Efficient queries are made to retrieve relevant data for transit need/access score calculations.
+
 
 
 --
