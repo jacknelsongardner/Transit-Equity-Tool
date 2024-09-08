@@ -1,4 +1,5 @@
 import './App.css';
+import Menu from './Menu.js';
 
 import React, { useState } from 'react';
 import Nav from './Nav.js';
@@ -54,7 +55,7 @@ function App() {
 
   const [loading, setLoading] = useState(false);
 
-  const [outputValue, setOutputValue] = useState('Your scores will appear here');
+  const [outputValue, setOutputValue] = useState({});
   const [error, setError] = useState('');
 
   const handleChange = (event) => {
@@ -185,6 +186,10 @@ function App() {
 
               <ScoreDisplay targetPercentage={accessValue+1} diameter={20} text={`access`} color={rateColor(accessValue)} number={accessValue} />
 
+            </div>
+
+            <div>
+              <Menu data={outputValue} />
             </div>
 
             <div style={{paddingTop:'20px'}}>
