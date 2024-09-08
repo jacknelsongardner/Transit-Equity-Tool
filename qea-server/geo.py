@@ -137,8 +137,8 @@ def get_demographic_info(geo_id, year):
     result = cur.fetchone()
 
     income = 54632 # average income for WA
-    cars = 2.3 # average cars per household for WA
-    persons = 3.4 # average people per household for WA
+    cars = 3 # average cars per household for WA
+    persons = 3 # average people per household for WA
 
     if result:
         income = int(result[0])
@@ -165,7 +165,7 @@ def haversine(lat1, lon1, lat2, lon2):
     return miles
 
 # Calculate the bounding box (lat/lon range) for a given distance
-def calculate_bounding_box(lat, lon, distance_miles=.5):
+def calculate_bounding_box(lat, lon, distance_miles=1):
     # Convert miles to degrees of latitude and longitude
     miles_per_degree_lat = 69.0  # Approximate miles per degree of latitude
     miles_per_degree_lon = 69.0 * cos(radians(lat))  # Longitude depends on latitude

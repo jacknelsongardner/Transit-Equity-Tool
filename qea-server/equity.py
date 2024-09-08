@@ -19,10 +19,13 @@ def calculate_equity(salary, cost_of_living, people, cars):
 
 
     # PEOPLES SCORES 
-    salaryList = [0, .5, 1, 2]
-    peoplelist = [0, .25, .5, 1]
+    salaryList = [.5, 1, 2]
+    peoplelist = [0.25, 1]
 
-    output = calculate_score(vals=[salary_col_ratio, people_car_ratio], 
+    print(people_car_ratio)
+    print(salary_col_ratio)
+
+    output = calculate_score(vals=[2-salary_col_ratio, 1-people_car_ratio], 
                     weights=[salary_weight, people_weight], 
                     trainSets=[salaryList, peoplelist],
                     names=['salaryCostRatio', 'carPeopleRatio'])
@@ -39,5 +42,5 @@ def equity_by_address(address):
 
 if __name__ == "__main__":
 
-    print(calculate_equity(50000, 70000, 2, 2))
+    print(calculate_equity(50000, 50000, 2, 1))
 
