@@ -96,7 +96,7 @@ function App() {
     
 
     try {
-      fetch('http://localhost:4000/transitscore', { // Replace with your server URL
+      fetch('http://50.46.51.158:4000/transitscore', { // Replace with your server URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
