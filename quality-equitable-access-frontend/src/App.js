@@ -24,8 +24,6 @@ const transitNeedMessages = {
   low: 'your address has low need of public transit access'
 };
 
-
-
 const transitAccessMessages = {
   high: 'your address has high acccess to public transit',
   mid: 'your address has moderate access to public transit',
@@ -98,7 +96,7 @@ function App() {
     
 
     try {
-      fetch('http://50.46.51.158:4000/transitscore', { // Replace with your server URL
+      fetch('http://localhost:4000/transitscore', { // Replace with your server URL
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -120,9 +118,9 @@ function App() {
     
           setOutputValue(data);
     
-          setEquity(data['equity']['result']);
+          setEquity(data['need']['result']);
           setAccess(data['access']['result']);
-          setCumulative(data['cumulative']);
+          setCumulative(data['equity']);
           setShowScores(true);
           setLoading(false);
         })
@@ -188,18 +186,20 @@ function App() {
 
             </div>
 
-            <div>
-              <Menu data={outputValue} />
-            </div>
+            
 
             <div style={{paddingTop:'20px'}}>
               <p>An <b>access</b> score of {accessValue} indicates that {rateText(transitAccessMessages, accessValue)} </p>
               <p>An <b>need</b> score of {needValue} indicates that {rateText(transitNeedMessages, needValue)} </p>
               <p>An <b>equity</b> score of {cumulativeValue} indicates that {rateText(transitEquityMessages, cumulativeValue)} </p>
-
+              <div>
+                <Menu data={outputValue} />
+              </div>
               <button onClick={handleAddressClick}>Try again</button>
-
+              
             </div>
+
+            
           
           </div>
       

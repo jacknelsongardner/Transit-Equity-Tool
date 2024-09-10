@@ -36,10 +36,9 @@ def about():
     total = round(access_weight * total_access + (equity_weight * (100 - total_equity)), 0)
 
     data = {
-        'address': address,
-        'equity': {'result':total_equity,'details':equity_result},
+        'need': {'result':total_equity,'details':equity_result},
         'access': {'result':total_access,'details':access_result},
-        'cumulative': total,
+        'equity': total,
         
     }
 
