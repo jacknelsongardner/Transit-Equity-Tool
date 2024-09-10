@@ -118,8 +118,8 @@ function App() {
     
           setOutputValue(data);
     
-          setEquity(data['need']['result']);
-          setAccess(data['access']['result']);
+          setEquity(data['need']['score']);
+          setAccess(data['access']['score']);
           setCumulative(data['equity']);
           setShowScores(true);
           setLoading(false);

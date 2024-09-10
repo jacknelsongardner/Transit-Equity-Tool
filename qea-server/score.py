@@ -5,8 +5,10 @@ import math
 
 
 
-
 def log_normalize(values):
+    
+    
+    
     # Replace zero values with a small number
     values = np.array([max(value, 1e-10) for value in values])  # Using a safer small value
     
@@ -45,6 +47,9 @@ def calculate_score(vals, weights, trainSets, names):
     
     adjustedTotal = 0
 
+
+
+
     for index in range(len(vals)):
         val = vals[index]
         weight = weights[index]
@@ -55,12 +60,12 @@ def calculate_score(vals, weights, trainSets, names):
         logVal = logFunc(val)
 
         adjustedVals.append(logVal)
-        output[name] = {'score':round(logVal*100, 0),'weight':round(weight*10, 1), 'value':val, 'logscale':train}
+        output[name] = {'score':round(logVal*100, 0), 'metric weight':round(weight*10, 1), 'normalized value':val, 'log function max':max(train), 'log function min':min(train)}
 
     for index in range(len(adjustedVals)):
         adjustedTotal += adjustedVals[index] * weights[index]
 
-    output['total'] = round(adjustedTotal * 100, 0)
+    output['score'] = round(adjustedTotal * 100, 0)
 
     return output
 

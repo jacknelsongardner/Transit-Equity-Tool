@@ -27,8 +27,8 @@ def about():
     print(access_result)
     print(equity_result)
 
-    total_access = access_result['total']
-    total_equity = equity_result['total']
+    total_access = access_result['score']
+    total_equity = equity_result['score']
 
     equity_weight = .5
     access_weight = .5
@@ -36,10 +36,9 @@ def about():
     total = round(access_weight * total_access + (equity_weight * (100 - total_equity)), 0)
 
     data = {
-        'need': {'result':total_equity,'details':equity_result},
-        'access': {'result':total_access,'details':access_result},
+        'need': {'score':total_equity,'details':equity_result},
+        'access': {'score':total_access,'details':access_result},
         'equity': total,
-        
     }
 
     print(f'completing POST request for address: {address}')
