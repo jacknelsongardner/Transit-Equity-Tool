@@ -1,3 +1,5 @@
+import fnmatch
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -21,22 +23,58 @@ options.add_argument("--verbose")
 driver = uc.Chrome(options=options)
 
 def get_by_id(driver, element_id):
-    return WebDriverWait(driver, 10).until(
+    return WebDriverWait(driver, 3).until(
         EC.presence_of_element_located((By.ID, element_id))
     )
 
 def get_child_elements(parent_element):
     return parent_element.find_elements(By.XPATH, './*')  # Returns immediate children
 
-def click_button(button_id):
-    button = get_by_id(driver, button_id)
+def click_button(button):
     button.click()
 
-def enter_text(input_field, text):
-    input_field.clear()  # Clear existing text if necessary
-    input_field.send_keys(text)
+def get_ids_from_webpage(url):
+    driver.get(url)
+    
+    try:
+        # Wait until the body is loaded or any specific element
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.TAG_NAME, 'body'))
+        )
+        
+        # Find all elements with IDs
+        elements_with_ids = driver.find_elements(By.XPATH, '//*[@id]')  # All elements that have an 'id' attribute
 
-def getFreeChatResponse(address):
+        # Extract IDs
+        ids = [el.get_attribute('id') for el in elements_with_ids]
+        
+        return ids
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return []
+
+
+def enter_text(input_field, text):
+    # Use ActionChains to click and enter the prompt
+    actions = ActionChains(driver)
+    actions.click(input_field).send_keys(text).perform()
+
+def get_elements_by_id_pattern(driver, id_pattern):
+    # Wait for all elements to be present
+    elements = WebDriverWait(driver, 3).until(
+        EC.presence_of_all_elements_located((By.XPATH, "//*"))
+    )
+
+    #print(elements)
+
+    # Filter elements based on the fnmatch pattern
+    matched_elements = [el for el in elements if fnmatch.fnmatch(el.get_attribute('id'), id_pattern)]
+
+    print(matched_elements)
+    return matched_elements
+
+def getZillowPriceEstimate(address):
 
     # Add headless mode to run without opening the browser window
     # Note to self: comment out if you want to see the browser window
@@ -44,34 +82,55 @@ def getFreeChatResponse(address):
 
     # 1 percent of home worth per month for rent
     
+    data = {}
 
     try:
-        
-        # Getting chatGPT website
-        driver.get("https://zillow.com")
+        url = "https://zillow.com"
+        driver.get(url)
         
         # Inputting address
-        addressEntry = get_by_id(driver, "__c11n_d5w6")
-        text = "8905 19th pl SE, Lake Stevens, WA 98258"
-        enter_text(addressEntry, text)
+        print("Entering address")
+        address_entry = get_elements_by_id_pattern(driver, '__c11n_*6')
+        
+        if address_entry:
+            enter_text(address_entry[0], address)
+            print("Entered address")
+        else:
+            print("Address entry not found")
+            return data
 
-        # Clicking button
+        # Wait for button(s) to be available
+        print("Waiting for buttons")
+        sleep(2)  # Adjust as needed; replace with a proper wait if possible
 
-        sleep(3)
+        # Refetch the button elements
+        button_elements = get_elements_by_id_pattern(driver, '__c11n_*6')
+        if button_elements:
+            children = get_child_elements(button_elements[0])
+            if len(children) >= 2:
+                print("Clicking buttons")
+                click_button(children[0])  # Assume this is the correct button
+                click_button(children[1])  # Assume this is the correct button
+            else:
+                print("Not enough child elements found")
+                return data
+        else:
+            print("Button elements not found")
+            return data
 
-    except:
-        print("issue getting zillow data")
+        # Wait for the response to load
+        sleep(3)  # Replace with proper wait for loading if needed
 
-    return extract_json(response)
+    except Exception as e:
+        print(f"Issue getting Zillow data: {e}")
+
+    return data
     
 
 
 if __name__ == "__main__":
-    instructions = "get from description whether a building is a residential apartment, house, hotel, or neither (denoted by APT, HOU, HOT, NA respectively), how many dwellings, how many bedrooms in each dwelling, and whether its labelled as low income. If any info unavailable from description, label null"
-    example = "{type:'APT', lowIncome: false, dwellings:12, bedrooms:null}"
-    input = "townhouse in new ampsterdam for low income family with 3 bedrooms"
-
-    response = getFreeChatResponse(instructions=instructions, example=example, input=input)
+    address = "8905 19th pl SE, Lake Stevens, WA"
+    response = getZillowPriceEstimate(address=address)
     print(response)
     
 
