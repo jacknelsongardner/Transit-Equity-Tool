@@ -16,7 +16,7 @@ options = webdriver.ChromeOptions()
 options.add_argument(f"user-agent={UserAgent.random}")
 options.add_argument("--window-size=1920x1080")
 options.add_argument("--verbose")
-options.add_argument("--headless")
+#options.add_argument("--headless")
 
 driver = uc.Chrome(options=options)
 
@@ -32,25 +32,30 @@ def click_button(button_id):
     button = get_by_id(driver, button_id)
     button.click()
 
-def enter_text(input_id, text):
-    input_field = get_by_id(input_id)
+def enter_text(input_field, text):
     input_field.clear()  # Clear existing text if necessary
     input_field.send_keys(text)
 
-def getFreeChatResponse(instructions, example, input):
+def getFreeChatResponse(address):
 
     # Add headless mode to run without opening the browser window
     # Note to self: comment out if you want to see the browser window
     #options.add_argument("--headless")
+
+    # 1 percent of home worth per month for rent
+    
 
     try:
         
         # Getting chatGPT website
         driver.get("https://zillow.com")
         
-        # Getting 
+        # Inputting address
         addressEntry = get_by_id(driver, "__c11n_d5w6")
-        enter_text(addressEntry)
+        text = "8905 19th pl SE, Lake Stevens, WA 98258"
+        enter_text(addressEntry, text)
+
+        # Clicking button
 
         sleep(3)
 
