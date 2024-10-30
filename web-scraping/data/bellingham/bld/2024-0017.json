@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/4/2024",
+    "approve_date": "3/8/2024",
+    "description": "CONSTRUCT NEW ADU ABOVE ATTACHED GARAGE OF (E) SFR-BARNHART",
+    "expiration_date": "3/8/2026",
+    "finaled_date": null,
+    "issued_date": "3/8/2024",
+    "address": "1213 E VICTOR ST UNIT 201&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-1633",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "THERESA M BARNHART",
+            "phone": "(210)367-8862",
+            "email": "MYABYTUDE@HOTMAIL.COM",
+            "street": "1213 E VICTOR ST",
+            "state": "BELLINGHAM, WA 98225-1633",
+            "address": "1213 E VICTOR ST BELLINGHAM, WA 98225-1633"
+        },
+        {
+            "role": "OWNER",
+            "company": "THERESA M BARNHART",
+            "phone": "(210)367-8862",
+            "email": "MYABYTUDE@HOTMAIL.COM",
+            "street": "1213 E VICTOR ST",
+            "state": "BELLINGHAM, WA 98225-1633",
+            "address": "1213 E VICTOR ST BELLINGHAM, WA 98225-1633"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "WALTER S WARREN",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1213 E VICTOR ST",
+            "state": "BELLINGHAM, WA 98225-1633",
+            "address": "1213 E VICTOR ST BELLINGHAM, WA 98225-1633"
+        }
+    ]
+}

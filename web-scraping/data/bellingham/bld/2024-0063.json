@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/19/2024",
+    "approve_date": "1/19/2024",
+    "description": "REPLACE WINDOWS W/ SLIDING GLASS DOOR: SABELHAUS",
+    "expiration_date": "1/18/2026",
+    "finaled_date": null,
+    "issued_date": "1/19/2024",
+    "address": "2301 VIEW RIDGE DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-5925",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "EMILY SABELHAUS",
+            "phone": "(916)425-6653",
+            "email": "EMILY.SABELHAUS@GMAIL.COM",
+            "street": "2301 VIEW RIDGE DR",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2301 VIEW RIDGE DR BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "EMILY SABELHAUS",
+            "phone": "(916)425-6653",
+            "email": "EMILY.SABELHAUS@GMAIL.COM",
+            "street": "2301 VIEW RIDGE DR",
+            "state": "BELLINGHAM, WA 98229-5925",
+            "address": "2301 VIEW RIDGE DR BELLINGHAM, WA 98229-5925"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "PUGET CONSTRUCTION &amp; LANDSCAPING",
+            "phone": "(360)325-9216",
+            "email": "INFO@PCLWHATCOM.COM",
+            "street": "PO BOX 608",
+            "state": "LYNDEN, WA 98264",
+            "address": "PO BOX 608 LYNDEN, WA 98264"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JENNIE N LEBOWITZ",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2301 VIEW RIDGE DR",
+            "state": "BELLINGHAM, WA 98229-5925",
+            "address": "2301 VIEW RIDGE DR BELLINGHAM, WA 98229-5925"
+        }
+    ]
+}

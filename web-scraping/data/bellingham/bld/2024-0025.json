@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/8/2024",
+    "approve_date": "5/17/2024",
+    "description": "Fred Meyer Pickup Sign",
+    "expiration_date": "5/21/2026",
+    "finaled_date": null,
+    "issued_date": "5/21/2024",
+    "address": "800 LAKEWAY DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-6219",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGN POST INC, THE",
+            "phone": "(360)671-1343",
+            "email": "Kristie@THE-SIGNPOST.COM",
+            "street": "2019 E BAKERVIEW RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2019 E BAKERVIEW RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "FM BELLINGHAM LH LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "7978 COOPER CREEK BLVD",
+            "state": "UNIVERSITY PARK, FL 34201 - 2139",
+            "address": "7978 COOPER CREEK BLVD UNIVERSITY PARK, FL 34201 - 2139"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGN POST INC, THE",
+            "phone": "(360)671-1343",
+            "email": "Kristie@THE-SIGNPOST.COM",
+            "street": "2019 E BAKERVIEW RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2019 E BAKERVIEW RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Fred Meyer",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "800 Lakeway Dr.",
+            "state": "Bellingham, WA 98229",
+            "address": "800 Lakeway Dr. Bellingham, WA 98229"
+        }
+    ]
+}

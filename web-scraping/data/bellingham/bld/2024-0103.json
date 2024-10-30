@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/5/2024",
+    "approve_date": "3/22/2024",
+    "description": "ADDING ADU TO (E) SFR AND NEW 1/2 BATH TO SFR-JUDGE",
+    "expiration_date": "4/4/2026",
+    "finaled_date": null,
+    "issued_date": "4/4/2024",
+    "address": "603 E ILLINOIS ST UNIT 101&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-2628",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "DAVID M &amp; MANPREET K JUDGE",
+            "phone": "(616)773-8055",
+            "email": "DAVIDJUDGEGC@GMAIL.COM",
+            "street": "603 E ILLINOIS ST",
+            "state": "BELLINGHAM, WA 98225-2628",
+            "address": "603 E ILLINOIS ST BELLINGHAM, WA 98225-2628"
+        },
+        {
+            "role": "OWNER",
+            "company": "DAVID M &amp; MANPREET K JUDGE",
+            "phone": "(616)773-8055",
+            "email": "DAVIDJUDGEGC@GMAIL.COM",
+            "street": "603 E ILLINOIS ST",
+            "state": "BELLINGHAM, WA 98225-2628",
+            "address": "603 E ILLINOIS ST BELLINGHAM, WA 98225-2628"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "KARIN &amp; JOHN KOONS",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1659 BIRCHWOOD #200",
+            "state": "BELLINGHAM, WA 98225-1309",
+            "address": "1659 BIRCHWOOD #200 BELLINGHAM, WA 98225-1309"
+        }
+    ]
+}

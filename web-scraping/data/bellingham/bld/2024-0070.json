@@ -1,0 +1,49 @@
+{
+    "type": "REROOF",
+    "apply_date": "1/22/2024",
+    "approve_date": null,
+    "description": "Reroof: CHIPOTLE",
+    "expiration_date": "1/24/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "104 SAMISH WAY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-6032",
+    "status": "VOIDED OR WITHDRAWN",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "Tova Carr",
+            "phone": "(360)900-7663",
+            "email": "Tova@integrityrc.com",
+            "street": "19740 Viking Ave NW",
+            "state": "Poulsbo, WA 98370",
+            "address": "19740 Viking Ave NW Poulsbo, WA 98370"
+        },
+        {
+            "role": "OWNER",
+            "company": "NIU ENTERPRISES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "102 SAMISH WAY",
+            "state": "BELLINGHAM, WA 98225 - 6001",
+            "address": "102 SAMISH WAY BELLINGHAM, WA 98225 - 6001"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "Tova Carr",
+            "phone": "(360)900-7663",
+            "email": "Tova@integrityrc.com",
+            "street": "19740 Viking Ave NW",
+            "state": "Poulsbo, WA 98370",
+            "address": "19740 Viking Ave NW Poulsbo, WA 98370"
+        },
+        {
+            "role": "TENANT",
+            "company": "CHIPOTLE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "104 SAMISH WAY",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "104 SAMISH WAY BELLINGHAM, WA 98225"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/18/2024",
+    "approve_date": "2/27/2024",
+    "description": "NEW WALK-IN COOLER FOR NEW RESTAURANT: TEXAS ROADHOUSE",
+    "expiration_date": "2/26/2026",
+    "finaled_date": "10/2/2024",
+    "issued_date": "2/27/2024",
+    "address": "4331 MERIDIAN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-7624",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CAITLIN KINCAID",
+            "phone": "(224)764-0369",
+            "email": "CAITLIN.KINCAID@TEXASROADHOUSE.COM",
+            "street": "TEXAS ROADHOUSE HOLDINGS LLC",
+            "state": "LOUISVILLE, KY 40205",
+            "address": "TEXAS ROADHOUSE HOLDINGS LLC LOUISVILLE, KY 40205"
+        },
+        {
+            "role": "OWNER",
+            "company": "MERIDIAN KELLOGG LLC 65% &amp; BELLINGHAM BURNABY LLC 10% &amp;",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "CORDATA CENTER LLC 25%",
+            "state": "THE WOODLANDS, TX 77380-1448",
+            "address": "CORDATA CENTER LLC 25% THE WOODLANDS, TX 77380-1448"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "J M STITT",
+            "phone": "(951)271-3440",
+            "email": "CASEY@JMSTITT.COM",
+            "street": "3165 PALISADES DR",
+            "state": "CORONA, CA 92878",
+            "address": "3165 PALISADES DR CORONA, CA 92878"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "MARINA CARSTENS",
+            "phone": "(360)778-8333",
+            "email": "MMCARSTENS@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "BRANDON GOLDBERG",
+            "phone": "(224)764-0369",
+            "email": "BGOLDBERG@GREENBERGFARROW.COM",
+            "street": "8600 W BRYN MAWR AVE STE 800N",
+            "state": "CHICAGO, IL 60631",
+            "address": "8600 W BRYN MAWR AVE STE 800N CHICAGO, IL 60631"
+        },
+        {
+            "role": "CONTRACTOR 2",
+            "company": "ANDREA WORREL",
+            "phone": "()-",
+            "email": "AWORREL@JMSTITT.COM",
+            "street": "J M STITT",
+            "state": "CORONA, CA 92878",
+            "address": "J M STITT CORONA, CA 92878"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "KIR BELLINGHAM LP",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3333 NEW HYDE PARK RD #100",
+            "state": "NEW HYDE PARK, NY 11042-1205",
+            "address": "3333 NEW HYDE PARK RD #100 NEW HYDE PARK, NY 11042-1205"
+        },
+        {
+            "role": "LENDER",
+            "company": "TEXAS ROADHOUSE HOLDINGS LLC",
+            "phone": "(224)764-0369",
+            "email": "&nbsp;",
+            "street": "6040 DUTCHMANS LANE",
+            "state": "LOUISVILLE, KY 40205",
+            "address": "6040 DUTCHMANS LANE LOUISVILLE, KY 40205"
+        }
+    ]
+}

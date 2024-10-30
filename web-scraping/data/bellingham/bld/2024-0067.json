@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/22/2024",
+    "approve_date": null,
+    "description": "Bry's Filipino Cuisine",
+    "expiration_date": null,
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "1151 N STATE ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-5037",
+    "status": "VOIDED OR WITHDRAWN",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGNS BY TOMORROW",
+            "phone": "(360)223-7775",
+            "email": "bellingham@signsbytomorrow.com",
+            "street": "4655 GUIDE MERIDIAN",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "4655 GUIDE MERIDIAN BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "HERALD BUILDING LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1155 N STATE ST #620",
+            "state": "BELLINGHAM, WA 98225 - 5024",
+            "address": "1155 N STATE ST #620 BELLINGHAM, WA 98225 - 5024"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGNS BY TOMORROW",
+            "phone": "(360)223-7775",
+            "email": "bellingham@signsbytomorrow.com",
+            "street": "4655 GUIDE MERIDIAN",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "4655 GUIDE MERIDIAN BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Bry's Filipino Cuisine",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1155 N STATE ST",
+            "state": "Bellingham, WA 98225",
+            "address": "1155 N STATE ST Bellingham, WA 98225"
+        }
+    ]
+}

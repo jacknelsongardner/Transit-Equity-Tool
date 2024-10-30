@@ -1,0 +1,40 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/17/2024",
+    "approve_date": "2/8/2024",
+    "description": "NEW LOUVERED PERGOLA ON (E) DECK-MACFARLANE",
+    "expiration_date": "2/7/2026",
+    "finaled_date": null,
+    "issued_date": "2/8/2024",
+    "address": "924 QUEEN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-2136",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "STRUXURE OUTDOOR OF WASHINGTON",
+            "phone": "(206)934-9091",
+            "email": "karmyn.r@struxurepnw.com",
+            "street": "9116 E Sprague Ave.",
+            "state": "Spokane Valley, WA 99206",
+            "address": "9116 E Sprague Ave. Spokane Valley, WA 99206"
+        },
+        {
+            "role": "OWNER",
+            "company": "JOHN B &amp; DEBORAH B MACFARLANE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "924 QUEEN ST",
+            "state": "BELLINGHAM, WA 98229-2136",
+            "address": "924 QUEEN ST BELLINGHAM, WA 98229-2136"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "STRUCTURES NORTHWEST LLC",
+            "phone": "(206)551-2499",
+            "email": "BRANDY.T@struxurepnw.com",
+            "street": "9116 E Sprague Ave",
+            "state": "Spokane, Wa 98206",
+            "address": "9116 E Sprague Ave Spokane, Wa 98206"
+        }
+    ]
+}

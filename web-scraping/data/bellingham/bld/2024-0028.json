@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/9/2024",
+    "approve_date": "2/5/2024",
+    "description": "REMODEL KITCHEN ADD ENSUITE BATH-SPRINGALL",
+    "expiration_date": null,
+    "finaled_date": "4/29/2024",
+    "issued_date": "2/6/2024",
+    "address": "501 W INDIANA ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-1831",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "HENRY SPRINGALL &amp; THEODORA SKOLNIK",
+            "phone": "(408)679-0126",
+            "email": "HWSPRINGALL@GMAIL.COM",
+            "street": "501 W INDIANA ST",
+            "state": "BELLINGHAM, WA 98225-1831",
+            "address": "501 W INDIANA ST BELLINGHAM, WA 98225-1831"
+        },
+        {
+            "role": "OWNER",
+            "company": "HENRY SPRINGALL &amp; THEODORA SKOLNIK",
+            "phone": "(408)679-0126",
+            "email": "HWSPRINGALL@GMAIL.COM",
+            "street": "501 W INDIANA ST",
+            "state": "BELLINGHAM, WA 98225-1831",
+            "address": "501 W INDIANA ST BELLINGHAM, WA 98225-1831"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "ENVISION HOMES LLC",
+            "phone": "(206)356-7853",
+            "email": "&nbsp;",
+            "street": "2745 BROADWAY ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "2745 BROADWAY ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "BRUCE J &amp; JOAN M GELEYNSE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "501 W INDIANA ST",
+            "state": "BELLINGHAM, WA 98225-1831",
+            "address": "501 W INDIANA ST BELLINGHAM, WA 98225-1831"
+        }
+    ]
+}

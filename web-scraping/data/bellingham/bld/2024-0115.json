@@ -1,0 +1,49 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "2/9/2024",
+    "approve_date": "10/2/2024",
+    "description": "TRAIL, BRIDGES, BOARDWALKS-SUNSET POND PARK",
+    "expiration_date": "10/2/2026",
+    "finaled_date": null,
+    "issued_date": "10/2/2024",
+    "address": "JAMES STREET RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> BELLINGHAM, WA, ",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ALLISON HAZEN - COFFMAN ENGINEERS",
+            "phone": "(206)623-0717",
+            "email": "ALLISON.HAZEN@COFFMAN.COM",
+            "street": "1101 2ND AVE, STE 400",
+            "state": "SEATTLE, WA 98101",
+            "address": "1101 2ND AVE, STE 400 SEATTLE, WA 98101"
+        },
+        {
+            "role": "OWNER",
+            "company": "CITY OF BELLINGHAM",
+            "phone": "()-",
+            "email": "GAUSTIN@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225-4009",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225-4009"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "STEVE SUNDIN",
+            "phone": "(360)778-8359",
+            "email": "ssundin@cob.org",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        }
+    ]
+}

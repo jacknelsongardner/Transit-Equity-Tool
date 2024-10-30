@@ -1,0 +1,67 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/11/2024",
+    "approve_date": "3/5/2024",
+    "description": "INTERIOR REMODEL &amp; (9) NEW SKYLIGHTS: MCPHERSON",
+    "expiration_date": "3/6/2026",
+    "finaled_date": null,
+    "issued_date": "3/6/2024",
+    "address": "410 BAYSIDE RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7804",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JENNY MCPHERSON",
+            "phone": "(650)863-0370",
+            "email": "JENNY@DODGEANDASSOCIATES.COM",
+            "street": "410 BAYSIDE RD",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "410 BAYSIDE RD BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "SHANNON &amp; JENNY MCPHERSON",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "410 BAYSIDE RD",
+            "state": "BELLINGHAM, WA 98225-7804",
+            "address": "410 BAYSIDE RD BELLINGHAM, WA 98225-7804"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "BELLINGHAM BAY BUILDERS INC",
+            "phone": "(360)739-4099",
+            "email": "dave@bellinghambaybuilders.com",
+            "street": "824 N STATE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "824 N STATE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "DEBBIE DODGE",
+            "phone": "(650)863-0371",
+            "email": "DEBBIE@DODGEANDASSOCIATES.COM",
+            "street": "410 BAYSIDE RD",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "410 BAYSIDE RD BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "DAVID M MAZIARZ &amp; ROBIN GAINES",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "410 BAYSIDE RD",
+            "state": "BELLINGHAM, WA 98225-7804",
+            "address": "410 BAYSIDE RD BELLINGHAM, WA 98225-7804"
+        }
+    ]
+}

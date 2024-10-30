@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/18/2024",
+    "approve_date": "1/23/2024",
+    "description": "DEMO OF SFR DUE TO FIRE DAMAGE-SEHOME INVESTMENTS LLC",
+    "expiration_date": "1/22/2026",
+    "finaled_date": null,
+    "issued_date": "1/23/2024",
+    "address": "1123 BILLY FRANK JR ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-5109",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SEHOME INVESTMENTS LLC",
+            "phone": "(360)961-4881",
+            "email": "CYNTHIA@UPBLLC.COM",
+            "street": "1715 C STREET STE 101",
+            "state": "BELLINGHAM, WA 98225-4016",
+            "address": "1715 C STREET STE 101 BELLINGHAM, WA 98225-4016"
+        },
+        {
+            "role": "OWNER",
+            "company": "SEHOME INVESTMENTS LLC",
+            "phone": "(360)961-4881",
+            "email": "CYNTHIA@UPBLLC.COM",
+            "street": "1715 C STREET STE 101",
+            "state": "BELLINGHAM, WA 98225-4016",
+            "address": "1715 C STREET STE 101 BELLINGHAM, WA 98225-4016"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "PARBERRY ENVIR SOLUTIONS INC",
+            "phone": "(360)734-1112",
+            "email": "BRIANSCRAPIT@GMAIL.COM",
+            "street": "PO BOX 669",
+            "state": "FERNDALE, WA 98248",
+            "address": "PO BOX 669 FERNDALE, WA 98248"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "PERKINS TRUST",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PATRICK PERKINS TR",
+            "state": "BELLINGHAM, WA 98227-0865",
+            "address": "PATRICK PERKINS TR BELLINGHAM, WA 98227-0865"
+        }
+    ]
+}

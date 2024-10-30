@@ -29,9 +29,9 @@ def log_normalize(values):
     
     # Return a function that normalizes any given value
     def transform(value):
-        log_value = math.log(max(value, min_value))
-        log_min_value = math.log(min_value)
-        log_max_value = math.log(max_value)
+        log_value = np.log(np.array([max(value, min_value)]))
+        log_min_value = np.log(np.array([min_value]))
+        log_max_value = np.log(np.array([max_value]))
 
         transformed_value = (log_value - log_min) / (log_max_value - log_min_value)
         return max(0, min(transformed_value, 1))  # Ensure the value stays within [0, 1]

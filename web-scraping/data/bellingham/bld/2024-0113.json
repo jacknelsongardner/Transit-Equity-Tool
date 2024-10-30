@@ -1,0 +1,58 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "2/9/2024",
+    "approve_date": null,
+    "description": "INSTALL (1) REFRIGERATED CASE: HAGGEN",
+    "expiration_date": "2/9/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "210 36TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-6540",
+    "status": "VOIDED OR WITHDRAWN",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "BRANDON CANEDO",
+            "phone": "(206)806-4928",
+            "email": "BCANEDO@KEYMECHANICAL.COM",
+            "street": "KEY MECHANICAL CO",
+            "state": "KENT, WA 98032",
+            "address": "KEY MECHANICAL CO KENT, WA 98032"
+        },
+        {
+            "role": "OWNER",
+            "company": "NNN OPP OWNER VI LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "5973 AVENIDA ENCINAS STE 301",
+            "state": "CARLSBAD, CA 92008-4479",
+            "address": "5973 AVENIDA ENCINAS STE 301 CARLSBAD, CA 92008-4479"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "KEY MECHANICAL COMPANY OF WASHINGTON",
+            "phone": "(253)872-7392",
+            "email": "HCWALINA@KEYMECHANICAL.COM",
+            "street": "19430 68TH AVE S 'SUITE B'",
+            "state": "KENT, WA 98032",
+            "address": "19430 68TH AVE S 'SUITE B' KENT, WA 98032"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "MGP X PROPERTIES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "425 CALIFORNIA ST FL 11",
+            "state": "SAN FRANCISCO, CA 94104-2113",
+            "address": "425 CALIFORNIA ST FL 11 SAN FRANCISCO, CA 94104-2113"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

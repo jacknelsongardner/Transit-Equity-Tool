@@ -1,0 +1,58 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "2/16/2024",
+    "approve_date": "5/15/2024",
+    "description": "RETAINING WALL FOR PERIMETER OF (N) DEVELOPMENT (Tull Pl)",
+    "expiration_date": "5/15/2026",
+    "finaled_date": null,
+    "issued_date": "5/15/2024",
+    "address": "4302 TULL RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> BELLINGHAM, WA, ",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ALI TAYSI, AVT CONSULTING LLC",
+            "phone": "(360)527-9445",
+            "email": "ALI@AVTPLANNING.COM",
+            "street": "1708 F ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1708 F ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "WILLIAM &amp; PAULA MARIS",
+            "phone": "(360)220-6545",
+            "email": "boomaris@comcast.net",
+            "street": "409 ARBUTUS PL",
+            "state": "BELLINGHAM, WA 98225-8703",
+            "address": "409 ARBUTUS PL BELLINGHAM, WA 98225-8703"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "CRISPIN Y C HORNG",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3838 OSLER ST",
+            "state": "VANCOUVER BC V6H 2W8,  ",
+            "address": "3838 OSLER ST VANCOUVER BC V6H 2W8,  "
+        },
+        {
+            "role": "STRUCT ENG",
+            "company": "BRADLEY ENGINEERING INC",
+            "phone": "(360)752-5795",
+            "email": "DAVID@BRADLEYENGINEERINGINC.COM",
+            "street": "811 YEW ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "811 YEW ST BELLINGHAM, WA 98226"
+        }
+    ]
+}

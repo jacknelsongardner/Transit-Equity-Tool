@@ -1,0 +1,58 @@
+{
+    "type": "UTILITIES NEW",
+    "apply_date": "1/9/2024",
+    "approve_date": null,
+    "description": "DEFERRED UTILITIES FOR BLD2023-0960",
+    "expiration_date": null,
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "4290 CRESTON WAY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-8181",
+    "status": "VOIDED OR WITHDRAWN",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JACK BLOSS, AVT CONSULTING",
+            "phone": "(360)527-9445",
+            "email": "JACK@AVTPLANNING.COM",
+            "street": "1708 F ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1708 F ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "KELLOGG PROPERTIES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "842 E WISER LAKE RD",
+            "state": "LYNDEN, WA 98264-9671",
+            "address": "842 E WISER LAKE RD LYNDEN, WA 98264-9671"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "KELLOGG PROPERTIES LLC",
+            "phone": "(360)815-6542",
+            "email": "kevin.cldc@gmail.com",
+            "street": "842 E WISER LAKE RD",
+            "state": "LYNDEN, WA 98264-9671",
+            "address": "842 E WISER LAKE RD LYNDEN, WA 98264-9671"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "KELLOGG PROPERTIES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "842 E WISER LAKE RD",
+            "state": "LYNDEN, WA 98264-9671",
+            "address": "842 E WISER LAKE RD LYNDEN, WA 98264-9671"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

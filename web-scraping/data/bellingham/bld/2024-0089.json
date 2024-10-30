@@ -1,0 +1,58 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/30/2024",
+    "approve_date": null,
+    "description": "NEW 2-STORY SFR ON NEW LOT-MBIP BIRCH ST REALTY",
+    "expiration_date": "2/6/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "1324 BIRCH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98229-2424",
+    "status": "RTI HOLD",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JACK BLOSS, AVT CONSULTING",
+            "phone": "(360)527-9445",
+            "email": "JACK@AVTPLANNING.COM",
+            "street": "1708 F ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1708 F ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "MBIP BIRCH STREET REALTY LLC",
+            "phone": "(360)303-7654",
+            "email": "JESSKENOYER@WINDERMERE.COM",
+            "street": "PO BOX 446",
+            "state": "LYNDEN, WA 98264",
+            "address": "PO BOX 446 LYNDEN, WA 98264"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "DESIGNER",
+            "company": "ALAN MASCORD DESIGN ASSOCIATES",
+            "phone": "(503)225-9161",
+            "email": "&nbsp;",
+            "street": "1515 NW 23RD AVE",
+            "state": "PORTLAND, OR 97210",
+            "address": "1515 NW 23RD AVE PORTLAND, OR 97210"
+        }
+    ]
+}

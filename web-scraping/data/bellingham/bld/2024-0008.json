@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY DUPLEX TOWNHOME",
+    "apply_date": "1/3/2024",
+    "approve_date": "5/28/2024",
+    "description": "ADD GARAGE AND BEDROOM AND BATH ABOVE TO (E) SFR",
+    "expiration_date": "5/30/2026",
+    "finaled_date": null,
+    "issued_date": "5/30/2024",
+    "address": "313 ALABAMA ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-3801",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JOHN H HARRIS &amp; KRISTINE N STEINER",
+            "phone": "(425)273-6975",
+            "email": "KRISTINA.STEINER01@GMAIL.COM",
+            "street": "313 ALABAMA ST",
+            "state": "BELLINGHAM, WA 98225-3801",
+            "address": "313 ALABAMA ST BELLINGHAM, WA 98225-3801"
+        },
+        {
+            "role": "OWNER",
+            "company": "JOHN H HARRIS &amp; KRISTINE N STEINER",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "313 ALABAMA ST",
+            "state": "BELLINGHAM, WA 98225-3801",
+            "address": "313 ALABAMA ST BELLINGHAM, WA 98225-3801"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "NW HIGHLAND",
+            "phone": "(360)739-1476",
+            "email": "nwhighland@gmail.com",
+            "street": "1478 BOON ST",
+            "state": "SUMAS, WA 98295",
+            "address": "1478 BOON ST SUMAS, WA 98295"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "CHARLES KREIS &amp; JUSTIN &amp; BRIDGET REEVES",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2714 PATTON ST",
+            "state": "BELLINGHAM, WA 98225-1545",
+            "address": "2714 PATTON ST BELLINGHAM, WA 98225-1545"
+        },
+        {
+            "role": "LENDER",
+            "company": "UMPQUA BANK",
+            "phone": "(206)251-0096",
+            "email": "&nbsp;",
+            "street": "200 WESTLAKE AVE N STE110",
+            "state": "SEATTLE, WA 98109",
+            "address": "200 WESTLAKE AVE N STE110 SEATTLE, WA 98109"
+        }
+    ]
+}

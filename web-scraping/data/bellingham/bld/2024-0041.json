@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/11/2024",
+    "approve_date": "3/29/2024",
+    "description": "INTERIOR REMODEL TO (E) SFR. BATHS, FLOORS, WINDOWS",
+    "expiration_date": null,
+    "finaled_date": "6/24/2024",
+    "issued_date": "3/29/2024",
+    "address": "519 CLARK RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7844",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "Shannon Maris/Light House Residential Design",
+            "phone": "(360)676-1859",
+            "email": "lightsourceon@gmail.com",
+            "street": "1814 DONOVAN AVE",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1814 DONOVAN AVE BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "DRAKE WARD TRUST",
+            "phone": "(415)225-4593",
+            "email": "SCOTT@SCOTTWARD.ME",
+            "street": "ASCHA DRAKE &amp; SCOTT WARD TR",
+            "state": "OAKLAND, CA 94610-2622",
+            "address": "ASCHA DRAKE &amp; SCOTT WARD TR OAKLAND, CA 94610-2622"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "Hestad Building and Design",
+            "phone": "(360)305-7513",
+            "email": "jimhestad@gmail.com",
+            "street": "2517 UTTER ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "2517 UTTER ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED - BELLINGHAM CIDER CO",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "SCOTT WARD",
+            "phone": "(415)225-4593",
+            "email": "&nbsp;",
+            "street": "486 JEAN ST",
+            "state": "OAKLAND, CA 94610",
+            "address": "486 JEAN ST OAKLAND, CA 94610"
+        }
+    ]
+}

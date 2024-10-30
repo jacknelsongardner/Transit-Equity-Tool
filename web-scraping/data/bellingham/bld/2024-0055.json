@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY DUPLEX TOWNHOME",
+    "apply_date": "1/16/2024",
+    "approve_date": "2/7/2024",
+    "description": "INSTALL (N) FOOTINGS, POSTS, BEAM PER ENGINEER RECOM.",
+    "expiration_date": null,
+    "finaled_date": "3/22/2024",
+    "issued_date": "2/8/2024",
+    "address": "2008 37TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-6316",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MEGHAN HALLAM",
+            "phone": "(360)510-9563",
+            "email": "ACCOUNTING@WASHINGTONDECKANDFENCE.COM",
+            "street": "AMERICAN WEST LANDSCAPE &amp; CONSTRUCTION, LLC DBA DEXPERTS",
+            "state": "BELLINGHAM, WA 98227",
+            "address": "AMERICAN WEST LANDSCAPE &amp; CONSTRUCTION, LLC DBA DEXPERTS BELLINGHAM, WA 98227"
+        },
+        {
+            "role": "OWNER",
+            "company": "WILLIAM R VAN HORNE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2008 37TH ST",
+            "state": "BELLINGHAM, WA 98229-6316",
+            "address": "2008 37TH ST BELLINGHAM, WA 98229-6316"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "DEXPERTS",
+            "phone": "(360)220-0247",
+            "email": "andrew@washingtondeckandfence.com",
+            "street": "PO BOX 1992",
+            "state": "BELLINGHAM, WA 98227",
+            "address": "PO BOX 1992 BELLINGHAM, WA 98227"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JUDITH A BRIGHTMAN",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2008 37TH ST",
+            "state": "BELLINGHAM, WA 98229-6316",
+            "address": "2008 37TH ST BELLINGHAM, WA 98229-6316"
+        }
+    ]
+}

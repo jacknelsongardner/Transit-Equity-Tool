@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/16/2024",
+    "approve_date": "5/31/2024",
+    "description": "SECOND STORY ADDITION, BATH, LAUND. CVRD PATIO TO (E) SFR",
+    "expiration_date": "5/31/2026",
+    "finaled_date": null,
+    "issued_date": "5/31/2024",
+    "address": "1535 IRON ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4941",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "BRIAN M &amp; KATHLEEN D MURPHY",
+            "phone": "(360)201-1611",
+            "email": "BRIANKATYMURPHY@GMAIL.COM",
+            "street": "1535 IRON ST",
+            "state": "BELLINGHAM, WA 98225-4941",
+            "address": "1535 IRON ST BELLINGHAM, WA 98225-4941"
+        },
+        {
+            "role": "OWNER",
+            "company": "BRIAN M &amp; KATHLEEN D MURPHY",
+            "phone": "(360)201-1611",
+            "email": "BRIANKATYMURPHY@GMAIL.COM",
+            "street": "1535 IRON ST",
+            "state": "BELLINGHAM, WA 98225-4941",
+            "address": "1535 IRON ST BELLINGHAM, WA 98225-4941"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "LETT DESIGN BUILD LLC",
+            "phone": "(360)995-8078",
+            "email": "chris@lettdesignbuild.com",
+            "street": "1542 IRON ST",
+            "state": "BELLINGHAM, WA 98225-4942",
+            "address": "1542 IRON ST BELLINGHAM, WA 98225-4942"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "MATT BREWSTER, BRESTER DESIGN / BUILD LLC",
+            "phone": "(360)922-7952",
+            "email": "MATT@BREWSTERDESIGNBUILD.COM",
+            "street": "3900 ACADEMY ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3900 ACADEMY ST BELLINGHAM, WA 98226"
+        }
+    ]
+}

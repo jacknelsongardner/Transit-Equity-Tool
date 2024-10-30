@@ -1,0 +1,40 @@
+{
+    "type": "EXISTING SINGLE FAMILY DUPLEX TOWNHOME",
+    "apply_date": "1/2/2024",
+    "approve_date": null,
+    "description": "EXTEND (E) ATTACHED DECK",
+    "expiration_date": "1/3/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "1120 15TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-6632",
+    "status": "REQUEST FOR INFO",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "PETER F &amp; CHERYL L NILES",
+            "phone": "()-",
+            "email": "nilespfl@gmail.com",
+            "street": "1120 15TH ST",
+            "state": "BELLINGHAM, WA 98225-6632",
+            "address": "1120 15TH ST BELLINGHAM, WA 98225-6632"
+        },
+        {
+            "role": "OWNER",
+            "company": "PETER F &amp; CHERYL L NILES",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1120 15TH ST",
+            "state": "BELLINGHAM, WA 98225-6632",
+            "address": "1120 15TH ST BELLINGHAM, WA 98225-6632"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER EXEMPT PER RCW 18.160.020(2)",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        }
+    ]
+}

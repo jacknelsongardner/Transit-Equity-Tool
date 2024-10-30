@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/23/2024",
+    "approve_date": "4/17/2024",
+    "description": "CONVERT (E) OFFICE TO AADU: ARROYO HARRISON",
+    "expiration_date": "4/30/2026",
+    "finaled_date": null,
+    "issued_date": "4/30/2024",
+    "address": "2704 SUPERIOR ST UNIT 101&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-3906",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JESS ARROYO",
+            "phone": "(505)712-9269",
+            "email": "JESSEWARROYO@GMAIL.COM",
+            "street": "2704 SUPERIOR ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2704 SUPERIOR ST BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "JESSE ARROYO &amp; MEGAN HARRISON",
+            "phone": "()-",
+            "email": "meg.cl.harrison@gmail.com",
+            "street": "2704 SUPERIOR ST",
+            "state": "BELLINGHAM, WA 98226-3906",
+            "address": "2704 SUPERIOR ST BELLINGHAM, WA 98226-3906"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "MEG HARRISON",
+            "phone": "(719)549-1974",
+            "email": "MEG.CL.HARRISON@GMAIL.COM",
+            "street": "2704 SUPERIOR ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2704 SUPERIOR ST BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "INDIGO RIDGE CONSTRUCTION INC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 92035",
+            "state": "ALBUQUERQUE, NM 87199-2035",
+            "address": "PO BOX 92035 ALBUQUERQUE, NM 87199-2035"
+        }
+    ]
+}

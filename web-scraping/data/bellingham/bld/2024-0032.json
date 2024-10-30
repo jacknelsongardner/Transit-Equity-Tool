@@ -1,0 +1,76 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/9/2024",
+    "approve_date": "3/5/2024",
+    "description": "ADD (1) ENGINEERED FOOTING IN SERVICE BAY FOR CAR LIFT",
+    "expiration_date": "3/5/2026",
+    "finaled_date": null,
+    "issued_date": "3/5/2024",
+    "address": "1100 IOWA ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-5817",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "DAVID CAMPBELL, COOL RUNNINGS CONSTRUCTION LLC",
+            "phone": "(360)399-8014",
+            "email": "COOLRC4@GMAIL.COM",
+            "street": "1139 Nevada St",
+            "state": "Bellingham, WA 98229",
+            "address": "1139 Nevada St Bellingham, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "GO AUTO US REALCO INC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "10220 184 ST NW",
+            "state": "EDMONTON AB  T5S 0B9,  ",
+            "address": "10220 184 ST NW EDMONTON AB  T5S 0B9,  "
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "DAVID CAMPBELL, COOL RUNNINGS CONSTRUCTION LLC",
+            "phone": "(360)399-8014",
+            "email": "COOLRC4@GMAIL.COM",
+            "street": "1139 Nevada St",
+            "state": "Bellingham, WA 98229",
+            "address": "1139 Nevada St Bellingham, WA 98229"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "TOYOTA OF BELLINGHAM",
+            "phone": "(360)676-0600",
+            "email": "&nbsp;",
+            "street": "1100 IOWA ST",
+            "state": "BELLINGHAM, WA 98005 - 2012",
+            "address": "1100 IOWA ST BELLINGHAM, WA 98005 - 2012"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "DESIGNER",
+            "company": "C-HOME DESIGN LLC",
+            "phone": "(360)739-2305",
+            "email": "MPCDESIGN@LIVE.COM",
+            "street": "2400 40TH ST",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2400 40TH ST BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "BELLINGHAM INVESTMENT PROPERTIES I LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "13817 NE 20TH ST",
+            "state": "BELLEVUE, WA 98005-2012",
+            "address": "13817 NE 20TH ST BELLEVUE, WA 98005-2012"
+        }
+    ]
+}

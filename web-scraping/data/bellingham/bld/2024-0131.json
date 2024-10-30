@@ -1,0 +1,58 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "2/14/2024",
+    "approve_date": "4/10/2024",
+    "description": "OUTDOOR PLAZA W/ HISTORIC STREETCAR/CANOPY-COURTHOUSE PLAZA",
+    "expiration_date": "4/10/2026",
+    "finaled_date": null,
+    "issued_date": "4/10/2024",
+    "address": "820 W HOLLY ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MICHAEL A STEVENS - DYKEMAN ARCHITECTS",
+            "phone": "(425)530-5646",
+            "email": "MICHAELS@DYKEMAN.NET",
+            "street": "1716 W MARINE VIEW DR",
+            "state": "EVERETT, WA 98201",
+            "address": "1716 W MARINE VIEW DR EVERETT, WA 98201"
+        },
+        {
+            "role": "OWNER",
+            "company": "BRAD L &amp; JANICE M PARBERRY",
+            "phone": "(650)616-4540",
+            "email": "bparberry@cavallini.com",
+            "street": "PO BOX R",
+            "state": "BELLINGHAM, WA 98227-1305",
+            "address": "PO BOX R BELLINGHAM, WA 98227-1305"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "Alex Yuska - Dawson Const",
+            "phone": "(360)756-1000",
+            "email": "ayuska@dawson.com",
+            "street": "405 32ND ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "405 32ND ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "LARA PALMATIER",
+            "phone": "(360)778-8321",
+            "email": "lpalmatier@cob.org",
+            "street": "210 LOTTIE ST.",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "210 LOTTIE ST. BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "PARBERRY'S INC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX R",
+            "state": "BELLINGHAM, WA 98227-1305",
+            "address": "PO BOX R BELLINGHAM, WA 98227-1305"
+        }
+    ]
+}

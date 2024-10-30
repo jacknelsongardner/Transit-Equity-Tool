@@ -1,0 +1,76 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/13/2024",
+    "approve_date": "4/18/2024",
+    "description": "NEW 1,720 SF SFR W/ 408 SF (A) GARAGE: YUSKA",
+    "expiration_date": "4/22/2026",
+    "finaled_date": null,
+    "issued_date": "4/22/2024",
+    "address": "2336 IRON ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-3817",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "T. PAUL YUSKA",
+            "phone": "(360)920-8530",
+            "email": "PKYUSKA@GMAIL.COM",
+            "street": "3705 E CONNECTICUT ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3705 E CONNECTICUT ST BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "TIMOTHY P &amp; KIMBERLY R YUSKA",
+            "phone": "(360)920-8530",
+            "email": "PKYUSKA@GMAIL.COM",
+            "street": "3705 E CONNECTICUT ST",
+            "state": "BELLINGHAM, WA 98226-4382",
+            "address": "3705 E CONNECTICUT ST BELLINGHAM, WA 98226-4382"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "ARCHITECT",
+            "company": "SERGIO RUIZ",
+            "phone": "(360)676-9501",
+            "email": "SERGIO@GRINSTADWAGNER.COM",
+            "street": "GRINSTAD &amp; WAGNER ARCHITECTS",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "GRINSTAD &amp; WAGNER ARCHITECTS BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "LAZER CONSTRUCTION LLC",
+            "phone": "(360)410-9468",
+            "email": "LAZER.CONSTRUCTIONLLC@GMAIL.COM",
+            "street": "1908 BUTTERCUP DR",
+            "state": "LYNDEN, WA 98264",
+            "address": "1908 BUTTERCUP DR LYNDEN, WA 98264"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JAMES P REILLY",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2336 IRON ST",
+            "state": "BELLINGHAM, WA 98225-3817",
+            "address": "2336 IRON ST BELLINGHAM, WA 98225-3817"
+        }
+    ]
+}

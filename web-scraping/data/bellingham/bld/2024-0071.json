@@ -1,0 +1,49 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/23/2024",
+    "approve_date": "1/23/2024",
+    "description": "NEW PERMIT FOR EXPIRED PERMIT BLD2021-0361",
+    "expiration_date": "1/22/2026",
+    "finaled_date": null,
+    "issued_date": "1/23/2024",
+    "address": "4141 BENNETT DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-9112",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MARK COSTELLO",
+            "phone": "(360)739-2305",
+            "email": "MPCDESIGN@LIVE.COM",
+            "street": "2400 40TH ST",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2400 40TH ST BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "MULTIPLE DIST 19 LIONS CLUB INTERNATIONAL",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4141 W MAPLEWOOD AVE",
+            "state": "BELLINGHAM, WA 98226-9112",
+            "address": "4141 W MAPLEWOOD AVE BELLINGHAM, WA 98226-9112"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "C-HOME DESIGN LLC",
+            "phone": "(360)739-2305",
+            "email": "MPCDESIGN@LIVE.COM",
+            "street": "2400 40TH ST",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2400 40TH ST BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

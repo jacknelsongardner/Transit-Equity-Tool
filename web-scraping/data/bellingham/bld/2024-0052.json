@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/16/2024",
+    "approve_date": "2/6/2024",
+    "description": "Auto Zone Exteriorior Sign Package",
+    "expiration_date": "2/6/2026",
+    "finaled_date": null,
+    "issued_date": "2/7/2024",
+    "address": "4061 MERIDIAN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-5516",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "4061 MERIDIAN ST LLC",
+            "phone": "()-",
+            "email": "PAT@GULLOIL.COM",
+            "street": "3404 4TH AVE S",
+            "state": "SEATTLE, WA 98134 - 1932",
+            "address": "3404 4TH AVE S SEATTLE, WA 98134 - 1932"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Auto Zone",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4061 Meridian St",
+            "state": "Bellingham, WA 98226",
+            "address": "4061 Meridian St Bellingham, WA 98226"
+        }
+    ]
+}

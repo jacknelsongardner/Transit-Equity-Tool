@@ -1,0 +1,49 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/24/2024",
+    "approve_date": "3/25/2024",
+    "description": "NEW WASHER/DRYER-CORDATA ELEMENTARY",
+    "expiration_date": "5/8/2026",
+    "finaled_date": null,
+    "issued_date": "5/8/2024",
+    "address": "4420 ALDRICH RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-9680",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ZACHARY HAM/DYKEMAN ARCHITECTS",
+            "phone": "(425)259-3161",
+            "email": "ZACHH@DYKEMAN.NET",
+            "street": "1716 W MARINE VIEW DR",
+            "state": "EVERETT, WA 98201",
+            "address": "1716 W MARINE VIEW DR EVERETT, WA 98201"
+        },
+        {
+            "role": "OWNER",
+            "company": "BELLINGHAM SCHOOL DISTRICT 501",
+            "phone": "()-",
+            "email": "CURTIS.LAWYER@BELLINGHAMSCHOOLS.ORG",
+            "street": "1306 DUPONT ST",
+            "state": "BELLINGHAM, WA 98225-3118",
+            "address": "1306 DUPONT ST BELLINGHAM, WA 98225-3118"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "METRIX ENGINEERS",
+            "phone": "(425)336-2822",
+            "email": "BRADYB@METRIXENG.COM",
+            "street": "227 WILLIAMS AVE S",
+            "state": "RENTON, WA 98057",
+            "address": "227 WILLIAMS AVE S RENTON, WA 98057"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "ROBIN ELDORE",
+            "phone": "()-",
+            "email": "RELDORE@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        }
+    ]
+}

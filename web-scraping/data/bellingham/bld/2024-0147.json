@@ -1,0 +1,40 @@
+{
+    "type": "BUILDING MULTIFAMILY RESIDENTIAL",
+    "apply_date": "2/16/2024",
+    "approve_date": null,
+    "description": "REVOVATIONS TO (E) MULTIFAMILY HOME-LYDIA PLACE",
+    "expiration_date": "3/13/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "1701 GLADSTONE ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-5329",
+    "status": "REQUEST FOR INFO",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ZACH NEWHARD, ZERVAS GROUP ARCHITECTS",
+            "phone": "(360)734-4744",
+            "email": "ZACH@ZERVASGROUP.COM",
+            "street": "209 PROSPECT ST STE 1",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "209 PROSPECT ST STE 1 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "LYDIA PLACE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 28487",
+            "state": "BELLINGHAM, WA 98228-0487",
+            "address": "PO BOX 28487 BELLINGHAM, WA 98228-0487"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

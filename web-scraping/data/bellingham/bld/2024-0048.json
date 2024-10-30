@@ -1,0 +1,67 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/12/2024",
+    "approve_date": "3/22/2024",
+    "description": "NEW DADU ON (E) SFR LOT-ALLIANCE PROP 2000 LLC",
+    "expiration_date": null,
+    "finaled_date": "9/9/2024",
+    "issued_date": "3/22/2024",
+    "address": "3012 ELDRIDGE AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-1565",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "TRAVIS BLACK",
+            "phone": "(360)303-4024",
+            "email": "travisxblack@gmail.com",
+            "street": "PO BOX 28340",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "PO BOX 28340 BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "QUINN LIVESEY",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4407 BLACKSTONE WAY",
+            "state": "BELLINGHAM, WA 98226-7780",
+            "address": "4407 BLACKSTONE WAY BELLINGHAM, WA 98226-7780"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TRAVIS BLACK",
+            "phone": "(360)303-4024",
+            "email": "travisxblack@gmail.com",
+            "street": "PO BOX 28340",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "PO BOX 28340 BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "RAM CONSTRUCTION",
+            "phone": "(360)715-8643",
+            "email": "lou@RAMCONSTRUCTION-WA.COM",
+            "street": "4290 PACIFIC HWY",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "4290 PACIFIC HWY BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "QUINN M LIVESEY",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4407 BLACKSTONE WAY",
+            "state": "BELLINGHAM, WA 98226-7780",
+            "address": "4407 BLACKSTONE WAY BELLINGHAM, WA 98226-7780"
+        }
+    ]
+}

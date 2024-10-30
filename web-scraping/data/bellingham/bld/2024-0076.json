@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/24/2024",
+    "approve_date": "2/13/2024",
+    "description": "DEMO SFR AND DETACHED GARAGE",
+    "expiration_date": "2/12/2026",
+    "finaled_date": null,
+    "issued_date": "2/13/2024",
+    "address": "1904 RAINIER AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-9377",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CITY OF BELLINGHAM PARK DEPT-James Weppler",
+            "phone": "(360)778-7119",
+            "email": "JDWEPPLER@COB.ORG",
+            "street": "2221 Pacific St",
+            "state": "BELLINGHAM, WA 98225 - 4009",
+            "address": "2221 Pacific St BELLINGHAM, WA 98225 - 4009"
+        },
+        {
+            "role": "OWNER",
+            "company": "CITY OF BELLINGHAM",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225-4089",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225-4089"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "LEWIS G GERNER &amp; JUANITA BUCKLEY &amp;",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "TAMARA MARTIN &amp; CAROLE L HENLEY 20% EA &amp;",
+            "state": "BELLINGHAM, WA 98229-5101",
+            "address": "TAMARA MARTIN &amp; CAROLE L HENLEY 20% EA &amp; BELLINGHAM, WA 98229-5101"
+        }
+    ]
+}

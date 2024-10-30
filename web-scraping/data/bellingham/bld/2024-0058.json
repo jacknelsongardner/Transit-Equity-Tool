@@ -1,0 +1,40 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/18/2024",
+    "approve_date": "1/25/2024",
+    "description": "DEMO AND DISPOSAL OF SFR SINGLE WIDE MH-COPPS",
+    "expiration_date": "1/25/2026",
+    "finaled_date": null,
+    "issued_date": "1/26/2024",
+    "address": "1200 LINCOLN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-5746",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JT MUENSCHER GENERAL CONTRACTOR INC",
+            "phone": "(360)398-8038",
+            "email": "JTM3408@MSN.COM",
+            "street": "1902 E. HEMMI RD",
+            "state": "EVERSON, WA 98247",
+            "address": "1902 E. HEMMI RD EVERSON, WA 98247"
+        },
+        {
+            "role": "OWNER",
+            "company": "RIO GRANDE INV LLC 92.41064% &amp;",
+            "phone": "()-",
+            "email": "PCHASE@FOLLETTUSA.COM",
+            "street": "JONES LAKEWAY LLC 7.58936%",
+            "state": "SACRAMENTO, CA 95864-5950",
+            "address": "JONES LAKEWAY LLC 7.58936% SACRAMENTO, CA 95864-5950"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "JT MUENSCHER GENERAL CONTRACTOR INC",
+            "phone": "(360)398-8038",
+            "email": "JTM3408@MSN.COM",
+            "street": "1902 E. HEMMI RD",
+            "state": "EVERSON, WA 98247",
+            "address": "1902 E. HEMMI RD EVERSON, WA 98247"
+        }
+    ]
+}

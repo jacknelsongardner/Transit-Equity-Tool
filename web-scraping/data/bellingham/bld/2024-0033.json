@@ -1,0 +1,49 @@
+{
+    "type": "NEW CONSTRUCTION TOWNHOME",
+    "apply_date": "1/10/2024",
+    "approve_date": null,
+    "description": "3-STORY TOWNHOME IN 4-UNIT BLD-PARK SLOPE",
+    "expiration_date": "3/12/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "1315 YONKERS CT&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-8707",
+    "status": "RTI HOLD",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ZACH NEWHARD, ZERVAS GROUP ARCHITECTS",
+            "phone": "(360)734-4744",
+            "email": "ZACH@ZERVASGROUP.COM",
+            "street": "209 PROSPECT ST STE 1",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "209 PROSPECT ST STE 1 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "GREENBRIAR CONSTRUCTION CORP",
+            "phone": "(360)676-1799",
+            "email": "JOSH@GREENBRIARHOMES.NET",
+            "street": "2200 DIVISION ST #E",
+            "state": "BELLINGHAM, WA 98226-7149",
+            "address": "2200 DIVISION ST #E BELLINGHAM, WA 98226-7149"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

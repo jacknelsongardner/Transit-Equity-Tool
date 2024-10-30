@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/5/2024",
+    "approve_date": "2/5/2024",
+    "description": "REPLACING (E) PICTURE WINDOW W/ (N) BAY WINDOW",
+    "expiration_date": "2/25/2026",
+    "finaled_date": null,
+    "issued_date": "2/26/2024",
+    "address": "2202 SAMISH WAY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-3350",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ROWCLIFFES HANDYMAN SERVICES",
+            "phone": "(360)383-7438",
+            "email": "CASEYROWCLIFFE@YAHOO.COM",
+            "street": "6861 EVERSON GOSHEN RD",
+            "state": "EVERSON, WA 98247",
+            "address": "6861 EVERSON GOSHEN RD EVERSON, WA 98247"
+        },
+        {
+            "role": "OWNER",
+            "company": "MICHAEL A &amp; MICHELE C PAGANO",
+            "phone": "(360)201-9585",
+            "email": "&nbsp;",
+            "street": "2202 SAMISH WAY",
+            "state": "BELLINGHAM, WA 98229-3350",
+            "address": "2202 SAMISH WAY BELLINGHAM, WA 98229-3350"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "ROWCLIFFES HANDYMAN SERVICES",
+            "phone": "(360)383-7438",
+            "email": "CASEYROWCLIFFE@YAHOO.COM",
+            "street": "6861 EVERSON GOSHEN RD",
+            "state": "EVERSON, WA 98247",
+            "address": "6861 EVERSON GOSHEN RD EVERSON, WA 98247"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

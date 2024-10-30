@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/31/2024",
+    "approve_date": "2/15/2024",
+    "description": "Storefront Hanging Awning Sign and Vinyl Letter Stickers",
+    "expiration_date": "2/19/2026",
+    "finaled_date": null,
+    "issued_date": "2/20/2024",
+    "address": "1310 COMMERCIAL ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4344",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "Andrea Lawson",
+            "phone": "(360)325-2570",
+            "email": "mwsoapworks@gmail.com",
+            "street": "1310 COMMERCIAL ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1310 COMMERCIAL ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "CITY OF BELLINGHAM FINANCE DEPT",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "ASSET DIVISION",
+            "state": "BELLINGHAM, WA 98225 - 4009",
+            "address": "ASSET DIVISION BELLINGHAM, WA 98225 - 4009"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "Stickers for Days/The Sign Post",
+            "phone": "(360)306-3953",
+            "email": "info@stickersfordays.com",
+            "street": "2110 James St.",
+            "state": "Bellingham, WA 98225",
+            "address": "2110 James St. Bellingham, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "MW Soapworks",
+            "phone": "()-",
+            "email": "mwsoapworks@gmail.com",
+            "street": "1310 COMMERCIAL ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1310 COMMERCIAL ST BELLINGHAM, WA 98225"
+        }
+    ]
+}

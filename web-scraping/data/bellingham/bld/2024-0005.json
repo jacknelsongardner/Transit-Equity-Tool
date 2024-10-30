@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/2/2024",
+    "approve_date": "2/28/2024",
+    "description": "REPLACE (E) MAN DOORS W GARAGE DOORS-CASARES",
+    "expiration_date": "2/28/2026",
+    "finaled_date": null,
+    "issued_date": "2/29/2024",
+    "address": "1401 LAKEWAY DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-2007",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MARIO MARTINEZ",
+            "phone": "(206)960-9340",
+            "email": "Mario.Robles.martinez@gmail.com",
+            "street": "1329 GREENWICH WALK NE",
+            "state": "ISSAQUAH, WA 98029",
+            "address": "1329 GREENWICH WALK NE ISSAQUAH, WA 98029"
+        },
+        {
+            "role": "OWNER",
+            "company": "1401 LAKEWAY DR TRUST",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "ARCHIKIAN ENTERPRISES LLC TR",
+            "state": "LAS VEGAS, NV 89121-2257",
+            "address": "ARCHIKIAN ENTERPRISES LLC TR LAS VEGAS, NV 89121-2257"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "MARIO R MARTINEZ &amp; PRAPASSORN AMORNCHAINONT",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1329 GREENWICH WALK NE",
+            "state": "ISSAQUAH, WA 98029-6273",
+            "address": "1329 GREENWICH WALK NE ISSAQUAH, WA 98029-6273"
+        }
+    ]
+}

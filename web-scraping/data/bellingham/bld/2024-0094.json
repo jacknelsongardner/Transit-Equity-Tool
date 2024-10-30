@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/31/2024",
+    "approve_date": "2/16/2024",
+    "description": "REMOVING DECKS-MULJAT",
+    "expiration_date": "2/19/2026",
+    "finaled_date": "7/15/2024",
+    "issued_date": "2/20/2024",
+    "address": "2105 KNOX AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-6840",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CRIM BROTHERS CONSTRUCTION",
+            "phone": "(360)927-3757",
+            "email": "greg.crim@gmail.com",
+            "street": "5400 Blue Sky Way",
+            "state": "Ferndale, Wa 98248",
+            "address": "5400 Blue Sky Way Ferndale, Wa 98248"
+        },
+        {
+            "role": "OWNER",
+            "company": "TROY C &amp; HEATHER M MULJAT",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "8303 DOUBLE DITCH RD",
+            "state": "LYNDEN, WA 98264-9791",
+            "address": "8303 DOUBLE DITCH RD LYNDEN, WA 98264-9791"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "CRIM BROTHERS CONSTRUCTION",
+            "phone": "(360)927-3757",
+            "email": "greg.crim@gmail.com",
+            "street": "5400 Blue Sky Way",
+            "state": "Ferndale, Wa 98248",
+            "address": "5400 Blue Sky Way Ferndale, Wa 98248"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "MULJAT INVESTMENTS LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "8303 DOUBLE DITCH RD",
+            "state": "LYNDEN, WA 98264-9791",
+            "address": "8303 DOUBLE DITCH RD LYNDEN, WA 98264-9791"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/8/2024",
+    "approve_date": "1/31/2024",
+    "description": "OSPREY NESTING PLATFORM-PORT OF BELLINGHAM",
+    "expiration_date": "1/30/2026",
+    "finaled_date": "7/12/2024",
+    "issued_date": "1/31/2024",
+    "address": "100 HARRIS AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7019",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "IGOR KASKO",
+            "phone": "(360)715-7393",
+            "email": "IGORK@PORTOFBELLINGHAM.COM",
+            "street": "PORT OF BELLINGHAM",
+            "state": "BELLINGHAM, WA 98227-1677",
+            "address": "PORT OF BELLINGHAM BELLINGHAM, WA 98227-1677"
+        },
+        {
+            "role": "OWNER",
+            "company": "PORT OF BELLINGHAM",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 1677",
+            "state": "BELLINGHAM, WA 98227-1677",
+            "address": "PO BOX 1677 BELLINGHAM, WA 98227-1677"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        }
+    ]
+}

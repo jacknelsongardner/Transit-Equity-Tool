@@ -1,0 +1,49 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/15/2024",
+    "approve_date": "6/11/2024",
+    "description": "NEW SFR W ATTACHED GARAGE AND ADU-WILSON",
+    "expiration_date": "6/11/2026",
+    "finaled_date": null,
+    "issued_date": "6/11/2024",
+    "address": "2810 RACINE ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-3616",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "RILEY MARCUS AVT CONSULTING LLC",
+            "phone": "(360)527-9445",
+            "email": "RILEY@AVTPLANNING.COM",
+            "street": "1708 F ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1708 F ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "NATHANIEL &amp; CHRISTY A WILSON",
+            "phone": "()-",
+            "email": "MOOIEMOSES@GMAIL.COM",
+            "street": "875 REVEILLE ST",
+            "state": "BELLINGHAM, WA 98229-8804",
+            "address": "875 REVEILLE ST BELLINGHAM, WA 98229-8804"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "MCFARLANE CONST INC",
+            "phone": "(360)733-1555",
+            "email": "brian@mcfarlaneconstruction.com",
+            "street": "725 SUNSET POND LN UNIT #3",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "725 SUNSET POND LN UNIT #3 BELLINGHAM, WA 98226"
+        }
+    ]
+}

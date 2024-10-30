@@ -1,0 +1,40 @@
+{
+    "type": "REROOF",
+    "apply_date": "2/15/2024",
+    "approve_date": "2/28/2024",
+    "description": "Michael's Crafts Reroof",
+    "expiration_date": "3/1/2026",
+    "finaled_date": null,
+    "issued_date": "3/1/2024",
+    "address": "4383 MERIDIAN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-7624",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "HYTECH ROOFING, INC.",
+            "phone": "(360)354-4335",
+            "email": "jhagedorn@hytechroofing.com",
+            "street": "7381 GUIDE MERIDIAN",
+            "state": "LYNDEN, WA 98264",
+            "address": "7381 GUIDE MERIDIAN LYNDEN, WA 98264"
+        },
+        {
+            "role": "OWNER",
+            "company": "KIRBY PROPERTIES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 831076",
+            "state": "PEPEEKEO, HI 96783 - 1071",
+            "address": "PO BOX 831076 PEPEEKEO, HI 96783 - 1071"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "HYTECH ROOFING, INC.",
+            "phone": "(360)354-4335",
+            "email": "jhagedorn@hytechroofing.com",
+            "street": "7381 GUIDE MERIDIAN",
+            "state": "LYNDEN, WA 98264",
+            "address": "7381 GUIDE MERIDIAN LYNDEN, WA 98264"
+        }
+    ]
+}

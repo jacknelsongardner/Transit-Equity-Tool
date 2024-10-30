@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/16/2024",
+    "approve_date": "3/12/2024",
+    "description": "REPAIR DRYWALL &amp; FRAMING AFTER FIRE: 1020 E ILLINOIS ST LLC",
+    "expiration_date": null,
+    "finaled_date": "8/5/2024",
+    "issued_date": "2/21/2024",
+    "address": "1020 E ILLINOIS ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-3559",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "VLADIMIR CHERNOMORETS",
+            "phone": "(360)220-1310",
+            "email": "MARVIKSLLC@GMAIL.COM",
+            "street": "MARVIKS LLC",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "MARVIKS LLC BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "1020 E ILLINOIS ST LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3547 LAKEWAY DR",
+            "state": "BELLINGHAM, WA 98229-2480",
+            "address": "3547 LAKEWAY DR BELLINGHAM, WA 98229-2480"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "MARVIKS LLC",
+            "phone": "(360)220-1310",
+            "email": "MARVIKSLLC@GMAIL.COM",
+            "street": "3020 W MAPLEWOOD AVE",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "3020 W MAPLEWOOD AVE BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "DAVID N &amp; C KAY HANSEN",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3547 LAKEWAY DR",
+            "state": "BELLINGHAM, WA 98229-2480",
+            "address": "3547 LAKEWAY DR BELLINGHAM, WA 98229-2480"
+        }
+    ]
+}

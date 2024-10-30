@@ -1,0 +1,67 @@
+{
+    "type": "NEW CONSTRUCTION TOWNHOME",
+    "apply_date": "2/15/2024",
+    "approve_date": null,
+    "description": "NEW TOWNHOME BLD 4 LOT 33: BARKLEY HEIGHTS",
+    "expiration_date": "2/21/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "3631 SUSSEX DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-8696",
+    "status": "IN REVIEW",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "Roberta Clark",
+            "phone": "(360)671-2550",
+            "email": "ROBERTA@arbournorth.com",
+            "street": "3647 TOAD LAKE RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3647 TOAD LAKE RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "BARKLEY HEIGHTS II LLC 67% &amp;",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "BELLINGHAM LAND TRUST 33%",
+            "state": "BELLINGHAM, WA 98228-3548",
+            "address": "BELLINGHAM LAND TRUST 33% BELLINGHAM, WA 98228-3548"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SUMMIT CONSTRUCTION GROUP INC",
+            "phone": "(360)319-0898",
+            "email": "DAVID@SEESUMMIT.COM",
+            "street": "PO BOX 31548",
+            "state": "BELLINGHAM, WA 98228",
+            "address": "PO BOX 31548 BELLINGHAM, WA 98228"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "BARKLEY HEIGHTS II LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 31548",
+            "state": "BELLINGHAM, WA 98228-3548",
+            "address": "PO BOX 31548 BELLINGHAM, WA 98228-3548"
+        },
+        {
+            "role": "OWNER 2",
+            "company": "DAVID EBENAL",
+            "phone": "(360)319-0898",
+            "email": "DAVID@EBENAL.COM",
+            "street": "DOMINION SUSTAINABLE DEVELOPMENT",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "DOMINION SUSTAINABLE DEVELOPMENT BELLINGHAM, WA 98226"
+        }
+    ]
+}

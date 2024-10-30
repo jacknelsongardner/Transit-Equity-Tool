@@ -1,0 +1,49 @@
+{
+    "type": "BUILDING MULTIFAMILY RESIDENTIAL",
+    "apply_date": "1/18/2024",
+    "approve_date": "2/27/2024",
+    "description": "REPAIR H2O DAMAGED UNITS DUE TO SPRINKLER LEAK",
+    "expiration_date": "2/26/2026",
+    "finaled_date": null,
+    "issued_date": "2/27/2024",
+    "address": "2314 WEATHERBY WAY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-3805",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "RYAN PFLUEGER",
+            "phone": "(306)927-5588",
+            "email": "RYAN@TALBOTGROUP.COM",
+            "street": "TALBOT REAL ESTATE, LLC",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "TALBOT REAL ESTATE, LLC BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "WEATHERBY LIVING LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2219 RIMLAND DR STE 115",
+            "state": "BELLINGHAM, WA 98226-8661",
+            "address": "2219 RIMLAND DR STE 115 BELLINGHAM, WA 98226-8661"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "EXXEL PACIFIC INC",
+            "phone": "(360)734-2872",
+            "email": "ADAMB@exxelpacific.com",
+            "street": "323 TELEGRAPH RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "323 TELEGRAPH RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "TALBOT REAL ESTATE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "ATTN JAMES G TALBOT",
+            "state": "BELLINGHAM, WA 98226-8661",
+            "address": "ATTN JAMES G TALBOT BELLINGHAM, WA 98226-8661"
+        }
+    ]
+}

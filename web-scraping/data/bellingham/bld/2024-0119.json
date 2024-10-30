@@ -1,0 +1,58 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "2/12/2024",
+    "approve_date": "7/22/2024",
+    "description": "NEW NATIVE AMERICAN STUDENT UNION BUILDING-WWU",
+    "expiration_date": "8/22/2026",
+    "finaled_date": null,
+    "issued_date": "8/22/2024",
+    "address": "505 ARBORETUM DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "KATHI WILLIAMS, ROLLUDA ARCHITECTS, INC",
+            "phone": "(206)624-4222",
+            "email": "kathi@rolludaarchitects.com",
+            "street": "105 S MAIN ST SUITE 4S",
+            "state": "SEATTLE, WA 98104",
+            "address": "105 S MAIN ST SUITE 4S SEATTLE, WA 98104"
+        },
+        {
+            "role": "OWNER",
+            "company": "CHRISTOPHER MEAD",
+            "phone": "(360)650-4005",
+            "email": "MEADC7@WWU.EDU",
+            "street": "516 HIGH ST MS 9122",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "516 HIGH ST MS 9122 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "WELLMAN &amp; ZUCK INC",
+            "phone": "(360)734-7454",
+            "email": "cabbey@wellmanzuck.com",
+            "street": "2010 MOORE ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2010 MOORE ST BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "ROBIN ELDORE",
+            "phone": "()-",
+            "email": "RELDORE@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

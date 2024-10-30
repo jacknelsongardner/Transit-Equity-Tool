@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/30/2024",
+    "approve_date": "2/12/2024",
+    "description": "PeaceHealth Central Garage",
+    "expiration_date": "2/12/2026",
+    "finaled_date": null,
+    "issued_date": "2/13/2024",
+    "address": "3005 SQUALICUM PKWY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-1949",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "SISTERS OF ST JOSEPH OF PEACE &amp;",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "HEALTH HOSPITAL SERVICES",
+            "state": "VANCOUVER, WA 98683 - 8003",
+            "address": "HEALTH HOSPITAL SERVICES VANCOUVER, WA 98683 - 8003"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "St Joseph Hospital-PeaceHealth",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "HEALTH HOSPITAL SERVICES",
+            "state": "VANCOUVER, WA 98683",
+            "address": "HEALTH HOSPITAL SERVICES VANCOUVER, WA 98683"
+        }
+    ]
+}

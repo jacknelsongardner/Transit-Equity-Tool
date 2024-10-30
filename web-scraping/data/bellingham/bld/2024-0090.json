@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/30/2024",
+    "approve_date": "2/2/2024",
+    "description": "CONVERT (E) CLOSET TO HALF-BATH &amp; REPAIRS: JONES",
+    "expiration_date": "2/6/2026",
+    "finaled_date": null,
+    "issued_date": "2/7/2024",
+    "address": "1119 NORTHSHORE DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-9420",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CASALI REMODELING LLC",
+            "phone": "(360)536-4604",
+            "email": "chris@casaliremodeling.com",
+            "street": "PO BOX 63",
+            "state": "LYNDEN, WA 98264",
+            "address": "PO BOX 63 LYNDEN, WA 98264"
+        },
+        {
+            "role": "OWNER",
+            "company": "JACK JONES",
+            "phone": "()-",
+            "email": "JDJONES9876@GMAIL.COM",
+            "street": "16620 THIRD AVE SE",
+            "state": "BOTHELL, WA 98012-5939",
+            "address": "16620 THIRD AVE SE BOTHELL, WA 98012-5939"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "CASALI REMODELING LLC",
+            "phone": "(360)536-4604",
+            "email": "chris@casaliremodeling.com",
+            "street": "PO BOX 63",
+            "state": "LYNDEN, WA 98264",
+            "address": "PO BOX 63 LYNDEN, WA 98264"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "CORRY &amp; GRETCHEN MORRIS",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1119 N SHORE DR",
+            "state": "BELLINGHAM, WA 98226-9420",
+            "address": "1119 N SHORE DR BELLINGHAM, WA 98226-9420"
+        }
+    ]
+}

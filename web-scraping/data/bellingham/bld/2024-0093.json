@@ -1,0 +1,67 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/31/2024",
+    "approve_date": "3/21/2024",
+    "description": "COMBINE (2) (E) OFFICE SPACES TO (1)-KESTREL ENGINEERING",
+    "expiration_date": "3/21/2026",
+    "finaled_date": "8/8/2024",
+    "issued_date": "3/21/2024",
+    "address": "4370 CORDATA PKWY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-8019",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MARCUS JOHNSON",
+            "phone": "(360)738-4646",
+            "email": "mjarch@me.com",
+            "street": "2020 PROSPECT WAY",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2020 PROSPECT WAY BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "FOXGLOVE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1329 N STATE ST #201",
+            "state": "BELLINGHAM, WA 98225-4754",
+            "address": "1329 N STATE ST #201 BELLINGHAM, WA 98225-4754"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "BRAAM CONSTRUCTION",
+            "phone": "(360)441-2155",
+            "email": "braamconstruction@yahoo.com",
+            "street": "1900 MT BAKER HWY",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "1900 MT BAKER HWY BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "ROBIN ELDORE",
+            "phone": "()-",
+            "email": "RELDORE@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "KESTREL ENGINEERING GROUP INC.",
+            "phone": "(406)672-9922",
+            "email": "BONNIE.WELLS@KESTRELENGGROUP.COM",
+            "street": "4370 CORDATA PKWY",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "4370 CORDATA PKWY BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "NONE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

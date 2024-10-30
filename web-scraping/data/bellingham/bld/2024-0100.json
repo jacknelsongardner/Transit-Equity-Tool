@@ -1,0 +1,58 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "2/5/2024",
+    "approve_date": "3/27/2024",
+    "description": "CONVERT (E) SFR TO OFFICES-SUNSET LAND LLC",
+    "expiration_date": "3/27/2026",
+    "finaled_date": "4/26/2024",
+    "issued_date": "3/27/2024",
+    "address": "2302 E SUNSET DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-5620",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SARAH BROWN ARCHITECTURE &amp; DESIGN",
+            "phone": "(360)920-5498",
+            "email": "SARAH@SBARCHDESIGN.COM",
+            "street": "3222 EAGLERIDGE WAY",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3222 EAGLERIDGE WAY BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "SUNSET LAND LLC",
+            "phone": "(360)671-6450",
+            "email": "john@talbotgroup.com",
+            "street": "2219 RIMLAND DR STE 115",
+            "state": "BELLINGHAM, WA 98226-8661",
+            "address": "2219 RIMLAND DR STE 115 BELLINGHAM, WA 98226-8661"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SCOCON LLC",
+            "phone": "(360)739-0256",
+            "email": "tim@SCOCON.COM",
+            "street": "PO BOX 5265",
+            "state": "BELLINGHAM, WA 98227",
+            "address": "PO BOX 5265 BELLINGHAM, WA 98227"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "ROBIN ELDORE",
+            "phone": "()-",
+            "email": "RELDORE@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JOHN &amp; MARIE STIEHL",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 31325",
+            "state": "BELLINGHAM, WA 98228-4325",
+            "address": "PO BOX 31325 BELLINGHAM, WA 98228-4325"
+        }
+    ]
+}

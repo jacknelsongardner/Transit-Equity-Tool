@@ -1,0 +1,76 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/9/2024",
+    "approve_date": "1/9/2024",
+    "description": "(N) PERMIT FOR EXPIRED PERMIT BLD2018-0321: STEBNER",
+    "expiration_date": "1/9/2026",
+    "finaled_date": null,
+    "issued_date": "1/10/2024",
+    "address": "1507 8TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> BELLINGHAM, WA, 98225",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "DEREK STEBNER",
+            "phone": "(360)920-1187",
+            "email": "DEREKRSTEBNER@GMAIL.COM",
+            "street": "LANGSTAN MANAGEMENT LLC",
+            "state": "SCOTTSDALE, AZ 85254",
+            "address": "LANGSTAN MANAGEMENT LLC SCOTTSDALE, AZ 85254"
+        },
+        {
+            "role": "OWNER",
+            "company": "LANGSTAN MANAGEMENT LLC",
+            "phone": "(360)920-1187",
+            "email": "DEREKRSTEBNER@GMAIL.COM",
+            "street": "DEREK STEBNER",
+            "state": "SCOTTSDALE, AZ 85254-2126",
+            "address": "DEREK STEBNER SCOTTSDALE, AZ 85254-2126"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "DIRT WORKS BELLINGHAM",
+            "phone": "(360)715-3277",
+            "email": "dirtworks97@yahoo.com",
+            "street": "PO BOX 28576",
+            "state": "BELLINGHAM, WA 98228",
+            "address": "PO BOX 28576 BELLINGHAM, WA 98228"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JON D &amp; LORRAINE M ALLISON",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "715 DONOVAN AVE",
+            "state": "BELLINGHAM, WA 98225-7316",
+            "address": "715 DONOVAN AVE BELLINGHAM, WA 98225-7316"
+        },
+        {
+            "role": "PRIMARY CONTACT",
+            "company": "BOO MARIS",
+            "phone": "(360)220-6545",
+            "email": "BOOMARIS@COMCAST.NET",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

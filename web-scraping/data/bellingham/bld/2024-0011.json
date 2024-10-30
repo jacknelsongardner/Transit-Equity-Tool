@@ -1,0 +1,58 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/3/2024",
+    "approve_date": null,
+    "description": "BUILD NEW DETACHED HEATED OFFICE",
+    "expiration_date": "1/3/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "2704 MADRONA ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-1523",
+    "status": "VOIDED OR WITHDRAWN",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CAMERON CORNELL",
+            "phone": "(360)929-3812",
+            "email": "CAMERONCORNELL@GMAIL.COM",
+            "street": "2704 MADRONA ST",
+            "state": "BELLINGHAM, WA 98225-1523",
+            "address": "2704 MADRONA ST BELLINGHAM, WA 98225-1523"
+        },
+        {
+            "role": "OWNER",
+            "company": "CAMERON CORNELL &amp; CAMILLE O'CONNOR",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2704 MADRONA ST",
+            "state": "BELLINGHAM, WA 98225-1523",
+            "address": "2704 MADRONA ST BELLINGHAM, WA 98225-1523"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "CASALI REMODELING LLC",
+            "phone": "(360)536-4604",
+            "email": "chris@casaliremodeling.com",
+            "street": "PO BOX 63",
+            "state": "LYNDEN, WA 98264",
+            "address": "PO BOX 63 LYNDEN, WA 98264"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "EINARSON FAMILY TRUST",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "EDMOND B &amp; MARIE E EINARSON TR",
+            "state": "BLAINE, WA 98230-9205",
+            "address": "EDMOND B &amp; MARIE E EINARSON TR BLAINE, WA 98230-9205"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

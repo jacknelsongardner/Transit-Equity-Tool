@@ -1,0 +1,49 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "2/12/2024",
+    "approve_date": "2/15/2024",
+    "description": "REPLACE WATER DAMAGED SIDING REPLACE WINDOWS",
+    "expiration_date": "2/25/2026",
+    "finaled_date": null,
+    "issued_date": "2/26/2024",
+    "address": "1321 KING ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-6237",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "LUCKY TOWER PROPERTIES LLC",
+            "phone": "(206)972-7698",
+            "email": "message@luckytowerproperties.com",
+            "street": "505 12TH ST",
+            "state": "Bellingham, WA 98225",
+            "address": "505 12TH ST Bellingham, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "LUCKY TOWER PROPERTIES LLC",
+            "phone": "(206)972-7698",
+            "email": "message@luckytowerproperties.com",
+            "street": "505 12TH ST",
+            "state": "Bellingham, WA 98225",
+            "address": "505 12TH ST Bellingham, WA 98225"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JACK D &amp; MICHELLE J JOHNSON 50%-",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "BELLINGHAM RENTAL",
+            "state": "BELLINGHAM, WA 98226-9487",
+            "address": "BELLINGHAM RENTAL BELLINGHAM, WA 98226-9487"
+        }
+    ]
+}

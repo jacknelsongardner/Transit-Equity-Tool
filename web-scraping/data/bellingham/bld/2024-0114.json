@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "2/9/2024",
+    "approve_date": "2/15/2024",
+    "description": "Elite Electrical Sign Replacement",
+    "expiration_date": "2/15/2026",
+    "finaled_date": null,
+    "issued_date": "2/16/2024",
+    "address": "2122 QUEEN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98229-4755",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "D &amp; C REAL ESTATE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3010 ST CLAIR ST",
+            "state": "BELLINGHAM, WA 98226 - 6106",
+            "address": "3010 ST CLAIR ST BELLINGHAM, WA 98226 - 6106"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Elite Electrical",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2122 Queen St.",
+            "state": "Bellingham, WA 98229",
+            "address": "2122 Queen St. Bellingham, WA 98229"
+        }
+    ]
+}

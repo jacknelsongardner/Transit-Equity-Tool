@@ -1,0 +1,40 @@
+{
+    "type": "REROOF",
+    "apply_date": "2/15/2024",
+    "approve_date": "4/10/2024",
+    "description": "Bellingham Cold Storage Warehouse 12",
+    "expiration_date": "4/12/2026",
+    "finaled_date": null,
+    "issued_date": "4/12/2024",
+    "address": "600 W ORCHARD DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-1753",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "HYTECH ROOFING, INC.",
+            "phone": "(360)354-4335",
+            "email": "jhagedorn@hytechroofing.com",
+            "street": "7381 GUIDE MERIDIAN",
+            "state": "LYNDEN, WA 98264",
+            "address": "7381 GUIDE MERIDIAN LYNDEN, WA 98264"
+        },
+        {
+            "role": "OWNER",
+            "company": "URG BELLINGHAM COLD STORAGE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1425 4TH AVE STE 500",
+            "state": "SEATTLE, WA 98101 - 2264",
+            "address": "1425 4TH AVE STE 500 SEATTLE, WA 98101 - 2264"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "HYTECH ROOFING, INC.",
+            "phone": "(360)354-4335",
+            "email": "jhagedorn@hytechroofing.com",
+            "street": "7381 GUIDE MERIDIAN",
+            "state": "LYNDEN, WA 98264",
+            "address": "7381 GUIDE MERIDIAN LYNDEN, WA 98264"
+        }
+    ]
+}

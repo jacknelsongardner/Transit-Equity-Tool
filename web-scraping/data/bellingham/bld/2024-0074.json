@@ -1,0 +1,49 @@
+{
+    "type": "BUILDING MIXED USE",
+    "apply_date": "1/24/2024",
+    "approve_date": "2/28/2024",
+    "description": "FINAL ONLY FOR COVENANT TO BIND BLD2020-0009",
+    "expiration_date": "3/11/2026",
+    "finaled_date": null,
+    "issued_date": "3/11/2024",
+    "address": "306 W HOLLY ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4314",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CURT CARPENTER",
+            "phone": "(360)714-1808",
+            "email": "curt@carpenterarch.com",
+            "street": "100 PINE ST #203",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "100 PINE ST #203 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "SD COMMERCIAL LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4290 PACIFIC HWY UNIT B",
+            "state": "BELLINGHAM, WA 98226-9319",
+            "address": "4290 PACIFIC HWY UNIT B BELLINGHAM, WA 98226-9319"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "RAM CONSTRUCTION GENERAL CONTRACTOR",
+            "phone": "(360)715-8643",
+            "email": "&nbsp;",
+            "street": "4290 PACIFIC HWY",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "4290 PACIFIC HWY BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "RANGELAND PROPERTIES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "306 W HOLLY ST",
+            "state": "BELLINGHAM, WA 98225-4314",
+            "address": "306 W HOLLY ST BELLINGHAM, WA 98225-4314"
+        }
+    ]
+}

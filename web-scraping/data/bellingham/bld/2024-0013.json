@@ -1,0 +1,40 @@
+{
+    "type": "BUILDING MULTIFAMILY RESIDENTIAL",
+    "apply_date": "1/4/2024",
+    "approve_date": null,
+    "description": "NEW 3-STORY 6 UNIT TOWNHOUSE BUILDING 6-FOXGLOVE",
+    "expiration_date": "3/11/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "4212 FOXGLOVE LOOP&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98229-2806",
+    "status": "REQUEST FOR INFO",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "AVT INVESTMENTS LLC - ANDREA HEMLEY",
+            "phone": "(360)527-9445",
+            "email": "ANDREA@AVTPLANNING.COM",
+            "street": "1708 F STREET",
+            "state": "BELLINGHAM, WA 98225-3108",
+            "address": "1708 F STREET BELLINGHAM, WA 98225-3108"
+        },
+        {
+            "role": "OWNER",
+            "company": "NORTHWEST PROPERTY INVESTMENTS LLC 50% &amp;",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "CW INVESTMENTS LLC 50%",
+            "state": "BELLINGHAM, WA 98226-6800",
+            "address": "CW INVESTMENTS LLC 50% BELLINGHAM, WA 98226-6800"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/16/2024",
+    "approve_date": "7/5/2024",
+    "description": "CONVERT (E) HABITABLE ATTIC TO DADU: KORN",
+    "expiration_date": "8/28/2026",
+    "finaled_date": null,
+    "issued_date": "8/28/2024",
+    "address": "1620 8TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-7317",
+    "status": "AMENDMENT IN REVIEW",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "KATIE GREENMUN",
+            "phone": "(206)910-3972",
+            "email": "KATIEGREENMUN@GMAIL.COM",
+            "street": "BUILDING DESIGN SERVICES",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "BUILDING DESIGN SERVICES BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "STEPHANIE H KORN",
+            "phone": "(360)201-0151",
+            "email": "STEPHANIE.KORN@COMCAST.NET",
+            "street": "715 WILSON AVE",
+            "state": "BELLINGHAM, WA 98225-7348",
+            "address": "715 WILSON AVE BELLINGHAM, WA 98225-7348"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "DEBORAH TODD",
+            "phone": "(360)220-7463",
+            "email": "DEBORAH@DTBUILDINGDESIGN.COM",
+            "street": "1050 LARRABEE AVE STE 104 PMB 505",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1050 LARRABEE AVE STE 104 PMB 505 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "SCOTT F MANN &amp; STEPHANIE H KORN",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "715 WILSON AVE",
+            "state": "BELLINGHAM, WA 98225-7348",
+            "address": "715 WILSON AVE BELLINGHAM, WA 98225-7348"
+        }
+    ]
+}

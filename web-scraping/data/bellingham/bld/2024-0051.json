@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/12/2024",
+    "approve_date": "1/25/2024",
+    "description": "Fred Meyer Bakerview Pickup Sign",
+    "expiration_date": "1/30/2026",
+    "finaled_date": null,
+    "issued_date": "1/31/2024",
+    "address": "1225 W BAKERVIEW RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-9691",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGN POST INC, THE",
+            "phone": "(360)671-1343",
+            "email": "Kristie@THE-SIGNPOST.COM",
+            "street": "2019 E BAKERVIEW RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2019 E BAKERVIEW RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "ROUNDUP CO DBA FRED MEYER",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PROPERTY TAX 7TH FLOOR",
+            "state": "CINCINNATI, OH 45202 - 1141",
+            "address": "PROPERTY TAX 7TH FLOOR CINCINNATI, OH 45202 - 1141"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGN POST INC, THE",
+            "phone": "(360)671-1343",
+            "email": "Kristie@THE-SIGNPOST.COM",
+            "street": "2019 E BAKERVIEW RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2019 E BAKERVIEW RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Fred Meyer",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1225 W Bakerview Rd",
+            "state": "Bellingham, WA 98226",
+            "address": "1225 W Bakerview Rd Bellingham, WA 98226"
+        }
+    ]
+}

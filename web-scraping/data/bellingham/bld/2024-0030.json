@@ -1,0 +1,67 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/9/2024",
+    "approve_date": "1/9/2024",
+    "description": "(N) PERMIT FOR EXPIRED PERMIT BLD2018-0322: STEBNER",
+    "expiration_date": null,
+    "finaled_date": "6/27/2024",
+    "issued_date": "1/10/2024",
+    "address": "1509 8TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> BELLINGHAM, WA, 98225",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "DEREK STEBNER",
+            "phone": "(360)920-1187",
+            "email": "DEREKRSTEBNER@GMAIL.COM",
+            "street": "LANGSTAN MANAGEMENT LLC",
+            "state": "SCOTTSDALE, AZ 85254",
+            "address": "LANGSTAN MANAGEMENT LLC SCOTTSDALE, AZ 85254"
+        },
+        {
+            "role": "OWNER",
+            "company": "LANGSTAN MANAGEMENT LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "6823 E MONTREAL PL",
+            "state": "SCOTTSDALE, AZ 85254-2126",
+            "address": "6823 E MONTREAL PL SCOTTSDALE, AZ 85254-2126"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JON D &amp; LORRAINE M ALLISON",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "715 DONOVAN AVE",
+            "state": "BELLINGHAM, WA 98225-7316",
+            "address": "715 DONOVAN AVE BELLINGHAM, WA 98225-7316"
+        },
+        {
+            "role": "PRIMARY CONTACT",
+            "company": "BOO MARIS",
+            "phone": "(360)220-6545",
+            "email": "boomaris@comcast.net",
+            "street": "3501 LARRABEE AVE",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "3501 LARRABEE AVE BELLINGHAM, WA 98229"
+        }
+    ]
+}

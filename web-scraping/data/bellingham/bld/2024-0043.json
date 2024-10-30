@@ -1,0 +1,58 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/11/2024",
+    "approve_date": "6/3/2024",
+    "description": "NEW 3362 SF SFR W/ATTACHED GARAGE/SHOP/FUTURE AADU-ROBERTSON",
+    "expiration_date": "6/3/2026",
+    "finaled_date": null,
+    "issued_date": "6/3/2024",
+    "address": "2600 ELMHURST CT&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98229-5602",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ALTIMETER DESIGN CO",
+            "phone": "(360)318-3554",
+            "email": "BRYAN@altimeterdesign.com",
+            "street": "1175 Van Dyk Rd",
+            "state": "Lynden, WA 98264",
+            "address": "1175 Van Dyk Rd Lynden, WA 98264"
+        },
+        {
+            "role": "OWNER",
+            "company": "GREG &amp; JESSICA ROBERTSON",
+            "phone": "()-",
+            "email": "GREGR@WHATCOMSCI.COM",
+            "street": "1000 RACINE ST",
+            "state": "BELLINGHAM, WA 98229-2171",
+            "address": "1000 RACINE ST BELLINGHAM, WA 98229-2171"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "BJ Walvatne",
+            "phone": "(360)201-4806",
+            "email": "Bjwalvatne@gmail.com",
+            "street": "PO Box 32478",
+            "state": "Bellingham, WA 98228",
+            "address": "PO Box 32478 Bellingham, WA 98228"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "LUTHER TRUST",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "TODD A &amp; CLISCIA CT LUTHER TR",
+            "state": "BELLINGHAM, WA 98229-5603",
+            "address": "TODD A &amp; CLISCIA CT LUTHER TR BELLINGHAM, WA 98229-5603"
+        }
+    ]
+}

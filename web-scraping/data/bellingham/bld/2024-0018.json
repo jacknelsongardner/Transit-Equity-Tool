@@ -1,0 +1,67 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/5/2024",
+    "approve_date": "4/22/2024",
+    "description": "NEW DETACHED DADU",
+    "expiration_date": "4/22/2026",
+    "finaled_date": null,
+    "issued_date": "4/22/2024",
+    "address": "3101 ALDERWOOD AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-1017",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "JUSTIN D &amp; BRIDGET C REEVES",
+            "phone": "(360)389-2445",
+            "email": "justnreeves@gmail.com",
+            "street": "3103 ALDERWOOD AVE",
+            "state": "BELLINGHAM, WA 98225-1017",
+            "address": "3103 ALDERWOOD AVE BELLINGHAM, WA 98225-1017"
+        },
+        {
+            "role": "OWNER",
+            "company": "JUSTIN D &amp; BRIDGET C REEVES",
+            "phone": "(360)389-2445",
+            "email": "justnreeves@gmail.com",
+            "street": "3103 ALDERWOOD AVE",
+            "state": "BELLINGHAM, WA 98225-1017",
+            "address": "3103 ALDERWOOD AVE BELLINGHAM, WA 98225-1017"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "LUKES ENTERPRISES LLC",
+            "phone": "(360)319-8021",
+            "email": "kyle@lukesenterprisesllc.com",
+            "street": "815 IOWA HEIGHTS RD",
+            "state": "SEDRO WOOLEY, WA 98284",
+            "address": "815 IOWA HEIGHTS RD SEDRO WOOLEY, WA 98284"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "JASON A &amp; ELISABETH B BRATLIEN",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3103 ALDERWOOD AVE",
+            "state": "BELLINGHAM, WA 98225-1017",
+            "address": "3103 ALDERWOOD AVE BELLINGHAM, WA 98225-1017"
+        }
+    ]
+}

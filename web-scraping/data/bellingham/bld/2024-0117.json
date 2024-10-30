@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/12/2024",
+    "approve_date": "2/12/2024",
+    "description": "REPLACING DRYWALL AND INSULATION-CRANE-address changed 3/15",
+    "expiration_date": null,
+    "finaled_date": "6/6/2024",
+    "issued_date": "2/13/2024",
+    "address": "2823 DAKIN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-4347",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "RICHARD &amp; ANNMARIE CRANE",
+            "phone": "(360)790-2240",
+            "email": "RICHARDCRANE@JOHNLSCOTT.COM",
+            "street": "1929 DAKIN ST",
+            "state": "BELLINGHAM, WA 98229-6010",
+            "address": "1929 DAKIN ST BELLINGHAM, WA 98229-6010"
+        },
+        {
+            "role": "OWNER",
+            "company": "RICHARD &amp; ANNMARIE CRANE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1929 DAKIN ST",
+            "state": "BELLINGHAM, WA 98229-6010",
+            "address": "1929 DAKIN ST BELLINGHAM, WA 98229-6010"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "DONALD R CHALICE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "503 MULBERRY RD",
+            "state": "BELLINGHAM, WA 98225-7904",
+            "address": "503 MULBERRY RD BELLINGHAM, WA 98225-7904"
+        }
+    ]
+}

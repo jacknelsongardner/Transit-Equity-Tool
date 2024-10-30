@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/25/2024",
+    "approve_date": "1/31/2024",
+    "description": "single sided dibond sign, flat wall mount, new",
+    "expiration_date": "1/31/2026",
+    "finaled_date": null,
+    "issued_date": "2/1/2024",
+    "address": "310 W CHAMPION ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4327",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "alan schwartz",
+            "phone": "(808)214-2825",
+            "email": "ascreationsllc22@gmail.com",
+            "street": "2718 Birchwood Ave",
+            "state": "Bellingham, WA 98225",
+            "address": "2718 Birchwood Ave Bellingham, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "lakeway rentals llc",
+            "phone": "(360)224-6668",
+            "email": "cyndyberry@yahoo.com",
+            "street": "3887 toad lake rd",
+            "state": "Bellingham, WA 98226",
+            "address": "3887 toad lake rd Bellingham, WA 98226"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "NW Custom Sign and graphics",
+            "phone": "(360)676-6272",
+            "email": "kris@henifin.com",
+            "street": "3857-a hannegan rd",
+            "state": "bellingham, wa 98226",
+            "address": "3857-a hannegan rd bellingham, wa 98226"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "AS Creations LLC",
+            "phone": "()-",
+            "email": "ascreatonsllc22@gmail.com",
+            "street": "310 w. champion",
+            "state": "bellingham, wa 98225",
+            "address": "310 w. champion bellingham, wa 98225"
+        }
+    ]
+}

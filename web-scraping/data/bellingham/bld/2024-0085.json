@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/29/2024",
+    "approve_date": "1/29/2024",
+    "description": "NEW PERMIT FOR EXPIRED PERMIT BLD2019-0691: ANDRUSHENKO",
+    "expiration_date": "1/29/2026",
+    "finaled_date": null,
+    "issued_date": "1/30/2024",
+    "address": "2401 MOORE ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> BELLINGHAM, WA, 98229",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ALEKSEY &amp; TATYANA ANDRUSHENKO",
+            "phone": "(360)927-1222",
+            "email": "AANDRUSH73@GMAIL.COM",
+            "street": "2401 MOORE ST",
+            "state": "BELLINGHAM, WA 98229-4616",
+            "address": "2401 MOORE ST BELLINGHAM, WA 98229-4616"
+        },
+        {
+            "role": "OWNER",
+            "company": "ALEKSEY &amp; TATYANA ANDRUSHENKO",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2401 MOORE ST",
+            "state": "BELLINGHAM, WA 98229-4616",
+            "address": "2401 MOORE ST BELLINGHAM, WA 98229-4616"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "WILLIAM C JR &amp; TERI L HEWETT",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4919 COLUMBUS AVE",
+            "state": "BELLINGHAM, WA 98229-2770",
+            "address": "4919 COLUMBUS AVE BELLINGHAM, WA 98229-2770"
+        }
+    ]
+}

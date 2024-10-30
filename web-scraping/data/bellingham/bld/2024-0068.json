@@ -1,0 +1,58 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/22/2024",
+    "approve_date": "4/8/2024",
+    "description": "NEW DADU ON (E) SFR LOT-FULLER EAST",
+    "expiration_date": null,
+    "finaled_date": "10/4/2024",
+    "issued_date": "4/8/2024",
+    "address": "712 E CONNECTICUT ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-3526",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "COLLIN FULLER &amp;",
+            "phone": "(360)223-4502",
+            "email": "CFULLER@FULLERBD.COM",
+            "street": "MORGAN WHETSELL JT",
+            "state": "BELLINGHAM, WA 98225-5720",
+            "address": "MORGAN WHETSELL JT BELLINGHAM, WA 98225-5720"
+        },
+        {
+            "role": "OWNER",
+            "company": "COLLIN FULLER &amp;",
+            "phone": "(360)223-4502",
+            "email": "CFULLER@FULLERBD.COM",
+            "street": "MORGAN WHETSELL JT",
+            "state": "BELLINGHAM, WA 98225-5720",
+            "address": "MORGAN WHETSELL JT BELLINGHAM, WA 98225-5720"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONRCTR EXEMPT PER RCW19.28.261",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "&nbsp; BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "ROME CONSTRUCTION LLC",
+            "phone": "(360)393-1411",
+            "email": "MSW092@GMAIL.COM",
+            "street": "4596 SAND RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "4596 SAND RD BELLINGHAM, WA 98226"
+        }
+    ]
+}

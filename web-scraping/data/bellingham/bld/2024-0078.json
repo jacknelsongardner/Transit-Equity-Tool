@@ -1,0 +1,49 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/26/2024",
+    "approve_date": "3/26/2024",
+    "description": "(N) ANTENNAS, RRUs &amp; EQUIP. CABINET: DISH WIRELESS",
+    "expiration_date": "3/26/2026",
+    "finaled_date": null,
+    "issued_date": "3/26/2024",
+    "address": "1313 BAY ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4321",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "DISH WIRELESS C/O KATIE MURRER",
+            "phone": "(585)797-8619",
+            "email": "KATIE.MURRER@COREONECONSULTING.COM",
+            "street": "5701 SOUTH SANTA FE DR",
+            "state": "LITTLETON, CO 80120",
+            "address": "5701 SOUTH SANTA FE DR LITTLETON, CO 80120"
+        },
+        {
+            "role": "OWNER",
+            "company": "BAY STREET HOLDINGS LLC",
+            "phone": "(360)223-2479",
+            "email": "DAN@NOET.COM",
+            "street": "DAN PRITCHETT",
+            "state": "BELLINGHAM, WA 98225-4372",
+            "address": "DAN PRITCHETT BELLINGHAM, WA 98225-4372"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "ZENISCO INC",
+            "phone": "(513)394-3062",
+            "email": "BRANDON.BROCK@ZENISCO.COM",
+            "street": "116 CLAY ST NW STE A1",
+            "state": "AUBURN, WA 98001",
+            "address": "116 CLAY ST NW STE A1 AUBURN, WA 98001"
+        },
+        {
+            "role": "LENDER",
+            "company": "DISH WIRELESS",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "5701 SOUTH SANTA FE DR",
+            "state": "LITTLETON, CO 80120",
+            "address": "5701 SOUTH SANTA FE DR LITTLETON, CO 80120"
+        }
+    ]
+}

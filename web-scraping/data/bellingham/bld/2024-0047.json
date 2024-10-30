@@ -1,0 +1,49 @@
+{
+    "type": "REROOF",
+    "apply_date": "1/12/2024",
+    "approve_date": "1/12/2024",
+    "description": "Membrane recover",
+    "expiration_date": "1/15/2026",
+    "finaled_date": null,
+    "issued_date": "1/16/2024",
+    "address": "200 E CHESTNUT ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-5003",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ESARY ROOFING &amp; SIDING CO INC",
+            "phone": "(360)757-0933",
+            "email": "RECEPTIONIST@ESARY.COM",
+            "street": "420 PEASE RD",
+            "state": "BURLINGTON, WA 98233",
+            "address": "420 PEASE RD BURLINGTON, WA 98233"
+        },
+        {
+            "role": "OWNER",
+            "company": "BOTHMAN BROTHERS LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "200 E CHESTNUT ST",
+            "state": "BELLINGHAM, WA 98225 - 5003",
+            "address": "200 E CHESTNUT ST BELLINGHAM, WA 98225 - 5003"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "ESARY ROOFING &amp; SIDING CO INC",
+            "phone": "(360)757-0933",
+            "email": "RECEPTIONIST@ESARY.COM",
+            "street": "420 PEASE RD",
+            "state": "BURLINGTON, WA 98233",
+            "address": "420 PEASE RD BURLINGTON, WA 98233"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "LA FIAMMA PIZZA",
+            "phone": "(360)319-6030",
+            "email": "KEN@LAFIAMMA.COM",
+            "street": "200 E CHESTNUT",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "200 E CHESTNUT BELLINGHAM, WA 98225"
+        }
+    ]
+}

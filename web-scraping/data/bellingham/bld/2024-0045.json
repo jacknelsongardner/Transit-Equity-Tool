@@ -1,0 +1,67 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/11/2024",
+    "approve_date": "4/11/2024",
+    "description": "TI FOR PHYSICAL THERAPY OFFICE - STE 105",
+    "expiration_date": "4/11/2026",
+    "finaled_date": null,
+    "issued_date": "4/11/2024",
+    "address": "1825 GRANT ST STE 105&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4635",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SPIRAL DESIGN STUDIO, TAWNY HIXSON",
+            "phone": "(360)202-0635",
+            "email": "tawny@spiraldesignstudios.com",
+            "street": "1504 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1504 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "UBERSPACE LLC",
+            "phone": "()-",
+            "email": "EHAMPTON@COREPHYSIOPT.COM",
+            "street": "504 16TH ST",
+            "state": "BELLINGHAM, WA 98225-6315",
+            "address": "504 16TH ST BELLINGHAM, WA 98225-6315"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "CHUCKANUT BUILDERS LLC",
+            "phone": "(360)393-9172",
+            "email": "forest@chuckanutbuilders.com",
+            "street": "1000 N State St",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1000 N State St BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "ROBIN ELDORE",
+            "phone": "()-",
+            "email": "RELDORE@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "CORE PHYSIO",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1825 GRANT ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1825 GRANT ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

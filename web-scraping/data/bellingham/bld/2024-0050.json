@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/12/2024",
+    "approve_date": "2/2/2024",
+    "description": "DEMOLISH ABANDONED HOUSE",
+    "expiration_date": "2/5/2026",
+    "finaled_date": null,
+    "issued_date": "2/6/2024",
+    "address": "2626 IRON ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-3528",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SCOTT &amp; CASSIDY MILEY",
+            "phone": "(208)720-2900",
+            "email": "LEARGULFLLC@GMAIL.COM",
+            "street": "BOX 3271",
+            "state": "HAILEY, ID 83333",
+            "address": "BOX 3271 HAILEY, ID 83333"
+        },
+        {
+            "role": "OWNER",
+            "company": "2626 IRON LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 3271",
+            "state": "HAILEY, ID 83333-3271",
+            "address": "PO BOX 3271 HAILEY, ID 83333-3271"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "KNIGHT SCOT LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "7500 ROOSEVELT WAY NE",
+            "state": "SEATTLE, WA 98115-4221",
+            "address": "7500 ROOSEVELT WAY NE SEATTLE, WA 98115-4221"
+        }
+    ]
+}

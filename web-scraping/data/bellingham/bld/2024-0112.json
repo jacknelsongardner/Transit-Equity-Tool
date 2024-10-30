@@ -1,0 +1,76 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "2/7/2024",
+    "approve_date": "5/23/2024",
+    "description": "OUTDOOR LOUVERED ROOF STRUCTURE: ELIZABETH STATION",
+    "expiration_date": "5/23/2026",
+    "finaled_date": null,
+    "issued_date": "5/23/2024",
+    "address": "1400 W HOLLY ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-2923",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "BRANDY TUCKER",
+            "phone": "(206)934-9091",
+            "email": "BRANDY.T@STRUXUREPNW.COM",
+            "street": "STRUXURE PNW",
+            "state": "SPOKANE, WA 99206",
+            "address": "STRUXURE PNW SPOKANE, WA 99206"
+        },
+        {
+            "role": "OWNER",
+            "company": "1400 WEST HOLLY LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1620 40TH ST",
+            "state": "BELLINGHAM, WA 98229-4900",
+            "address": "1620 40TH ST BELLINGHAM, WA 98229-4900"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "STRUXURE OUTDOOR OF WASHINGTON",
+            "phone": "(206)934-9091",
+            "email": "karmyn.r@struxurepnw.com",
+            "street": "9116 E Sprague Ave.",
+            "state": "Spokane Valley, WA 99206",
+            "address": "9116 E Sprague Ave. Spokane Valley, WA 99206"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "ELIZABETH STATION",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1400 W HOLLY ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1400 W HOLLY ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "LAKHWINDER S MALHI",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1620 40TH ST",
+            "state": "BELLINGHAM, WA 98229-4900",
+            "address": "1620 40TH ST BELLINGHAM, WA 98229-4900"
+        },
+        {
+            "role": "OWNER 2",
+            "company": "PATRICK MCEVOY",
+            "phone": "(360)224-6010",
+            "email": "&nbsp;",
+            "street": "1400 WEST HOLLY LLC",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "1400 WEST HOLLY LLC BELLINGHAM, WA 98229"
+        }
+    ]
+}

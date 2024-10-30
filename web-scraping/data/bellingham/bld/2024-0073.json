@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/24/2024",
+    "approve_date": "1/24/2024",
+    "description": "FINAL ONLY-DECOMMISSION OUTDOOR POOL-BAYMONT",
+    "expiration_date": "2/15/2026",
+    "finaled_date": null,
+    "issued_date": "2/16/2024",
+    "address": "125 E KELLOGG RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-8109",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MAHIL PROPERTIES INC",
+            "phone": "(360)410-2550",
+            "email": "MAHILPROPERTIESINC@GMAIL.COM",
+            "street": "125 E KELLOGG RD",
+            "state": "BELLINGHAM, WA 98226-8109",
+            "address": "125 E KELLOGG RD BELLINGHAM, WA 98226-8109"
+        },
+        {
+            "role": "OWNER",
+            "company": "MAHIL PROPERTIES INC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "125 E KELLOGG RD",
+            "state": "BELLINGHAM, WA 98226-8109",
+            "address": "125 E KELLOGG RD BELLINGHAM, WA 98226-8109"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "SUMMIT INVESTMENTS INC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "125 E KELLOGG RD",
+            "state": "BELLINGHAM, WA 98226-8109",
+            "address": "125 E KELLOGG RD BELLINGHAM, WA 98226-8109"
+        }
+    ]
+}

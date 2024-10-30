@@ -1,0 +1,58 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/5/2024",
+    "approve_date": "2/15/2024",
+    "description": "REPLACE FRONT SHAFT WALLS AND (2) ELEVATORS AND DOORS-CROWN",
+    "expiration_date": "2/15/2026",
+    "finaled_date": "10/3/2024",
+    "issued_date": "2/16/2024",
+    "address": "114 W MAGNOLIA ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4368",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "HEATHER BAKER",
+            "phone": "(360)927-0639",
+            "email": "HEATHER@20LAB.CA",
+            "street": "114 W MAGNOLIA  201",
+            "state": "BELLINGHAM, WA 98225-1721",
+            "address": "114 W MAGNOLIA  201 BELLINGHAM, WA 98225-1721"
+        },
+        {
+            "role": "OWNER",
+            "company": "CROWN PLAZA CORPORATION",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "114 W MAGNOLIA ST STE 201",
+            "state": "BELLINGHAM, WA 98225-4354",
+            "address": "114 W MAGNOLIA ST STE 201 BELLINGHAM, WA 98225-4354"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "16D LLC",
+            "phone": "(206)354-0876",
+            "email": "duke@16DLLC.COM",
+            "street": "PO Box 804",
+            "state": "Vashon, WA 98070",
+            "address": "PO Box 804 Vashon, WA 98070"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "MARCUS JOHNSON",
+            "phone": "(360)738-4646",
+            "email": "mjarch@me.com",
+            "street": "2020 PROSPECT WAY",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2020 PROSPECT WAY BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "BELLINGHAM CROWN PLAZA LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "114 W MAGNOLIA ST #302",
+            "state": "BELLINGHAM, WA 98225-4368",
+            "address": "114 W MAGNOLIA ST #302 BELLINGHAM, WA 98225-4368"
+        }
+    ]
+}

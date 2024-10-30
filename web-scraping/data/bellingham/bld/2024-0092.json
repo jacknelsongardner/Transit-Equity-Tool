@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/31/2024",
+    "approve_date": "2/1/2024",
+    "description": "ADD BATH, REMODEL KITCHEN/BATH-MASKEWITZ",
+    "expiration_date": null,
+    "finaled_date": "7/12/2024",
+    "issued_date": "2/2/2024",
+    "address": "289 BRIAR RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7711",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "HINDMAN CONSTRUCTION INC",
+            "phone": "(360)325-4899",
+            "email": "info@hindmanconstruction.com",
+            "street": "1392 COUNTRY LN",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1392 COUNTRY LN BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "REBECCA &amp; RYAN MASKEWITZ",
+            "phone": "(720)470-0471",
+            "email": "rmaskewitz@icloud.com",
+            "street": "289 BRIAR RD",
+            "state": "BELLINGHAM, WA 98225-7711",
+            "address": "289 BRIAR RD BELLINGHAM, WA 98225-7711"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "HINDMAN CONSTRUCTION INC",
+            "phone": "(360)325-4899",
+            "email": "info@hindmanconstruction.com",
+            "street": "1392 COUNTRY LN",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1392 COUNTRY LN BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "AMANDA E HENKEL",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "289 BRIAR RD",
+            "state": "BELLINGHAM, WA 98225-7711",
+            "address": "289 BRIAR RD BELLINGHAM, WA 98225-7711"
+        }
+    ]
+}

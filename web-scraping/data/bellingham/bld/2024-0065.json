@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/22/2024",
+    "approve_date": "1/22/2024",
+    "description": "REPLACE (4) WINDOWS LIKE-FOR-LIKE: MORGAN",
+    "expiration_date": "1/21/2026",
+    "finaled_date": null,
+    "issued_date": "1/22/2024",
+    "address": "2310 CORNWALL AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-3721",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "NAIDA KHAN",
+            "phone": "(360)945-2787",
+            "email": "NAIDA@NWPERMIT.COM",
+            "street": "NORTHWEST PERMIT INC.",
+            "state": "BURIEN, WA 98166",
+            "address": "NORTHWEST PERMIT INC. BURIEN, WA 98166"
+        },
+        {
+            "role": "OWNER",
+            "company": "RONALD J &amp; KAYE L MORGAN",
+            "phone": "(360)319-0212",
+            "email": "&nbsp;",
+            "street": "2310 CORNWALL AVE",
+            "state": "BELLINGHAM, WA 98225-3721",
+            "address": "2310 CORNWALL AVE BELLINGHAM, WA 98225-3721"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "HOME DEPOT",
+            "phone": "(360)945-2787",
+            "email": "Naida@NWPERMIT.COM",
+            "street": "PO BOX 105451",
+            "state": "ATLANTA, GA 30348",
+            "address": "PO BOX 105451 ATLANTA, GA 30348"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

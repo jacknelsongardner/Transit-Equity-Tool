@@ -1,0 +1,49 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/15/2024",
+    "approve_date": null,
+    "description": "NEW DADU/SHOP-WILLIAMS",
+    "expiration_date": "2/16/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "2117 FRANKLIN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98225-4111",
+    "status": "RTI HOLD",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "WILLIAM WILLIAMS",
+            "phone": "(360)201-8282",
+            "email": "sw3457@comcast.net",
+            "street": "2115 FRANKLIN ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "2115 FRANKLIN ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "TOAD LAKE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2115 FRANKLIN ST",
+            "state": "BELLINGHAM, WA 98225-4111",
+            "address": "2115 FRANKLIN ST BELLINGHAM, WA 98225-4111"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "ZOLLNER CONSULTING",
+            "phone": "(360)224-9009",
+            "email": "DEZOLL@MSN.COM",
+            "street": "3497 CEDARVILLE RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3497 CEDARVILLE RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "WILLIAM P WILLIAMS",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1863 WILDHAVEN CRST",
+            "state": "BELLINGHAM, WA 98226-8658",
+            "address": "1863 WILDHAVEN CRST BELLINGHAM, WA 98226-8658"
+        }
+    ]
+}

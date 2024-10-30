@@ -1,0 +1,40 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "1/11/2024",
+    "approve_date": "9/25/2024",
+    "description": "NEW DETACHED GARAGE/SHOP W BATHROOM-PITSCH",
+    "expiration_date": "2/15/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "238 S GARDEN ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-5820",
+    "status": "READY TO ISSUE",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "TREVOR &amp; AMANDA PITSCH",
+            "phone": "(608)712-7418",
+            "email": "TPITSCH@GMAIL.COM",
+            "street": "238 S GARDEN ST",
+            "state": "BELLINGHAM, WA 98225-5820",
+            "address": "238 S GARDEN ST BELLINGHAM, WA 98225-5820"
+        },
+        {
+            "role": "OWNER",
+            "company": "TREVOR &amp; AMANDA PITSCH",
+            "phone": "(608)712-7418",
+            "email": "TPITSCH@GMAIL.COM",
+            "street": "238 S GARDEN ST",
+            "state": "BELLINGHAM, WA 98225-5820",
+            "address": "238 S GARDEN ST BELLINGHAM, WA 98225-5820"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "MERROW CONSTRUCTION LLC",
+            "phone": "(360)820-8197",
+            "email": "merrowconstructionllc@gmail.com",
+            "street": "1582 Harksell Rd",
+            "state": "Ferndale, Wa 98248",
+            "address": "1582 Harksell Rd Ferndale, Wa 98248"
+        }
+    ]
+}

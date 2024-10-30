@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY DUPLEX TOWNHOME",
+    "apply_date": "1/11/2024",
+    "approve_date": "3/4/2024",
+    "description": "LIVING AREA AND GARAGE ADDITION TO (E) SFR",
+    "expiration_date": "3/4/2026",
+    "finaled_date": null,
+    "issued_date": "3/4/2024",
+    "address": "1601 14TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7401",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "COLIN &amp; EDEN ROCKENBACH",
+            "phone": "(360)319-6480",
+            "email": "edenrock6@gmail.com",
+            "street": "1310 OLD FAIRHAVEN PKWY #201",
+            "state": "BELLINGHAM, WA 98225-8012",
+            "address": "1310 OLD FAIRHAVEN PKWY #201 BELLINGHAM, WA 98225-8012"
+        },
+        {
+            "role": "OWNER",
+            "company": "COLIN &amp; EDEN ROCKENBACH",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1601 14TH ST",
+            "state": "BELLINGHAM, WA 98225-7401",
+            "address": "1601 14TH ST BELLINGHAM, WA 98225-7401"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONRCTR EXEMPT PER RCW19.28.261",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "&nbsp; BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "HOA &amp; HA NGUYEN &amp; LOAN T VU",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1601 14TH ST",
+            "state": "BELLINGHAM, WA 98225-7401",
+            "address": "1601 14TH ST BELLINGHAM, WA 98225-7401"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/29/2024",
+    "approve_date": "6/3/2024",
+    "description": "CONVERTING PICKLE BALL COURTS TO ELECTRIC GOKART TRACK-VOLLI",
+    "expiration_date": "6/17/2026",
+    "finaled_date": null,
+    "issued_date": "6/17/2024",
+    "address": "4190 CORDATA PKWY&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-7605",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MARCUS JOHNSON",
+            "phone": "(360)738-4646",
+            "email": "mjarch@me.com",
+            "street": "2020 PROSPECT WAY",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2020 PROSPECT WAY BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "WA1 VOLLI LLC-DAVID JONES",
+            "phone": "(360)510-2409",
+            "email": "DLJONES1961@GMAIL.COM",
+            "street": "4190 CORDATA PKWY",
+            "state": "Bellingham, WA 98225",
+            "address": "4190 CORDATA PKWY Bellingham, WA 98225"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "ROBIN ELDORE",
+            "phone": "()-",
+            "email": "RELDORE@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        }
+    ]
+}

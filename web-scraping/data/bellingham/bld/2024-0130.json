@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/14/2024",
+    "approve_date": "2/14/2024",
+    "description": "INSULATE AND DRYWALL WALK-IN CRAWLSPACE-BURLEY",
+    "expiration_date": null,
+    "finaled_date": "4/8/2024",
+    "issued_date": "2/14/2024",
+    "address": "2925 NIAGARA ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-4217",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "Marieanne Burley",
+            "phone": "(714)907-3269",
+            "email": "marieanneburley@icloud.com",
+            "street": "2925 NIAGARA ST",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2925 NIAGARA ST BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "BURLEY PROPERTIES LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2925 NIAGARA ST",
+            "state": "BELLINGHAM, WA 98226-4217",
+            "address": "2925 NIAGARA ST BELLINGHAM, WA 98226-4217"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "BENJAMIN E &amp; MARIEANNE BURLEY",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "21722 KANEOHE LN",
+            "state": "HUNTINGTON BEACH, CA 92646-7826",
+            "address": "21722 KANEOHE LN HUNTINGTON BEACH, CA 92646-7826"
+        }
+    ]
+}

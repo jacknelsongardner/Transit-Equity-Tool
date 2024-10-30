@@ -1,0 +1,49 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/8/2024",
+    "approve_date": "1/8/2024",
+    "description": "(N) PERMIT FOR BLD2020-0640 &amp; CIA2023-0283: MUELLER",
+    "expiration_date": "1/8/2026",
+    "finaled_date": null,
+    "issued_date": "1/9/2024",
+    "address": "2923 W MAPLEWOOD AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-1001",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MATTHEW MUELLER",
+            "phone": "(608)886-5632",
+            "email": "MATT.R.MUELLER@GMAIL.COM",
+            "street": "2923 W MAPLEWOOD AVE",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "2923 W MAPLEWOOD AVE BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "MATHEW R MUELLER",
+            "phone": "()-",
+            "email": "MATT.R.MUELLER@GMAIL.COM",
+            "street": "2923 W MAPLEWOOD AVE",
+            "state": "BELLINGHAM, WA 98225-1001",
+            "address": "2923 W MAPLEWOOD AVE BELLINGHAM, WA 98225-1001"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "type": "BUILDING MULTIFAMILY RESIDENTIAL",
+    "apply_date": "1/3/2024",
+    "approve_date": null,
+    "description": "NEW 3 STORY M/F BLGD W/ 11 RESI UNITS-HOLLY STREET APTS",
+    "expiration_date": "1/11/2025",
+    "finaled_date": null,
+    "issued_date": null,
+    "address": "1215 W HOLLY ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-2928",
+    "status": "REQUEST FOR INFO",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "RILEY MARCUS, AVT CONSULTING LLC",
+            "phone": "(360)527-9445",
+            "email": "riley@avtplanning.com",
+            "street": "1708 F ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1708 F ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "1215 HOLDINGS LLC",
+            "phone": "(206)290-0958",
+            "email": "ANTHONY@CASCADERIDGEPARTNERS.COM",
+            "street": "1215 W HOLLY ST",
+            "state": "BELLINGHAM, WA 98225-2928",
+            "address": "1215 W HOLLY ST BELLINGHAM, WA 98225-2928"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "STAFF CONTACT",
+            "company": "MARINA CARSTENS",
+            "phone": "(360)778-8333",
+            "email": "MMCARSTENS@COB.ORG",
+            "street": "210 LOTTIE ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "210 LOTTIE ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "JCR COLLECTIVE",
+            "phone": "(253)337-1022",
+            "email": "CHRIS@JCRCOLLECTIVE.COM",
+            "street": "950 BROADWAY STE M100",
+            "state": "TACOMA, WA 98402",
+            "address": "950 BROADWAY STE M100 TACOMA, WA 98402"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "PHILIP E &amp; CAROLINE N ROSELLINI",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "608 CLARK RD",
+            "state": "BELLINGHAM, WA 98225-7842",
+            "address": "608 CLARK RD BELLINGHAM, WA 98225-7842"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

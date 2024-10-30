@@ -1,0 +1,58 @@
+{
+    "type": "BUILDING MULTIFAMILY RESIDENTIAL",
+    "apply_date": "2/5/2024",
+    "approve_date": "2/5/2024",
+    "description": "CREATE OPENING IN KITCHEN WALL: PARKER",
+    "expiration_date": "3/21/2026",
+    "finaled_date": null,
+    "issued_date": "3/21/2024",
+    "address": "600 S STATE ST UNIT 113&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-6155",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ALEX TURNER",
+            "phone": "(360)510-5696",
+            "email": "ALEX@THE-WESTERLIES.COM",
+            "street": "WESTERLIES DESIGN/BUILD LLC",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "WESTERLIES DESIGN/BUILD LLC BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "MM KLENK 2011 REV TRUST",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "MARK &amp; MARGARET KLENK TR",
+            "state": "BELLINGHAM, WA 98225-6142",
+            "address": "MARK &amp; MARGARET KLENK TR BELLINGHAM, WA 98225-6142"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "WESTERLIES DESIGN/BUILD LLC",
+            "phone": "(360)510-5696",
+            "email": "alex@the-westerlies.com",
+            "street": "3402 FOREST CT",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "3402 FOREST CT BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "SUSAN ADAIR",
+            "phone": "(360)441-3405",
+            "email": "susan_bham@yahoo.com",
+            "street": "PO BOX 1994",
+            "state": "BELLINGHAM, WA 98227",
+            "address": "PO BOX 1994 BELLINGHAM, WA 98227"
+        },
+        {
+            "role": "OWNER 2",
+            "company": "KATHERINE AND TOM PARKER",
+            "phone": "(831)325-6207",
+            "email": "KATHARINEP3@GMAIL.COM",
+            "street": "306 GRAND AVE",
+            "state": "CAPITOLA, CA 95010",
+            "address": "306 GRAND AVE CAPITOLA, CA 95010"
+        }
+    ]
+}

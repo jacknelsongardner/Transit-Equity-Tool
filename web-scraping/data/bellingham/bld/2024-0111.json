@@ -1,0 +1,49 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "2/7/2024",
+    "approve_date": "3/20/2024",
+    "description": "REPLACE AND EXTEND (E) RETAINING WALL-LEWIS",
+    "expiration_date": "3/26/2026",
+    "finaled_date": "6/18/2024",
+    "issued_date": "3/26/2024",
+    "address": "1453 GRANT ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4920",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MT BAKER LANDSCAPING LLC",
+            "phone": "(360)592-1115",
+            "email": "office.mtbakerlandscaping@gmail.com",
+            "street": "3729 Mt. Baker Hwy",
+            "state": "Everson, Wa 98247",
+            "address": "3729 Mt. Baker Hwy Everson, Wa 98247"
+        },
+        {
+            "role": "OWNER",
+            "company": "PAUL R LEWIS &amp; HOLLY HUDSON",
+            "phone": "(360)305-9572",
+            "email": "&nbsp;",
+            "street": "1453 GRANT ST",
+            "state": "BELLINGHAM, WA 98225-4920",
+            "address": "1453 GRANT ST BELLINGHAM, WA 98225-4920"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "MT BAKER LANDSCAPING LLC",
+            "phone": "(360)592-1115",
+            "email": "ROBERT@MTBAKERLANDSCAPING.COM",
+            "street": "3729 Mt. Baker Hwy",
+            "state": "Everson, Wa 98247",
+            "address": "3729 Mt. Baker Hwy Everson, Wa 98247"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "EDWARD J &amp; JACQUELINE S PETTIT",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1453 GRANT ST",
+            "state": "BELLINGHAM, WA 98225-4920",
+            "address": "1453 GRANT ST BELLINGHAM, WA 98225-4920"
+        }
+    ]
+}

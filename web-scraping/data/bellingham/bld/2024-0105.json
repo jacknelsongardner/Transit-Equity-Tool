@@ -1,0 +1,49 @@
+{
+    "type": "MISCELLANEOUS STRUCTURE",
+    "apply_date": "2/6/2024",
+    "approve_date": "3/4/2024",
+    "description": "(N) GENERATOR ON (E) PAD FOR TELECOM. FACILITY: T-MOBILE",
+    "expiration_date": "3/13/2026",
+    "finaled_date": null,
+    "issued_date": "3/13/2024",
+    "address": "3423 JAMES ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-8731",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "T-MOBILE C/O CHRISTINE CONTRERAS OF TAEC",
+            "phone": "(425)351-3392",
+            "email": "CHRISTINE.CONTRERAS@TAEC.NET",
+            "street": "9725 3RD AVENUE NE SUITE 410",
+            "state": "SEATTLE, WA 98115",
+            "address": "9725 3RD AVENUE NE SUITE 410 SEATTLE, WA 98115"
+        },
+        {
+            "role": "OWNER",
+            "company": "DHLH ENTERPRISES",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "132 W MABERRY DR #A",
+            "state": "LYNDEN, WA 98264-9344",
+            "address": "132 W MABERRY DR #A LYNDEN, WA 98264-9344"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF-FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

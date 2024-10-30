@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/29/2024",
+    "approve_date": "2/7/2024",
+    "description": "DEMO OF (E) VACANT COMMERCIAL SUITE FOR TI",
+    "expiration_date": "2/25/2026",
+    "finaled_date": null,
+    "issued_date": "2/26/2024",
+    "address": "1145 E SUNSET DR STE 125&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-3589",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "MARCUS JOHNSON",
+            "phone": "(360)738-4646",
+            "email": "mjarch@me.com",
+            "street": "2020 PROSPECT WAY",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2020 PROSPECT WAY BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "BLI SUNSET SQUARE LLC",
+            "phone": "(206)941-0132",
+            "email": "stefanie@fwpmgmt.com",
+            "street": "11250 EL CAMINO REAL STE 102",
+            "state": "SAN DIEGO, CA 92130-2677",
+            "address": "11250 EL CAMINO REAL STE 102 SAN DIEGO, CA 92130-2677"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "THE FRANKLIN CORPORATION",
+            "phone": "(360)384-6200",
+            "email": "brett@thefranklincorporation.com",
+            "street": "6459 PORTAL WAY",
+            "state": "FERNDALE, WA 98248",
+            "address": "6459 PORTAL WAY FERNDALE, WA 98248"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "PK II SUNSET SQUARE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "500 N BROADWAY STE 201",
+            "state": "JERICHO, NY 11753-2128",
+            "address": "500 N BROADWAY STE 201 JERICHO, NY 11753-2128"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/5/2024",
+    "approve_date": "2/1/2024",
+    "description": "BUILD OUT FOR NEW TENANT-PCF INSURANCE",
+    "expiration_date": "1/31/2026",
+    "finaled_date": "6/5/2024",
+    "issued_date": "2/1/2024",
+    "address": "2200 RIMLAND DR STE 305&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-6639",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SARAH BROWN ARCHITECTURE + DESIGN",
+            "phone": "(360)920-5498",
+            "email": "SARAH@SBARCHDESIGN.COM",
+            "street": "3222 EAGLERIDGE WAY",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3222 EAGLERIDGE WAY BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "BARKLEY 2200 BUILDING LLC",
+            "phone": "()-",
+            "email": "RYAN@TALBOTGROUP.COM",
+            "street": "2219 RIMLAND DR STE 115",
+            "state": "BELLINGHAM, WA 98226-8661",
+            "address": "2219 RIMLAND DR STE 115 BELLINGHAM, WA 98226-8661"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SCOCON LLC",
+            "phone": "(360)739-0256",
+            "email": "Chris@SCOCON.COM",
+            "street": "PO BOX 5265",
+            "state": "BELLINGHAM, WA 98227",
+            "address": "PO BOX 5265 BELLINGHAM, WA 98227"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "PCF INSURANCE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2500 W EXECUTIVE PARKWAY STE200",
+            "state": "LEHI, UT 84043",
+            "address": "2500 W EXECUTIVE PARKWAY STE200 LEHI, UT 84043"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

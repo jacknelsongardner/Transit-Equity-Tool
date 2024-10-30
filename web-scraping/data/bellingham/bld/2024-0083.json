@@ -1,0 +1,40 @@
+{
+    "type": "BUILDING MULTIFAMILY RESIDENTIAL",
+    "apply_date": "1/29/2024",
+    "approve_date": "4/16/2024",
+    "description": "REPLACE (E) WOOD BRIDGES-BIRNAM WOOD STACK 2",
+    "expiration_date": "5/21/2026",
+    "finaled_date": null,
+    "issued_date": "5/21/2024",
+    "address": "2901 BILL MCDONALD PKWY BLDG 2&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-5921",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "CORNERSTONE ARCHITECTURAL GROUP",
+            "phone": "(206)682-5000",
+            "email": "BBRAATEN@CORNERSTONEARCH.COM",
+            "street": "6161 NE 175TH ST #101",
+            "state": "KENMORE, WA 98028",
+            "address": "6161 NE 175TH ST #101 KENMORE, WA 98028"
+        },
+        {
+            "role": "OWNER",
+            "company": "WESTERN WASHINGTON UNIVERSITY",
+            "phone": "(360)650-3791",
+            "email": "MACLEAD@WWU.EDU",
+            "street": "PO BOX 218",
+            "state": "BELLINGHAM, WA 98227-0218",
+            "address": "PO BOX 218 BELLINGHAM, WA 98227-0218"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "2/14/2024",
+    "approve_date": "2/16/2024",
+    "description": "DEMO (E) SFR FOR NEW SFR/2AADU'S",
+    "expiration_date": "2/20/2026",
+    "finaled_date": null,
+    "issued_date": "2/21/2024",
+    "address": "3006 HARRISON ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-8262",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "ROBERTA CLARK - ARBOUR NORTH",
+            "phone": "(360)671-2550",
+            "email": "roberta@arbournorth.com",
+            "street": "3647 TOAD LAKE ROAD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "3647 TOAD LAKE ROAD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "HARRISON STREET DEVELOPMENT LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "160 NORTHSHORE DR",
+            "state": "BELLINGHAM, WA 98226-4425",
+            "address": "160 NORTHSHORE DR BELLINGHAM, WA 98226-4425"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "OWNER AS CONTRCT EXEMPT PER RCW18.27.090",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "&nbsp; BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "DOUGLAS C BUATTE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "201 PARK RIDGE RD",
+            "state": "BELLINGHAM, WA 98225-7908",
+            "address": "201 PARK RIDGE RD BELLINGHAM, WA 98225-7908"
+        }
+    ]
+}

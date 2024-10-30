@@ -1,0 +1,58 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/5/2024",
+    "approve_date": "2/14/2024",
+    "description": "REPAIR SITE ACCESSIBILITY FEATURES-HAGGEN",
+    "expiration_date": "2/13/2026",
+    "finaled_date": null,
+    "issued_date": "2/14/2024",
+    "address": "1401 12TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7417",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "GBD ARCHITECTS INC",
+            "phone": "(503)548-2420",
+            "email": "CHRISW@GBDARCHITECTS.COM",
+            "street": "1120 NW COUCH ST STE300",
+            "state": "PORTLAND, OR 97209",
+            "address": "1120 NW COUCH ST STE300 PORTLAND, OR 97209"
+        },
+        {
+            "role": "OWNER",
+            "company": "NNN OPP OWNER VI LLC",
+            "phone": "()-",
+            "email": "MARK.PALMER@ALBERTSONS.COM",
+            "street": "5973 AVENIDA ENCINAS STE 301",
+            "state": "CARLSBAD, CA 92008-4479",
+            "address": "5973 AVENIDA ENCINAS STE 301 CARLSBAD, CA 92008-4479"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "IN STORE SERVICES",
+            "phone": "(206)682-3934",
+            "email": "RKING@STORESERVICES.NET",
+            "street": "625 S. LANDER",
+            "state": "SEATTLE, WA 98134",
+            "address": "625 S. LANDER SEATTLE, WA 98134"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "HAGGEN GROCERY STORE",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1401 12TH ST",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "1401 12TH ST BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "MGP X DHP LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "PO BOX 847",
+            "state": "CARLSBAD, CA 92018-0847",
+            "address": "PO BOX 847 CARLSBAD, CA 92018-0847"
+        }
+    ]
+}

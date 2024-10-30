@@ -1,0 +1,58 @@
+{
+    "type": "NEW CONSTRUCTION SINGLE FAMILY OR DUPLEX",
+    "apply_date": "2/1/2024",
+    "approve_date": "4/23/2024",
+    "description": "NEW SFR ON (E) FOUNDATION-LEQUE",
+    "expiration_date": "4/24/2026",
+    "finaled_date": null,
+    "issued_date": "4/24/2024",
+    "address": "210 BAYSIDE RD&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7710",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "C-HOME DESIGN LLC",
+            "phone": "(360)739-2305",
+            "email": "MPCDESIGN@LIVE.COM",
+            "street": "2400 40TH ST",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2400 40TH ST BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "MYRON N LEQUE",
+            "phone": "(360)393-6025",
+            "email": "JLEQUE8@GMAIL.COM",
+            "street": "1201 13TH ST UNIT 302",
+            "state": "BELLINGHAM, WA 98225-7154",
+            "address": "1201 13TH ST UNIT 302 BELLINGHAM, WA 98225-7154"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "ROFMANN, INC",
+            "phone": "(360)255-1980",
+            "email": "ROFMANN2@GMAIL.COM",
+            "street": "PO BOX 5792",
+            "state": "BELLINGHAM, WA 98227",
+            "address": "PO BOX 5792 BELLINGHAM, WA 98227"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "BONDED CONTRACTOR",
+            "company": "REED EXCAVATING LLC",
+            "phone": "(360)815-0080",
+            "email": "DEVIN@REEDEXCAVATING.COM",
+            "street": "8084 ENTERPRISE RD",
+            "state": "FERNDALE, WA 98248",
+            "address": "8084 ENTERPRISE RD FERNDALE, WA 98248"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/9/2024",
+    "approve_date": "1/11/2024",
+    "description": "INSTALL (N) ILLUMINATED SIGN-HUB INTERNATIONAL",
+    "expiration_date": "1/11/2026",
+    "finaled_date": null,
+    "issued_date": "1/12/2024",
+    "address": "3125 HOWE PL STE 201&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-5634",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "JM &amp; JY REAL ESTATE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3125 HOWE PL",
+            "state": "BELLINGHAM, WA 98226 - 5634",
+            "address": "3125 HOWE PL BELLINGHAM, WA 98226 - 5634"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGNS PLUS INC",
+            "phone": "(360)671-7165",
+            "email": "permits@signsplusnw.com",
+            "street": "766 MARINE DR",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "766 MARINE DR BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "HUB International Northwest LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "3125 Howe Place Suite 201",
+            "state": "Bellingham, WA 98225",
+            "address": "3125 Howe Place Suite 201 Bellingham, WA 98225"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "DEMOLITION",
+    "apply_date": "1/18/2024",
+    "approve_date": "2/23/2024",
+    "description": "DEMO ALL INTERIOR WALL SURFACES, REMOVE KITCHEN CABS",
+    "expiration_date": "3/28/2026",
+    "finaled_date": null,
+    "issued_date": "3/28/2024",
+    "address": "4603 E OREGON ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-8805",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "C-HOME DESIGN LLC",
+            "phone": "(360)739-2305",
+            "email": "MPCDESIGN@LIVE.COM",
+            "street": "2400 40TH ST",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2400 40TH ST BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "JOSEPH T &amp; CATHLEEN M NOLTING TRUST/TR",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4603 E OREGON ST",
+            "state": "BELLINGHAM, WA 98226-8805",
+            "address": "4603 E OREGON ST BELLINGHAM, WA 98226-8805"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "CATHLEEN M MACKAY",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "4603 E OREGON ST",
+            "state": "BELLINGHAM, WA 98226-8871",
+            "address": "4603 E OREGON ST BELLINGHAM, WA 98226-8871"
+        }
+    ]
+}

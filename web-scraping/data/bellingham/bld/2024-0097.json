@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "2/1/2024",
+    "approve_date": "2/15/2024",
+    "description": "Channel letters on raceway -SHARETEA",
+    "expiration_date": "2/21/2026",
+    "finaled_date": null,
+    "issued_date": "2/22/2024",
+    "address": "322 36TH ST&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-6580",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SPEEDY SIGNS",
+            "phone": "(425)273-0092",
+            "email": "speedysigns1@yahoo.com",
+            "street": "6501 196th St SW #F",
+            "state": "LYNNWOOD, WA 98036",
+            "address": "6501 196th St SW #F LYNNWOOD, WA 98036"
+        },
+        {
+            "role": "OWNER",
+            "company": "SEHOME/VANDER POL LLC 32.5% &amp;",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "SEHOME/TEEL LLC 32.5% &amp;",
+            "state": "HARRISBURG, PA 17105 - 3165",
+            "address": "SEHOME/TEEL LLC 32.5% &amp; HARRISBURG, PA 17105 - 3165"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SPEEDY SIGNS",
+            "phone": "(425)273-0092",
+            "email": "speedysigns1@yahoo.com",
+            "street": "6501 196th St SW #F",
+            "state": "LYNNWOOD, WA 98036",
+            "address": "6501 196th St SW #F LYNNWOOD, WA 98036"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Sharetea",
+            "phone": "()-",
+            "email": "jasminejun67@outlook.com",
+            "street": "322 37th St",
+            "state": "Bellingham, Wa 98225",
+            "address": "322 37th St Bellingham, Wa 98225"
+        }
+    ]
+}

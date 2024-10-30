@@ -1,0 +1,58 @@
+{
+    "type": "EXISTING SINGLE FAMILY OR DUPLEX",
+    "apply_date": "1/9/2024",
+    "approve_date": "3/13/2024",
+    "description": "RENO (E) CONDITIONED BASEMENT TO ADD BATH AND DARKROOM",
+    "expiration_date": "3/21/2026",
+    "finaled_date": null,
+    "issued_date": "3/21/2024",
+    "address": "2625 BIRCHWOOD AVE&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-1401",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "NICOLE STARON, LLC",
+            "phone": "(406)579-0013",
+            "email": "NLY.BELLE@GMAIL.COM",
+            "street": "995 LAKEWOOD LN",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "995 LAKEWOOD LN BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "OWNER",
+            "company": "EQUITY TRUST COMPANY CUSTODIAN FBO",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "THOMAS DOUMAS IRA",
+            "state": "BELLINGHAM, WA 98227-0063",
+            "address": "THOMAS DOUMAS IRA BELLINGHAM, WA 98227-0063"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "CAZ Construction",
+            "phone": "(360)389-1056",
+            "email": "info@cazconstruction.com",
+            "street": "2201 Humbolt St",
+            "state": "Bellingham, WA 98225",
+            "address": "2201 Humbolt St Bellingham, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "SELF FINANCED",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "MATTHEW S KOLEY &amp; KIAH T HOOPER",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "2625 BIRCHWOOD AVE",
+            "state": "BELLINGHAM, WA 98225-1401",
+            "address": "2625 BIRCHWOOD AVE BELLINGHAM, WA 98225-1401"
+        }
+    ]
+}

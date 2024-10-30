@@ -1,0 +1,49 @@
+{
+    "type": "SIGN AND AWNING",
+    "apply_date": "1/8/2024",
+    "approve_date": "1/19/2024",
+    "description": "Sport Clips Storefront Sign",
+    "expiration_date": "1/21/2026",
+    "finaled_date": "7/11/2024",
+    "issued_date": "1/22/2024",
+    "address": "1225 E SUNSET DR STE 145&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98226-3597",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "SIGN POST INC, THE",
+            "phone": "(360)671-1343",
+            "email": "Kristie@THE-SIGNPOST.COM",
+            "street": "2019 E BAKERVIEW RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2019 E BAKERVIEW RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "OWNER",
+            "company": "BLI SUNSET SQUARE LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "11250 EL CAMINO REAL STE 102",
+            "state": "SAN DIEGO, CA 92130 - 2677",
+            "address": "11250 EL CAMINO REAL STE 102 SAN DIEGO, CA 92130 - 2677"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "SIGN POST INC, THE",
+            "phone": "(360)671-1343",
+            "email": "Kristie@THE-SIGNPOST.COM",
+            "street": "2019 E BAKERVIEW RD",
+            "state": "BELLINGHAM, WA 98226",
+            "address": "2019 E BAKERVIEW RD BELLINGHAM, WA 98226"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "Sport Clips",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "1225 E Sunset Dr.",
+            "state": "Bellingham, WA 98226",
+            "address": "1225 E Sunset Dr. Bellingham, WA 98226"
+        }
+    ]
+}

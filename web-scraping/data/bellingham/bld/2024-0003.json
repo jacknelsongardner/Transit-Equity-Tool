@@ -1,0 +1,58 @@
+{
+    "type": "NEW CONSTRUCTION TOWNHOME",
+    "apply_date": "1/2/2024",
+    "approve_date": "2/6/2024",
+    "description": "(N) TOWNHOME BLDG I (DEFERRED IMPACT &amp; SDC FEES): AURORA CT",
+    "expiration_date": null,
+    "finaled_date": "10/14/2024",
+    "issued_date": "3/7/2024",
+    "address": "4251 TRAVERSE DR&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, 98226-7955",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "DEVON CAINES",
+            "phone": "(206)979-8653",
+            "email": "DEVON@THERJGROUP.COM",
+            "street": "222 GRAND AVE STE F",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "222 GRAND AVE STE F BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "SILVER SPRINGS INC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "222 GRAND AVE STE C",
+            "state": "BELLINGHAM, WA 98225-4427",
+            "address": "222 GRAND AVE STE C BELLINGHAM, WA 98225-4427"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "JANICKI GENERAL CONTRACTORS",
+            "phone": "(360)223-0992",
+            "email": "WGODARD@JANICKIGENERAL.COM",
+            "street": "103 N TOWNSHIP ST",
+            "state": "SEDRO WOOLLEY, WA 98284",
+            "address": "103 N TOWNSHIP ST SEDRO WOOLLEY, WA 98284"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "OWNER 2",
+            "company": "ROB JANICKI - SILVER SPRINGS INC.",
+            "phone": "(360)770-4960",
+            "email": "RJANICKI@JANICKI.COM",
+            "street": "103 N TOWNSHIP ST",
+            "state": "SEDRO-WOOLLEY, WA 98284",
+            "address": "103 N TOWNSHIP ST SEDRO-WOOLLEY, WA 98284"
+        }
+    ]
+}

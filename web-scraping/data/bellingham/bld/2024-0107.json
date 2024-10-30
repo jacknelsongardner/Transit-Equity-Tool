@@ -1,0 +1,40 @@
+{
+    "type": "REROOF",
+    "apply_date": "2/6/2024",
+    "approve_date": "2/15/2024",
+    "description": "RE-ROOF OF (E) WATER TREATMENT PLANT-POST POINT (EF180)",
+    "expiration_date": "2/14/2026",
+    "finaled_date": null,
+    "issued_date": "2/15/2024",
+    "address": "200 MCKENZIE AVE BLD 320&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-7039",
+    "status": "ISSUED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "TIM FABER, KING ARCHITECTURE",
+            "phone": "(360)201-3418",
+            "email": "TIMF@KING-ARCHITECTURE.COM",
+            "street": "401 HARRIS AVE., SUITE 100",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "401 HARRIS AVE., SUITE 100 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "OWNER",
+            "company": "CITY OF BELLINGHAM FINANCE DEPT",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "ASSET DIVISION",
+            "state": "BELLINGHAM, WA 98225-4009",
+            "address": "ASSET DIVISION BELLINGHAM, WA 98225-4009"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "HYTECH ROOFING, INC.",
+            "phone": "(360)354-4335",
+            "email": "matt@hytechroofing.com",
+            "street": "7381 GUIDE MERIDIAN",
+            "state": "LYNDEN, WA 98264",
+            "address": "7381 GUIDE MERIDIAN LYNDEN, WA 98264"
+        }
+    ]
+}

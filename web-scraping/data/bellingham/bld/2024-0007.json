@@ -1,0 +1,76 @@
+{
+    "type": "BUILDING NONRESIDENTIAL",
+    "apply_date": "1/2/2024",
+    "approve_date": "3/19/2024",
+    "description": "T.I. IN CROWN PLAZA-BELLINGHAM UNDERWRITERS",
+    "expiration_date": "3/20/2026",
+    "finaled_date": "8/1/2024",
+    "issued_date": "3/20/2024",
+    "address": "114 W MAGNOLIA ST STE 505&nbsp;<img src=\"../im/open_a_map.png\" alt=\"map\"> Bellingham, WA, 98225-4368",
+    "status": "FINALED",
+    "contact": [
+        {
+            "role": "APPLICANT",
+            "company": "HEATHER BAKER",
+            "phone": "(360)927-0639",
+            "email": "HEATHER@20LAB.CA",
+            "street": "114 W MAGNOLIA  201",
+            "state": "BELLINGHAM, WA 98225-1721",
+            "address": "114 W MAGNOLIA  201 BELLINGHAM, WA 98225-1721"
+        },
+        {
+            "role": "OWNER",
+            "company": "CROWN PLAZA CORPORATION",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "114 W MAGNOLIA ST STE 201",
+            "state": "BELLINGHAM, WA 98225-4354",
+            "address": "114 W MAGNOLIA ST STE 201 BELLINGHAM, WA 98225-4354"
+        },
+        {
+            "role": "CONTRACTOR",
+            "company": "THE FRANKLIN CORPORATION",
+            "phone": "(360)384-6200",
+            "email": "BRETT@thefranklincorporation.com",
+            "street": "6459 PORTAL WAY",
+            "state": "FERNDALE, WA 98248",
+            "address": "6459 PORTAL WAY FERNDALE, WA 98248"
+        },
+        {
+            "role": "BUSINESS/TENANT",
+            "company": "BELLINGHAM UNDERWRITERS",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "114 W MAGNOLIA ST STE 505",
+            "state": "BELLINGHAM, WA 98225",
+            "address": "114 W MAGNOLIA ST STE 505 BELLINGHAM, WA 98225"
+        },
+        {
+            "role": "LENDER",
+            "company": "TBD",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "&nbsp;",
+            "state": "&nbsp;",
+            "address": "&nbsp; &nbsp;"
+        },
+        {
+            "role": "APPLICANT 2",
+            "company": "MARCUS JOHNSON",
+            "phone": "(360)738-4646",
+            "email": "mjarch@me.com",
+            "street": "2020 PROSPECT WAY",
+            "state": "BELLINGHAM, WA 98229",
+            "address": "2020 PROSPECT WAY BELLINGHAM, WA 98229"
+        },
+        {
+            "role": "HISTORICAL OWNER",
+            "company": "BELLINGHAM CROWN PLAZA LLC",
+            "phone": "()-",
+            "email": "&nbsp;",
+            "street": "114 W MAGNOLIA ST #302",
+            "state": "BELLINGHAM, WA 98225-4368",
+            "address": "114 W MAGNOLIA ST #302 BELLINGHAM, WA 98225-4368"
+        }
+    ]
+}
