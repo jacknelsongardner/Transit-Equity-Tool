@@ -1,5 +1,4 @@
 ![Transit Equity Tool](docs/enter.png) 
-To try it out yourself, click [here](http://50.46.51.158:4000/).
 
 # Overview
 
