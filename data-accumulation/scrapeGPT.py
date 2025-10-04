@@ -17,10 +17,6 @@ options = webdriver.ChromeOptions()
 options.add_argument(f"user-agent={UserAgent.random}")
 options.add_argument("--window-size=1920x1080")
 options.add_argument("--verbose")
-
-
-# Add headless mode to run without opening the browser window
-# Note to self: comment out if you want to see the browser window
 options.add_argument("--headless")
 
 # Starting up the web driver used to control chrome
